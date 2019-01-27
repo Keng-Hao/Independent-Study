@@ -1,0 +1,90 @@
+Version 3.2 HI-TECH Software Intermediate Code
+"37 C:\Program Files (x86)\Microchip\xc8\v1.41\include\plib\delays.h
+[v _Delay10KTCYx `(v ~T0 @X0 0 ef1`uc ]
+"19
+[v _Delay10TCYx `(v ~T0 @X0 0 ef1`uc ]
+"13
+[v _Delay1TCYx `(v ~T0 @X0 0 ef1`uc ]
+[; ;delays.h: 13: void Delay1TCYx(unsigned char);
+[; ;delays.h: 19: void Delay10TCYx(unsigned char);
+[; ;delays.h: 25: void Delay100TCYx(unsigned char);
+[; ;delays.h: 31: void Delay1KTCYx(unsigned char);
+[; ;delays.h: 37: void Delay10KTCYx(unsigned char);
+[; ;mydelay.h: 18: void delay_ms(int ms);
+[; ;mydelay.h: 23: void delay_us(int us);
+[; ;mydelay.h: 24: void delayFor18Tcy(void);
+"3 harwave/mydelay.c
+[v _delay_ms `(v ~T0 @X0 1 ef1`i ]
+"4
+{
+[; ;mydelay.c: 3: void delay_ms(int ms)
+[; ;mydelay.c: 4: {
+[e :U _delay_ms ]
+"3
+[v _ms `i ~T0 @X0 1 r1 ]
+"4
+[f ]
+[; ;mydelay.c: 5: do{
+"5
+[e :U 4 ]
+{
+[; ;mydelay.c: 6: Delay10KTCYx(1);
+"6
+[e ( _Delay10KTCYx (1 -> -> 1 `i `uc ]
+[; ;mydelay.c: 7: ms--;
+"7
+[e -- _ms -> 1 `i ]
+"8
+}
+[; ;mydelay.c: 8: }while(ms);
+[e $ != _ms -> 0 `i 4  ]
+[e :U 3 ]
+[; ;mydelay.c: 9: }
+"9
+[e :UE 1 ]
+}
+"11
+[v _delay_us `(v ~T0 @X0 1 ef1`i ]
+"12
+{
+[; ;mydelay.c: 11: void delay_us(int us)
+[; ;mydelay.c: 12: {
+[e :U _delay_us ]
+"11
+[v _us `i ~T0 @X0 1 r1 ]
+"12
+[f ]
+[; ;mydelay.c: 13: do{
+"13
+[e :U 8 ]
+{
+[; ;mydelay.c: 14: Delay10TCYx(1);
+"14
+[e ( _Delay10TCYx (1 -> -> 1 `i `uc ]
+[; ;mydelay.c: 15: us--;
+"15
+[e -- _us -> 1 `i ]
+"16
+}
+[; ;mydelay.c: 16: }while(us);
+[e $ != _us -> 0 `i 8  ]
+[e :U 7 ]
+[; ;mydelay.c: 17: }
+"17
+[e :UE 5 ]
+}
+"18
+[v _delayFor18Tcy `(v ~T0 @X0 1 ef ]
+"19
+{
+[; ;mydelay.c: 18: void delayFor18Tcy(void)
+[; ;mydelay.c: 19: {
+[e :U _delayFor18Tcy ]
+[f ]
+[; ;mydelay.c: 20: Delay1TCYx(18);
+"20
+[e ( _Delay1TCYx (1 -> -> 18 `i `uc ]
+[; ;mydelay.c: 21: }
+"21
+[e :UE 9 ]
+}

@@ -1,0 +1,554 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4520 ]
+[d frameptr 4065 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\pic18\d10ktcyx.c
+[v _Delay10KTCYx Delay10KTCYx `(v  1 e 1 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\pic18\d10tcyx.c
+[v _Delay10TCYx Delay10TCYx `(v  1 e 1 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\pic18\d1tcyx.c
+[v _Delay1TCYx Delay1TCYx `(v  1 e 1 0 ]
+"55 C:\Users\Keng\Desktop\college\pic\servo123.X\harwave/24lc512.c
+[v _PCA9685_writeOneByte PCA9685_writeOneByte `(v  1 e 1 0 ]
+"70
+[v _PCA9685_readOneByte PCA9685_readOneByte `(uc  1 e 1 0 ]
+"4 C:\Users\Keng\Desktop\college\pic\servo123.X\harwave/lcd.c
+[v _LCD_Initialize LCD_Initialize `(v  1 e 1 0 ]
+"41
+[v _LCDWriteNibble LCDWriteNibble `(v  1 e 1 0 ]
+"74
+[v _LCD_WriteCmd LCD_WriteCmd `(v  1 e 1 0 ]
+"89
+[v _LCD_GotoXY LCD_GotoXY `(v  1 e 1 0 ]
+"105
+[v _LCD_WriteData LCD_WriteData `(v  1 e 1 0 ]
+"119
+[v _LCD_WritetStr LCD_WritetStr `(v  1 e 1 0 ]
+"138
+[v _LCD_WaitBusy LCD_WaitBusy `(uc  1 e 1 0 ]
+"3 C:\Users\Keng\Desktop\college\pic\servo123.X\harwave/mydelay.c
+[v _delay_ms delay_ms `(v  1 e 1 0 ]
+"11
+[v _delay_us delay_us `(v  1 e 1 0 ]
+"18
+[v _delayFor18Tcy delayFor18Tcy `(v  1 e 1 0 ]
+"5 C:\Users\Keng\Desktop\college\pic\servo123.X\harwave/softIIC.c
+[v _IIC_Init IIC_Init `(v  1 e 1 0 ]
+"16
+[v _IIC_Start IIC_Start `(v  1 e 1 0 ]
+"27
+[v _IIC_Stop IIC_Stop `(v  1 e 1 0 ]
+"40
+[v _IIC_Wait_Ack IIC_Wait_Ack `(uc  1 e 1 0 ]
+"59
+[v _IIC_Ack IIC_Ack `(v  1 e 1 0 ]
+"70
+[v _IIC_NAck IIC_NAck `(v  1 e 1 0 ]
+"84
+[v _IIC_Send_Byte IIC_Send_Byte `(v  1 e 1 0 ]
+"101
+[v _IIC_Read_Byte IIC_Read_Byte `(uc  1 e 1 0 ]
+"90 C:\Users\Keng\Desktop\college\pic\servo123.X\main.c
+[v _GPIO_initial GPIO_initial `(v  1 e 1 0 ]
+"98
+[v _oclillator_initial oclillator_initial `(v  1 e 1 0 ]
+"104
+[v _PCA9685_init PCA9685_init `(v  1 e 1 0 ]
+"109
+[v _timer_0_initial timer_0_initial `(v  1 e 1 0 ]
+"119
+[v _timer_intrrupt_initinal timer_intrrupt_initinal `(v  1 e 1 0 ]
+"127
+[v _adc_initial adc_initial `(v  1 e 1 0 ]
+"162
+[v _servo_U90degree servo_U90degree `(v  1 e 1 0 ]
+"171
+[v _servo_0degree servo_0degree `(v  1 e 1 0 ]
+"212
+[v _main main `(v  1 e 1 0 ]
+[s S198 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"311 C:\Program Files (x86)\Microchip\xc8\v1.41\include\pic18f4520.h
+[s S238 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 CCP2 1 0 :1:3 
+`uc 1 KBI0 1 0 :1:4 
+`uc 1 KBI1 1 0 :1:5 
+`uc 1 KBI2 1 0 :1:6 
+`uc 1 KBI3 1 0 :1:7 
+]
+[s S247 . 1 `uc 1 AN12 1 0 :1:0 
+`uc 1 AN10 1 0 :1:1 
+`uc 1 AN8 1 0 :1:2 
+`uc 1 AN9 1 0 :1:3 
+`uc 1 AN11 1 0 :1:4 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S256 . 1 `uc 1 FLT0 1 0 :1:0 
+]
+[s S258 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S261 . 1 `S198 1 . 1 0 `S238 1 . 1 0 `S247 1 . 1 0 `S256 1 . 1 0 `S258 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES261  1 e 1 @3969 ]
+"445
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"626
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+[s S37 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"663
+[s S46 . 1 `uc 1 PSP0 1 0 :1:0 
+`uc 1 PSP1 1 0 :1:1 
+`uc 1 PSP2 1 0 :1:2 
+`uc 1 PSP3 1 0 :1:3 
+`uc 1 PSP4 1 0 :1:4 
+`uc 1 PSP5 1 0 :1:5 
+`uc 1 PSP6 1 0 :1:6 
+`uc 1 PSP7 1 0 :1:7 
+]
+[s S55 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 P1B 1 0 :1:5 
+`uc 1 P1C 1 0 :1:6 
+`uc 1 P1D 1 0 :1:7 
+]
+[s S60 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 SS2 1 0 :1:7 
+]
+[u S63 . 1 `S37 1 . 1 0 `S46 1 . 1 0 `S55 1 . 1 0 `S60 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES63  1 e 1 @3971 ]
+"1191
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+"1302
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+[s S334 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+`uc 1 TRISA7 1 0 :1:7 
+]
+"1496
+[s S343 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+[u S352 . 1 `S334 1 . 1 0 `S343 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES352  1 e 1 @3986 ]
+[s S189 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"1717
+[u S207 . 1 `S189 1 . 1 0 `S198 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES207  1 e 1 @3987 ]
+"1906
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"2127
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+[s S690 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 PSPIE 1 0 :1:7 
+]
+"2597
+[s S699 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+]
+[u S703 . 1 `S690 1 . 1 0 `S699 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES703  1 e 1 @3997 ]
+[s S662 . 1 `uc 1 ADCS 1 0 :3:0 
+`uc 1 ACQT 1 0 :3:3 
+`uc 1 . 1 0 :1:6 
+`uc 1 ADFM 1 0 :1:7 
+]
+"4588
+[s S667 . 1 `uc 1 ADCS0 1 0 :1:0 
+`uc 1 ADCS1 1 0 :1:1 
+`uc 1 ADCS2 1 0 :1:2 
+`uc 1 ACQT0 1 0 :1:3 
+`uc 1 ACQT1 1 0 :1:4 
+`uc 1 ACQT2 1 0 :1:5 
+]
+[u S674 . 1 `S662 1 . 1 0 `S667 1 . 1 0 ]
+[v _ADCON2bits ADCON2bits `VES674  1 e 1 @4032 ]
+[s S627 . 1 `uc 1 PCFG 1 0 :4:0 
+`uc 1 VCFG 1 0 :2:4 
+]
+"4662
+[s S630 . 1 `uc 1 PCFG0 1 0 :1:0 
+`uc 1 PCFG1 1 0 :1:1 
+`uc 1 PCFG2 1 0 :1:2 
+`uc 1 PCFG3 1 0 :1:3 
+`uc 1 VCFG0 1 0 :1:4 
+`uc 1 VCFG1 1 0 :1:5 
+]
+[s S637 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CHSN3 1 0 :1:3 
+`uc 1 VCFG01 1 0 :1:4 
+`uc 1 VCFG11 1 0 :1:5 
+]
+[u S642 . 1 `S627 1 . 1 0 `S630 1 . 1 0 `S637 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES642  1 e 1 @4033 ]
+[s S559 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+"4765
+[s S562 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+]
+[s S566 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+]
+[s S573 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+]
+[s S576 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
+]
+[s S579 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S582 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+]
+[s S585 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
+]
+[u S588 . 1 `S559 1 . 1 0 `S562 1 . 1 0 `S566 1 . 1 0 `S573 1 . 1 0 `S576 1 . 1 0 `S579 1 . 1 0 `S582 1 . 1 0 `S585 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES588  1 e 1 @4034 ]
+[s S443 . 1 `uc 1 NOT_BOR 1 0 :1:0 
+]
+"5627
+[s S445 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_POR 1 0 :1:1 
+]
+[s S448 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_PD 1 0 :1:2 
+]
+[s S451 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_TO 1 0 :1:3 
+]
+[s S454 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 NOT_RI 1 0 :1:4 
+]
+[s S457 . 1 `uc 1 nBOR 1 0 :1:0 
+`uc 1 nPOR 1 0 :1:1 
+`uc 1 nPD 1 0 :1:2 
+`uc 1 nTO 1 0 :1:3 
+`uc 1 nRI 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 SBOREN 1 0 :1:6 
+`uc 1 IPEN 1 0 :1:7 
+]
+[s S466 . 1 `uc 1 BOR 1 0 :1:0 
+`uc 1 POR 1 0 :1:1 
+`uc 1 PD 1 0 :1:2 
+`uc 1 TO 1 0 :1:3 
+`uc 1 RI 1 0 :1:4 
+]
+[u S472 . 1 `S443 1 . 1 0 `S445 1 . 1 0 `S448 1 . 1 0 `S451 1 . 1 0 `S454 1 . 1 0 `S457 1 . 1 0 `S466 1 . 1 0 ]
+[v _RCONbits RCONbits `VES472  1 e 1 @4048 ]
+[s S377 . 1 `uc 1 SCS 1 0 :2:0 
+`uc 1 IOFS 1 0 :1:2 
+`uc 1 OSTS 1 0 :1:3 
+`uc 1 IRCF 1 0 :3:4 
+`uc 1 IDLEN 1 0 :1:7 
+]
+"6035
+[s S383 . 1 `uc 1 SCS0 1 0 :1:0 
+`uc 1 SCS1 1 0 :1:1 
+`uc 1 FLTS 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 IRCF0 1 0 :1:4 
+`uc 1 IRCF1 1 0 :1:5 
+`uc 1 IRCF2 1 0 :1:6 
+]
+[u S391 . 1 `S377 1 . 1 0 `S383 1 . 1 0 ]
+[v _OSCCONbits OSCCONbits `VES391  1 e 1 @4051 ]
+[s S411 . 1 `uc 1 T0PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 T08BIT 1 0 :1:6 
+`uc 1 TMR0ON 1 0 :1:7 
+]
+"6117
+[s S418 . 1 `uc 1 T0PS0 1 0 :1:0 
+`uc 1 T0PS1 1 0 :1:1 
+`uc 1 T0PS2 1 0 :1:2 
+`uc 1 T0PS3 1 0 :1:3 
+`uc 1 . 1 0 :2:4 
+`uc 1 T016BIT 1 0 :1:6 
+]
+[u S425 . 1 `S411 1 . 1 0 `S418 1 . 1 0 ]
+[v _T0CONbits T0CONbits `VES425  1 e 1 @4053 ]
+[s S510 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"6617
+[s S519 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S528 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S532 . 1 `S510 1 . 1 0 `S519 1 . 1 0 `S528 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES532  1 e 1 @4082 ]
+"89 C:\Users\Keng\Desktop\college\pic\servo123.X\main.c
+[v _base base `VEui  1 e 2 0 ]
+[v _pwm pwm `VEui  1 e 2 0 ]
+[v _x x `VEui  1 e 2 0 ]
+"212
+[v _main main `(v  1 e 1 0 ]
+{
+"248
+} 0
+"119
+[v _timer_intrrupt_initinal timer_intrrupt_initinal `(v  1 e 1 0 ]
+{
+"126
+} 0
+"109
+[v _timer_0_initial timer_0_initial `(v  1 e 1 0 ]
+{
+"118
+} 0
+"171
+[v _servo_0degree servo_0degree `(v  1 e 1 0 ]
+{
+"177
+} 0
+"98
+[v _oclillator_initial oclillator_initial `(v  1 e 1 0 ]
+{
+"103
+} 0
+"127
+[v _adc_initial adc_initial `(v  1 e 1 0 ]
+{
+"147
+} 0
+"104
+[v _PCA9685_init PCA9685_init `(v  1 e 1 0 ]
+{
+"108
+} 0
+"55 C:\Users\Keng\Desktop\college\pic\servo123.X\harwave/24lc512.c
+[v _PCA9685_writeOneByte PCA9685_writeOneByte `(v  1 e 1 0 ]
+{
+[v PCA9685_writeOneByte@addr addr `ui  1 p 2 6 ]
+[v PCA9685_writeOneByte@data data `uc  1 p 1 8 ]
+"66
+} 0
+"40 C:\Users\Keng\Desktop\college\pic\servo123.X\harwave/softIIC.c
+[v _IIC_Wait_Ack IIC_Wait_Ack `(uc  1 e 1 0 ]
+{
+"42
+[v IIC_Wait_Ack@ucErrTime ucErrTime `uc  1 a 1 3 ]
+"57
+} 0
+"27
+[v _IIC_Stop IIC_Stop `(v  1 e 1 0 ]
+{
+"36
+} 0
+"16
+[v _IIC_Start IIC_Start `(v  1 e 1 0 ]
+{
+"25
+} 0
+"84
+[v _IIC_Send_Byte IIC_Send_Byte `(v  1 e 1 0 ]
+{
+[v IIC_Send_Byte@txd txd `uc  1 a 1 wreg ]
+"86
+[v IIC_Send_Byte@t t `uc  1 a 1 5 ]
+"84
+[v IIC_Send_Byte@txd txd `uc  1 a 1 wreg ]
+"87
+[v IIC_Send_Byte@txd txd `uc  1 a 1 4 ]
+"99
+} 0
+"11 C:\Users\Keng\Desktop\college\pic\servo123.X\harwave/mydelay.c
+[v _delay_us delay_us `(v  1 e 1 0 ]
+{
+[v delay_us@us us `i  1 p 2 1 ]
+"17
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\pic18\d10tcyx.c
+[v _Delay10TCYx Delay10TCYx `(v  1 e 1 0 ]
+{
+[v Delay10TCYx@unit unit `uc  1 a 1 wreg ]
+[v Delay10TCYx@unit unit `uc  1 a 1 wreg ]
+[v Delay10TCYx@unit unit `uc  1 a 1 0 ]
+"13
+} 0
+"5 C:\Users\Keng\Desktop\college\pic\servo123.X\harwave/softIIC.c
+[v _IIC_Init IIC_Init `(v  1 e 1 0 ]
+{
+"14
+} 0
+"119 C:\Users\Keng\Desktop\college\pic\servo123.X\harwave/lcd.c
+[v _LCD_WritetStr LCD_WritetStr `(v  1 e 1 0 ]
+{
+"121
+[v LCD_WritetStr@i i `uc  1 a 1 9 ]
+"119
+[v LCD_WritetStr@str str `*.32Cuc  1 p 2 5 ]
+"130
+} 0
+"105
+[v _LCD_WriteData LCD_WriteData `(v  1 e 1 0 ]
+{
+[v LCD_WriteData@ch ch `uc  1 a 1 wreg ]
+[v LCD_WriteData@ch ch `uc  1 a 1 wreg ]
+"107
+[v LCD_WriteData@ch ch `uc  1 a 1 4 ]
+"117
+} 0
+"4
+[v _LCD_Initialize LCD_Initialize `(v  1 e 1 0 ]
+{
+"38
+} 0
+"138
+[v _LCD_WaitBusy LCD_WaitBusy `(uc  1 e 1 0 ]
+{
+"187
+} 0
+"18 C:\Users\Keng\Desktop\college\pic\servo123.X\harwave/mydelay.c
+[v _delayFor18Tcy delayFor18Tcy `(v  1 e 1 0 ]
+{
+"21
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\pic18\d1tcyx.c
+[v _Delay1TCYx Delay1TCYx `(v  1 e 1 0 ]
+{
+[v Delay1TCYx@unit unit `uc  1 a 1 wreg ]
+[v Delay1TCYx@unit unit `uc  1 a 1 wreg ]
+"7
+[v Delay1TCYx@unit unit `uc  1 a 1 0 ]
+"9
+} 0
+"89 C:\Users\Keng\Desktop\college\pic\servo123.X\harwave/lcd.c
+[v _LCD_GotoXY LCD_GotoXY `(v  1 e 1 0 ]
+{
+[v LCD_GotoXY@pos pos `uc  1 a 1 wreg ]
+[v LCD_GotoXY@pos pos `uc  1 a 1 wreg ]
+[v LCD_GotoXY@ln ln `uc  1 p 1 5 ]
+"92
+[v LCD_GotoXY@pos pos `uc  1 a 1 10 ]
+"103
+} 0
+"74
+[v _LCD_WriteCmd LCD_WriteCmd `(v  1 e 1 0 ]
+{
+[v LCD_WriteCmd@ch ch `uc  1 a 1 wreg ]
+[v LCD_WriteCmd@ch ch `uc  1 a 1 wreg ]
+"76
+[v LCD_WriteCmd@ch ch `uc  1 a 1 4 ]
+"88
+} 0
+"3 C:\Users\Keng\Desktop\college\pic\servo123.X\harwave/mydelay.c
+[v _delay_ms delay_ms `(v  1 e 1 0 ]
+{
+[v delay_ms@ms ms `i  1 p 2 2 ]
+"9
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\pic18\d10ktcyx.c
+[v _Delay10KTCYx Delay10KTCYx `(v  1 e 1 0 ]
+{
+[v Delay10KTCYx@unit unit `uc  1 a 1 wreg ]
+[v Delay10KTCYx@unit unit `uc  1 a 1 wreg ]
+[v Delay10KTCYx@unit unit `uc  1 a 1 1 ]
+"13
+} 0
+"41 C:\Users\Keng\Desktop\college\pic\servo123.X\harwave/lcd.c
+[v _LCDWriteNibble LCDWriteNibble `(v  1 e 1 0 ]
+{
+[v LCDWriteNibble@ch ch `uc  1 a 1 wreg ]
+[v LCDWriteNibble@ch ch `uc  1 a 1 wreg ]
+[v LCDWriteNibble@rs rs `uc  1 p 1 0 ]
+"44
+[v LCDWriteNibble@ch ch `uc  1 a 1 1 ]
+"72
+} 0
+"90 C:\Users\Keng\Desktop\college\pic\servo123.X\main.c
+[v _GPIO_initial GPIO_initial `(v  1 e 1 0 ]
+{
+"97
+} 0

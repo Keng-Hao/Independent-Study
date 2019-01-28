@@ -7,12 +7,18 @@
 #include<xc.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include<string.h>
+#include <pic18f4520.h>
 #include "replace.h"
 #include "lcd.h"
 #include "mydelay.h"
 #include "defines.h"
-#include "24lc512.h"
 #include "softIIC.h"
+#include "initial.h"
+#include "flex.h"
+#include "Table.h"
+#include "UART.h"
+#include <string.h>
 //#pragma config statements should precede project file includes.
 // Use project enums instead of #define for ON and OFF.
 
@@ -47,7 +53,7 @@
 
 // CONFIG3H
 #pragma config CCP2MX = PORTBE  // CCP2 MUX bit (CCP2 input/output is multiplexed with RB3)
-#pragma config PBADEN = ON      // PORTB A/D Enable bit (PORTB<4:0> pins are configured as analog input channels on Reset)
+#pragma config PBADEN = OFF      // PORTB A/D Enable bit (PORTB<4:0> pins are configured as analog input channels on Reset)
 #pragma config LPT1OSC = OFF    // Low-Power Timer1 Oscillator Enable bit (Timer1 configured for higher power operation)
 #pragma config MCLRE = ON       // MCLR Pin Enable bit (MCLR pin enabled; RE3 input pin disabled)
 
@@ -85,164 +91,114 @@
 
 // CONFIG7H
 #pragma config EBTRB = OFF      // Boot Block Table Read Protection bit (Boot block (000000-0007FFh) not protected from table reads executed in other blocks)
+extern struct  STRUCT_USARTx_Fram                                  //??wifi??????????
+{
+    char  Data_RX_BUF [RX_BUF_MAX_LEN];         //RX_BUF_MAX_LEN
 
-volatile u16 base,pwm,x=0;
-void GPIO_initial()
-{
-    TRISAbits.TRISA0=1;
-    TRISAbits.TRISA1=0;
-    TRISD = 0x00;
-    LATD = 0x00;
-    TRISC = 0xF0;
-}
-void oclillator_initial()  //      40MHz
-{
-    OSCCONbits.IOFS=0;        // turn off internal oscillator
-    OSCCONbits.SCS0=0;
-    OSCCONbits.SCS1=0;        //System Clock Select bits is internal oscillator
-}
-void PCA9685_init(){
-    IIC_Init();
-    PCA9685_writeOneByte(prescale_address,prescale_value);
-    PCA9685_writeOneByte(MODE1,1);          //sleep =0
-}
-void timer_0_initial()
-{
-    T0CONbits.TMR0ON=0;       //close the timer0
-    T0CONbits.T08BIT=1;       //8 bits
-    T0CONbits.T0CS=0;         //choose on timer
-    T0CONbits.PSA=0;          //Timer0 prescaler is assigned
-    T0CONbits.T0PS2=0;        //prescaler 1:4
-    T0CONbits.T0PS1=0;
-    T0CONbits.T0PS0=1;
-}
-void timer_intrrupt_initinal()
-{
-    RCONbits.IPEN=0;                    //turn off priority level
-    INTCONbits.GIE=1;                   //Peripheral Interrupt Enable bit
-    INTCONbits.PEIE=1;                  //Global Interrupt Enable bit
-    INTCONbits.TMR0IE=1;                //Enables the TMR0 overflow interrupt   
-    INTCONbits.TMR0IF=0;                //  ????????
-}
-void adc_initial(){
-    ADCON0bits.ADON=1;                          //on adc
-    ADCON1bits.VCFG1=0;                         //Vref = vss
-    ADCON1bits.VCFG0=0;                         //Vref = vdd
-    ADCON1bits.PCFG3=1;                         //AN0=analog other= digital
-    ADCON1bits.PCFG2=1;
-    ADCON1bits.PCFG1=1;
-    ADCON1bits.PCFG0=0;
-    ADCON0bits.CHS3=0;                          //channel an0
-    ADCON0bits.CHS2=0;
-    ADCON0bits.CHS1=0;
-    ADCON0bits.CHS0=0;
-    ADCON2bits.ADFM=1;                           //Right justified
-    ADCON2bits.ACQT2=1;                          // Tad=20Tad
-    ADCON2bits.ACQT1=1;
-    ADCON2bits.ACQT0=1;
-    ADCON2bits.ADCS2=0;                          //adc clock ??? ???
-    ADCON2bits.ADCS1=0;
-    ADCON2bits.ADCS0=1;
-    PIE1bits.ADIE=0;                             //adc interrupt
-}
-//void interrupt ISR(void) {
-//  if(INTCONbits.TMR0IF==1){
-//      base++;
-//      if(base==195){
-//          LATAbits.LATA1=1;
-//          base=0;
-//          x=0;
-//      }
-//      x++;
-//      if(x==pwm)
-//         LATAbits.LATA1=0; 
-//      INTCONbits.TMR0IF=0;
-// } 
-//}
-void servo_U90degree()
-{
-    pwm=6;
-}
+  union {
+    u16 InfAll;
+    struct {
+          u8 FramLength       :7;                                    // 6:0 
+          u8 FramFinishFlag   :1;                                   // 7 
+      } InfBit;
+  }; 
 
-void servo_90degree()
+} strPc_Fram_Record, strEsp8266_Fram_Record;
+
+
+extern struct  STRUCT_USART1_1_Fram                                   //??wifi??????????
 {
-    pwm=31;
-}
-void servo_0degree()
-{
-    PCA9685_writeOneByte(0x06,0x99);
-    PCA9685_writeOneByte(0x07,0x1);
-    PCA9685_writeOneByte(0x08,0xCC);
-    PCA9685_writeOneByte(0x09,0x4);
-}
-void scan_first_row()
-{
-     LATC=0xFE;
-    if(PORTC==0xEE){                    //demonstrate F=+
-      delay_ms(10);
-      pwm++;
-      delay_ms(200);
-//      while(PORTC!=0xFE);
-           delay_ms(10);
-    }
-    else if(PORTC==0xDE)                                //demonstrate E=-
-        {
-           delay_ms(10);
-//           servo_90degree();
-           pwm--;
-          delay_ms(200);   
-//           while(PORTC!=0xFE);
-               delay_ms(10);
-        }    
-    else if(PORTC==0xBE)                               //demonstrate D=*
-   {
-           delay_ms(10); 
-           servo_0degree();
-           while(PORTC!=0xFE);
-                delay_ms(10);
-    }
-    else if(PORTC==0x7E)                               //demonstrate C=/
-        {
-           delay_ms(10);
-           servo_U90degree();
-           while(PORTC!=0xFE);
-                delay_ms(10);
+    char  Data_RX_BUF [RX_BUF_MAX_LEN];            //RX_BUF_MAX_LEN
+
+  union {
+    u8 InfAll;
+    struct {
+          u8 FramLength       :7 ;                                   // 6:0 
+          u8 FramFinishFlag   :1 ;                                   // 7 
+      } InfBit;
+  }; 
+} strPc1_1_Fram_Record, str1_1esp8266;
+
+
+
+u8 count,write;
+char test[30];
+int test_index;
+u8 work_flag=0;
+u16 s,IP;
+void interrupt time_adc (void){
+    if(PIR1bits.RCIF ){
+        char ch;
+        ch  = RCREG;
+        if( strEsp8266_Fram_Record .InfBit .FramLength < ( RX_BUF_MAX_LEN - 1 ) ) {  //??1???????
+            strEsp8266_Fram_Record .Data_RX_BUF [ strEsp8266_Fram_Record .InfBit .FramLength ++ ]  = ch;
+            //test[test_index++]=strEsp8266_Fram_Record .Data_RX_BUF [ strEsp8266_Fram_Record .InfBit .FramLength -1 ];     //因為沒有作業系統，所以index會依直累加然後跑到不知道的記憶體位置
+#ifndef teacher 
+            if(strEsp8266_Fram_Record .Data_RX_BUF [ strEsp8266_Fram_Record .InfBit .FramLength] == '\0')
+                strEsp8266_Fram_Record .InfBit .FramFinishFlag = 1;
+#endif
         }
+        PIR1bits.RCIF=0;
+    }
+    
+    if(PIR1bits.TMR2IF){
+        s++;
+        IP++; 
+        PIR1bits.TMR2IF=0;
+    }
+}
+void finger_reset(){
+    
 }
 void main()
 {
     oclillator_initial();     
     GPIO_initial();
-    adc_initial();
-    base=0;
     PCA9685_init();
-    servo_0degree();
-    timer_0_initial();
+    timer_2_initial() ;
     timer_intrrupt_initinal();
-    LCD_Initialize();
-    int ADRES,ADRES1;
-    float value;
-    char temp[5];
-    LCD_Clear();
+    LCD_Initialize();    
+    initial_UART();
+    ESP8266_client();
+    LCD_Clear(); 
     LCD_GotoXY(0,0);
-    LCD_WritetStr("hello");
+    LCD_WritetStr("Hello");
+    delay_ms ( 3000 );
+    LCD_Clear(); 
+    finger_reset();
+    char* temp;
+    char t[20];
+    char print[5];
+    write=0; 
+//    while( ! (u8)strstr ( strEsp8266_Fram_Record .Data_RX_BUF, "0,CONNECT" ));
+    memset(&(strEsp8266_Fram_Record.Data_RX_BUF[0]), '\0', RX_BUF_MAX_LEN);
     while(1)
     {
-//        scan_first_row();
-//        ADCON0bits.GO=1;
-//        if(PIR1bits.ADIF==1)
-//        {
-//            PIR1bits.ADIF=0;
-//            ADRES=ADRESL;
-//            ADRES1=ADRESH;
-//            ADRES1=ADRES1*256;
-//            value=(float)ADRES1+(float)ADRES;
-//            value=value*0.0049;
-//            sprintf(temp,"%1.2f v",value);
-//            LCD_Clear();
-//            LCD_GotoXY(0,0);
-//            LCD_WritetStr(temp);
-//            pwm=6+(25/value);
-//        }
+        temp=ESP8266_ReceiveString();
+        
+//        strcpy(t,temp);
+//        delay_ms(10);
+//        LCD_GotoXY(0,0);
+//        sprintf(print,"%d",(int)*(temp+8));
+//        LCD_WritetStr(print);
+//        LCD_GotoXY(5,0);
+//        sprintf(print,"%d",(int)*(temp+9));
+//        LCD_WritetStr(print);
+//        for( int j=0 ; t[j] != '\0'; j++){
+//           LCD_GotoXY(j%4*4,j/4);
+//           sprintf(print,"%d",(int)temp[j]);
+//           LCD_WritetStr(print);
+//            }
+        
+//        LCD_Clear();
+//        LCD_GotoXY(0,0);
+//        sprintf(print,"%d",strEsp8266_Fram_Record .InfBit .FramLength);
+//        LCD_WritetStr(print);
+//        LCD_GotoXY(5,0);
+//        sprintf(print,"%d",s);
+//        LCD_WritetStr(print);
+//        s=0;
+        
+        ADtoPWM(temp); 
     }
 }

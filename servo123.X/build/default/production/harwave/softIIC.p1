@@ -3457,368 +3457,378 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;softIIC.c: 12: PORTBbits.RB1 = 1;
 "12
 [e = . . _PORTBbits 0 1 -> -> 1 `i `uc ]
-[; ;softIIC.c: 13: PORTBbits.RB0 = 1;
+[; ;softIIC.c: 13: delay_us(2);
 "13
-[e = . . _PORTBbits 0 0 -> -> 1 `i `uc ]
-[; ;softIIC.c: 14: }
+[e ( _delay_us (1 -> 2 `i ]
+[; ;softIIC.c: 14: PORTBbits.RB0 = 1;
 "14
+[e = . . _PORTBbits 0 0 -> -> 1 `i `uc ]
+[; ;softIIC.c: 15: delay_us(2);
+"15
+[e ( _delay_us (1 -> 2 `i ]
+[; ;softIIC.c: 16: }
+"16
 [e :UE 311 ]
 }
-"16
+"18
 [v _IIC_Start `(v ~T0 @X0 1 ef ]
-"17
+"19
 {
-[; ;softIIC.c: 16: void IIC_Start(void)
-[; ;softIIC.c: 17: {
+[; ;softIIC.c: 18: void IIC_Start(void)
+[; ;softIIC.c: 19: {
 [e :U _IIC_Start ]
 [f ]
-[; ;softIIC.c: 18: {TRISBbits.TRISB0=0;};
-"18
+[; ;softIIC.c: 20: {TRISBbits.TRISB0=0;};
+"20
 {
 [e = . . _TRISBbits 0 0 -> -> 0 `i `uc ]
 }
-[; ;softIIC.c: 19: PORTBbits.RB0=1;
-"19
-[e = . . _PORTBbits 0 0 -> -> 1 `i `uc ]
-[; ;softIIC.c: 20: PORTBbits.RB1=1;
-"20
-[e = . . _PORTBbits 0 1 -> -> 1 `i `uc ]
-[; ;softIIC.c: 21: delay_us(4);
+[; ;softIIC.c: 21: PORTBbits.RB0=1;
 "21
-[e ( _delay_us (1 -> 4 `i ]
-[; ;softIIC.c: 22: PORTBbits.RB0=0;
+[e = . . _PORTBbits 0 0 -> -> 1 `i `uc ]
+[; ;softIIC.c: 22: PORTBbits.RB1=1;
 "22
-[e = . . _PORTBbits 0 0 -> -> 0 `i `uc ]
+[e = . . _PORTBbits 0 1 -> -> 1 `i `uc ]
 [; ;softIIC.c: 23: delay_us(4);
 "23
 [e ( _delay_us (1 -> 4 `i ]
-[; ;softIIC.c: 24: PORTBbits.RB1=0;
+[; ;softIIC.c: 24: PORTBbits.RB0=0;
 "24
-[e = . . _PORTBbits 0 1 -> -> 0 `i `uc ]
-[; ;softIIC.c: 25: }
+[e = . . _PORTBbits 0 0 -> -> 0 `i `uc ]
+[; ;softIIC.c: 25: delay_us(4);
 "25
+[e ( _delay_us (1 -> 4 `i ]
+[; ;softIIC.c: 26: PORTBbits.RB1=0;
+"26
+[e = . . _PORTBbits 0 1 -> -> 0 `i `uc ]
+[; ;softIIC.c: 27: }
+"27
 [e :UE 312 ]
 }
-"27
+"29
 [v _IIC_Stop `(v ~T0 @X0 1 ef ]
-"28
+"30
 {
-[; ;softIIC.c: 27: void IIC_Stop(void)
-[; ;softIIC.c: 28: {
+[; ;softIIC.c: 29: void IIC_Stop(void)
+[; ;softIIC.c: 30: {
 [e :U _IIC_Stop ]
 [f ]
-[; ;softIIC.c: 29: {TRISBbits.TRISB0=0;};
-"29
+[; ;softIIC.c: 31: {TRISBbits.TRISB0=0;};
+"31
 {
 [e = . . _TRISBbits 0 0 -> -> 0 `i `uc ]
 }
-[; ;softIIC.c: 30: PORTBbits.RB1=0;
-"30
-[e = . . _PORTBbits 0 1 -> -> 0 `i `uc ]
-[; ;softIIC.c: 31: PORTBbits.RB0=0;
-"31
-[e = . . _PORTBbits 0 0 -> -> 0 `i `uc ]
-[; ;softIIC.c: 32: delay_us(4);
+[; ;softIIC.c: 32: PORTBbits.RB1=0;
 "32
-[e ( _delay_us (1 -> 4 `i ]
-[; ;softIIC.c: 33: PORTBbits.RB1=1;
+[e = . . _PORTBbits 0 1 -> -> 0 `i `uc ]
+[; ;softIIC.c: 33: PORTBbits.RB0=0;
 "33
-[e = . . _PORTBbits 0 1 -> -> 1 `i `uc ]
-[; ;softIIC.c: 34: PORTBbits.RB0=1;
+[e = . . _PORTBbits 0 0 -> -> 0 `i `uc ]
+[; ;softIIC.c: 34: delay_us(4);
 "34
-[e = . . _PORTBbits 0 0 -> -> 1 `i `uc ]
-[; ;softIIC.c: 35: delay_us(4);
-"35
 [e ( _delay_us (1 -> 4 `i ]
-[; ;softIIC.c: 36: }
+[; ;softIIC.c: 35: PORTBbits.RB1=1;
+"35
+[e = . . _PORTBbits 0 1 -> -> 1 `i `uc ]
+[; ;softIIC.c: 36: delay_us(4);
 "36
+[e ( _delay_us (1 -> 4 `i ]
+[; ;softIIC.c: 37: PORTBbits.RB0=1;
+"37
+[e = . . _PORTBbits 0 0 -> -> 1 `i `uc ]
+[; ;softIIC.c: 39: }
+"39
 [e :UE 313 ]
 }
-"40
+"43
 [v _IIC_Wait_Ack `(uc ~T0 @X0 1 ef ]
-"41
+"44
 {
-[; ;softIIC.c: 40: u8 IIC_Wait_Ack(void)
-[; ;softIIC.c: 41: {
+[; ;softIIC.c: 43: u8 IIC_Wait_Ack(void)
+[; ;softIIC.c: 44: {
 [e :U _IIC_Wait_Ack ]
 [f ]
-"42
+"45
 [v _ucErrTime `uc ~T0 @X0 1 a ]
-[; ;softIIC.c: 42: u8 ucErrTime=0;
+[; ;softIIC.c: 45: u8 ucErrTime=0;
 [e = _ucErrTime -> -> 0 `i `uc ]
-[; ;softIIC.c: 43: {TRISBbits.TRISB0=1;};
-"43
+[; ;softIIC.c: 46: {TRISBbits.TRISB0=1;};
+"46
 {
 [e = . . _TRISBbits 0 0 -> -> 1 `i `uc ]
 }
-[; ;softIIC.c: 44: PORTBbits.RB0=1;delay_us(1);
-"44
+[; ;softIIC.c: 47: PORTBbits.RB0=1;
+"47
 [e = . . _PORTBbits 0 0 -> -> 1 `i `uc ]
+[; ;softIIC.c: 49: delay_us(1);
+"49
 [e ( _delay_us (1 -> 1 `i ]
-[; ;softIIC.c: 45: PORTBbits.RB1=1;delay_us(1);
-"45
+[; ;softIIC.c: 50: PORTBbits.RB1=1;
+"50
 [e = . . _PORTBbits 0 1 -> -> 1 `i `uc ]
+[; ;softIIC.c: 52: delay_us(1);
+"52
 [e ( _delay_us (1 -> 1 `i ]
-[; ;softIIC.c: 46: while(PORTBbits.RB0)
-"46
+[; ;softIIC.c: 53: while(PORTBbits.RB0)
+"53
 [e $U 315  ]
 [e :U 316 ]
-[; ;softIIC.c: 47: {
-"47
+[; ;softIIC.c: 54: {
+"54
 {
-[; ;softIIC.c: 48: ucErrTime++;
-"48
+[; ;softIIC.c: 55: ucErrTime++;
+"55
 [e ++ _ucErrTime -> -> 1 `i `uc ]
-[; ;softIIC.c: 49: if(ucErrTime>250)
-"49
+[; ;softIIC.c: 56: if(ucErrTime>250)
+"56
 [e $ ! > -> _ucErrTime `i -> 250 `i 318  ]
-[; ;softIIC.c: 50: {
-"50
+[; ;softIIC.c: 57: {
+"57
 {
-[; ;softIIC.c: 51: IIC_Stop();
-"51
+[; ;softIIC.c: 58: IIC_Stop();
+"58
 [e ( _IIC_Stop ..  ]
-[; ;softIIC.c: 52: return 1;
-"52
+[; ;softIIC.c: 59: return 1;
+"59
 [e ) -> -> 1 `i `uc ]
 [e $UE 314  ]
-"53
+"60
 }
 [e :U 318 ]
-"54
+"61
 }
 [e :U 315 ]
-"46
+"53
 [e $ != -> . . _PORTBbits 0 0 `i -> -> -> 0 `i `Vuc `i 316  ]
 [e :U 317 ]
-[; ;softIIC.c: 53: }
-[; ;softIIC.c: 54: }
-[; ;softIIC.c: 55: PORTBbits.RB1=0;
-"55
+[; ;softIIC.c: 60: }
+[; ;softIIC.c: 61: }
+[; ;softIIC.c: 62: PORTBbits.RB1=0;
+"62
 [e = . . _PORTBbits 0 1 -> -> 0 `i `uc ]
-[; ;softIIC.c: 56: return 0;
-"56
+[; ;softIIC.c: 63: return 0;
+"63
 [e ) -> -> 0 `i `uc ]
 [e $UE 314  ]
-[; ;softIIC.c: 57: }
-"57
+[; ;softIIC.c: 64: }
+"64
 [e :UE 314 ]
 }
-"59
+"66
 [v _IIC_Ack `(v ~T0 @X0 1 ef ]
-"60
+"67
 {
-[; ;softIIC.c: 59: void IIC_Ack(void)
-[; ;softIIC.c: 60: {
+[; ;softIIC.c: 66: void IIC_Ack(void)
+[; ;softIIC.c: 67: {
 [e :U _IIC_Ack ]
 [f ]
-[; ;softIIC.c: 61: PORTBbits.RB1=0;
-"61
+[; ;softIIC.c: 68: PORTBbits.RB1=0;
+"68
 [e = . . _PORTBbits 0 1 -> -> 0 `i `uc ]
-[; ;softIIC.c: 62: {TRISBbits.TRISB0=0;};
-"62
+[; ;softIIC.c: 69: {TRISBbits.TRISB0=0;};
+"69
 {
 [e = . . _TRISBbits 0 0 -> -> 0 `i `uc ]
 }
-[; ;softIIC.c: 63: PORTBbits.RB0=0;
-"63
+[; ;softIIC.c: 70: PORTBbits.RB0=0;
+"70
 [e = . . _PORTBbits 0 0 -> -> 0 `i `uc ]
-[; ;softIIC.c: 64: delay_us(2);
-"64
+[; ;softIIC.c: 71: delay_us(2);
+"71
 [e ( _delay_us (1 -> 2 `i ]
-[; ;softIIC.c: 65: PORTBbits.RB1=1;
-"65
+[; ;softIIC.c: 72: PORTBbits.RB1=1;
+"72
 [e = . . _PORTBbits 0 1 -> -> 1 `i `uc ]
-[; ;softIIC.c: 66: delay_us(2);
-"66
+[; ;softIIC.c: 73: delay_us(2);
+"73
 [e ( _delay_us (1 -> 2 `i ]
-[; ;softIIC.c: 67: PORTBbits.RB1=0;
-"67
+[; ;softIIC.c: 74: PORTBbits.RB1=0;
+"74
 [e = . . _PORTBbits 0 1 -> -> 0 `i `uc ]
-[; ;softIIC.c: 68: }
-"68
+[; ;softIIC.c: 75: }
+"75
 [e :UE 319 ]
 }
-"70
+"77
 [v _IIC_NAck `(v ~T0 @X0 1 ef ]
-"71
+"78
 {
-[; ;softIIC.c: 70: void IIC_NAck(void)
-[; ;softIIC.c: 71: {
+[; ;softIIC.c: 77: void IIC_NAck(void)
+[; ;softIIC.c: 78: {
 [e :U _IIC_NAck ]
 [f ]
-[; ;softIIC.c: 72: PORTBbits.RB1=0;
-"72
+[; ;softIIC.c: 79: PORTBbits.RB1=0;
+"79
 [e = . . _PORTBbits 0 1 -> -> 0 `i `uc ]
-[; ;softIIC.c: 73: {TRISBbits.TRISB0=0;};
-"73
+[; ;softIIC.c: 80: {TRISBbits.TRISB0=0;};
+"80
 {
 [e = . . _TRISBbits 0 0 -> -> 0 `i `uc ]
 }
-[; ;softIIC.c: 74: PORTBbits.RB0=1;
-"74
+[; ;softIIC.c: 81: PORTBbits.RB0=1;
+"81
 [e = . . _PORTBbits 0 0 -> -> 1 `i `uc ]
-[; ;softIIC.c: 75: delay_us(2);
-"75
+[; ;softIIC.c: 82: delay_us(2);
+"82
 [e ( _delay_us (1 -> 2 `i ]
-[; ;softIIC.c: 76: PORTBbits.RB1=1;
-"76
+[; ;softIIC.c: 83: PORTBbits.RB1=1;
+"83
 [e = . . _PORTBbits 0 1 -> -> 1 `i `uc ]
-[; ;softIIC.c: 77: delay_us(2);
-"77
+[; ;softIIC.c: 84: delay_us(2);
+"84
 [e ( _delay_us (1 -> 2 `i ]
-[; ;softIIC.c: 78: PORTBbits.RB1=0;
-"78
+[; ;softIIC.c: 85: PORTBbits.RB1=0;
+"85
 [e = . . _PORTBbits 0 1 -> -> 0 `i `uc ]
-[; ;softIIC.c: 79: }
-"79
+[; ;softIIC.c: 86: }
+"86
 [e :UE 320 ]
 }
-"84
+"91
 [v _IIC_Send_Byte `(v ~T0 @X0 1 ef1`uc ]
-"85
+"92
 {
-[; ;softIIC.c: 84: void IIC_Send_Byte(u8 txd)
-[; ;softIIC.c: 85: {
+[; ;softIIC.c: 91: void IIC_Send_Byte(u8 txd)
+[; ;softIIC.c: 92: {
 [e :U _IIC_Send_Byte ]
-"84
+"91
 [v _txd `uc ~T0 @X0 1 r1 ]
-"85
+"92
 [f ]
-"86
+"93
 [v _t `uc ~T0 @X0 1 a ]
-[; ;softIIC.c: 86: u8 t;
-[; ;softIIC.c: 87: {TRISBbits.TRISB0=0;};
-"87
+[; ;softIIC.c: 93: u8 t;
+[; ;softIIC.c: 94: {TRISBbits.TRISB0=0;};
+"94
 {
 [e = . . _TRISBbits 0 0 -> -> 0 `i `uc ]
 }
-[; ;softIIC.c: 88: PORTBbits.RB1=0;
-"88
+[; ;softIIC.c: 95: PORTBbits.RB1=0;
+"95
 [e = . . _PORTBbits 0 1 -> -> 0 `i `uc ]
-[; ;softIIC.c: 89: for(t=0;t<8;t++)
-"89
+[; ;softIIC.c: 96: for(t=0;t<8;t++)
+"96
 {
 [e = _t -> -> 0 `i `uc ]
 [e $ < -> _t `i -> 8 `i 322  ]
 [e $U 323  ]
-"90
-[e :U 322 ]
-[; ;softIIC.c: 90: {
-{
-[; ;softIIC.c: 91: PORTBbits.RB0=(txd&0x80)>>7;
-"91
-[e = . . _PORTBbits 0 0 -> >> & -> _txd `i -> 128 `i -> 7 `i `uc ]
-[; ;softIIC.c: 92: txd<<=1;
-"92
-[e =<< _txd -> 1 `i ]
-[; ;softIIC.c: 93: delay_us(2);
-"93
-[e ( _delay_us (1 -> 2 `i ]
-[; ;softIIC.c: 94: PORTBbits.RB1=1;
-"94
-[e = . . _PORTBbits 0 1 -> -> 1 `i `uc ]
-[; ;softIIC.c: 95: delay_us(2);
-"95
-[e ( _delay_us (1 -> 2 `i ]
-[; ;softIIC.c: 96: PORTBbits.RB1=0;
-"96
-[e = . . _PORTBbits 0 1 -> -> 0 `i `uc ]
-[; ;softIIC.c: 97: delay_us(2);
 "97
-[e ( _delay_us (1 -> 2 `i ]
+[e :U 322 ]
+[; ;softIIC.c: 97: {
+{
+[; ;softIIC.c: 98: PORTBbits.RB0=(txd&0x80)>>7;
 "98
+[e = . . _PORTBbits 0 0 -> >> & -> _txd `i -> 128 `i -> 7 `i `uc ]
+[; ;softIIC.c: 99: txd<<=1;
+"99
+[e =<< _txd -> 1 `i ]
+[; ;softIIC.c: 100: delay_us(2);
+"100
+[e ( _delay_us (1 -> 2 `i ]
+[; ;softIIC.c: 101: PORTBbits.RB1=1;
+"101
+[e = . . _PORTBbits 0 1 -> -> 1 `i `uc ]
+[; ;softIIC.c: 102: delay_us(2);
+"102
+[e ( _delay_us (1 -> 2 `i ]
+[; ;softIIC.c: 103: PORTBbits.RB1=0;
+"103
+[e = . . _PORTBbits 0 1 -> -> 0 `i `uc ]
+[; ;softIIC.c: 104: delay_us(2);
+"104
+[e ( _delay_us (1 -> 2 `i ]
+"105
 }
-"89
+"96
 [e ++ _t -> -> 1 `i `uc ]
 [e $ < -> _t `i -> 8 `i 322  ]
 [e :U 323 ]
-"98
+"105
 }
-[; ;softIIC.c: 98: }
-[; ;softIIC.c: 99: }
-"99
+[; ;softIIC.c: 105: }
+[; ;softIIC.c: 106: }
+"106
 [e :UE 321 ]
 }
-"101
+"108
 [v _IIC_Read_Byte `(uc ~T0 @X0 1 ef1`uc ]
-"102
+"109
 {
-[; ;softIIC.c: 101: u8 IIC_Read_Byte(unsigned char ack)
-[; ;softIIC.c: 102: {
+[; ;softIIC.c: 108: u8 IIC_Read_Byte(unsigned char ack)
+[; ;softIIC.c: 109: {
 [e :U _IIC_Read_Byte ]
-"101
+"108
 [v _ack `uc ~T0 @X0 1 r1 ]
-"102
+"109
 [f ]
-"103
+"110
 [v _i `uc ~T0 @X0 1 a ]
 [v _receive `uc ~T0 @X0 1 a ]
-[; ;softIIC.c: 103: unsigned char i,receive=0;
+[; ;softIIC.c: 110: unsigned char i,receive=0;
 [e = _receive -> -> 0 `i `uc ]
-[; ;softIIC.c: 104: {TRISBbits.TRISB0=1;};
-"104
+[; ;softIIC.c: 111: {TRISBbits.TRISB0=1;};
+"111
 {
 [e = . . _TRISBbits 0 0 -> -> 1 `i `uc ]
 }
-[; ;softIIC.c: 105: for(i=0;i<8;i++ )
-"105
+[; ;softIIC.c: 112: for(i=0;i<8;i++ )
+"112
 {
 [e = _i -> -> 0 `i `uc ]
 [e $ < -> _i `i -> 8 `i 326  ]
 [e $U 327  ]
-"106
+"113
 [e :U 326 ]
-[; ;softIIC.c: 106: {
+[; ;softIIC.c: 113: {
 {
-[; ;softIIC.c: 107: PORTBbits.RB1=0;
-"107
+[; ;softIIC.c: 114: PORTBbits.RB1=0;
+"114
 [e = . . _PORTBbits 0 1 -> -> 0 `i `uc ]
-[; ;softIIC.c: 108: delay_us(2);
-"108
+[; ;softIIC.c: 115: delay_us(2);
+"115
 [e ( _delay_us (1 -> 2 `i ]
-[; ;softIIC.c: 109: PORTBbits.RB1=1;
-"109
+[; ;softIIC.c: 116: PORTBbits.RB1=1;
+"116
 [e = . . _PORTBbits 0 1 -> -> 1 `i `uc ]
-[; ;softIIC.c: 110: receive<<=1;
-"110
+[; ;softIIC.c: 117: receive<<=1;
+"117
 [e =<< _receive -> 1 `i ]
-[; ;softIIC.c: 111: if(PORTBbits.RB0)receive++;
-"111
+[; ;softIIC.c: 118: if(PORTBbits.RB0)receive++;
+"118
 [e $ ! != -> . . _PORTBbits 0 0 `i -> -> -> 0 `i `Vuc `i 329  ]
 [e ++ _receive -> -> 1 `i `uc ]
 [e :U 329 ]
-[; ;softIIC.c: 112: delay_us(1);
-"112
+[; ;softIIC.c: 119: delay_us(1);
+"119
 [e ( _delay_us (1 -> 1 `i ]
-"113
+"120
 }
-"105
+"112
 [e ++ _i -> -> 1 `i `uc ]
 [e $ < -> _i `i -> 8 `i 326  ]
 [e :U 327 ]
-"113
+"120
 }
-[; ;softIIC.c: 113: }
-[; ;softIIC.c: 114: if (!ack)
-"114
+[; ;softIIC.c: 120: }
+[; ;softIIC.c: 121: if (!ack)
+"121
 [e $ ! ! != -> _ack `i -> -> -> 0 `i `uc `i 330  ]
-[; ;softIIC.c: 115: IIC_NAck();
-"115
+[; ;softIIC.c: 122: IIC_NAck();
+"122
 [e ( _IIC_NAck ..  ]
 [e $U 331  ]
-"116
+"123
 [e :U 330 ]
-[; ;softIIC.c: 116: else
-[; ;softIIC.c: 117: IIC_Ack();
-"117
+[; ;softIIC.c: 123: else
+[; ;softIIC.c: 124: IIC_Ack();
+"124
 [e ( _IIC_Ack ..  ]
 [e :U 331 ]
-[; ;softIIC.c: 118: return receive;
-"118
+[; ;softIIC.c: 125: return receive;
+"125
 [e ) _receive ]
 [e $UE 325  ]
-[; ;softIIC.c: 119: }
-"119
+[; ;softIIC.c: 126: }
+"126
 [e :UE 325 ]
 }

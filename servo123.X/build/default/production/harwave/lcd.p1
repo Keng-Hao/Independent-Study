@@ -3541,12 +3541,12 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;lcd.c: 47: ch = (ch & 0x0F);
 "47
 [e = _ch -> & -> _ch `i -> 15 `i `uc ]
-[; ;lcd.c: 50: PORTD = (PORTD & 0x0F);
-"50
-[e = _PORTD -> & -> _PORTD `i -> 15 `i `uc ]
-[; ;lcd.c: 53: PORTD = (PORTD | (ch << 4));
-"53
-[e = _PORTD -> | -> _PORTD `i << -> _ch `i -> 4 `i `uc ]
+[; ;lcd.c: 56: PORTD = (PORTD & 0xF0);
+"56
+[e = _PORTD -> & -> _PORTD `i -> 240 `i `uc ]
+[; ;lcd.c: 59: PORTD = (PORTD | (ch ));
+"59
+[e = _PORTD -> | -> _PORTD `i -> _ch `i `uc ]
 [; ;lcd.c: 62: PORTDbits.RD0 = rs;
 "62
 [e = . . _PORTDbits 0 0 _rs ]
@@ -3714,67 +3714,67 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;lcd.c: 144: delayFor18Tcy();
 "144
 [e ( _delayFor18Tcy ..  ]
-[; ;lcd.c: 146: TRISD |= 0x80;
-"146
-[e =| _TRISD -> -> 128 `i `uc ]
-[; ;lcd.c: 147: if(PORTD&0x80)
-"147
-[e $ ! != & -> _PORTD `i -> 128 `i -> 0 `i 337  ]
-[; ;lcd.c: 148: {
-"148
+[; ;lcd.c: 166: TRISD |= 0x08;
+"166
+[e =| _TRISD -> -> 8 `i `uc ]
+[; ;lcd.c: 167: if(PORTD&0x08)
+"167
+[e $ ! != & -> _PORTD `i -> 8 `i -> 0 `i 337  ]
+[; ;lcd.c: 168: {
+"168
 {
-[; ;lcd.c: 149: PORTDbits.RD2 = 0;
-"149
+[; ;lcd.c: 169: PORTDbits.RD2 = 0;
+"169
 [e = . . _PORTDbits 0 2 -> -> 0 `i `uc ]
-[; ;lcd.c: 150: PORTDbits.RD2 = 1;
-"150
+[; ;lcd.c: 170: PORTDbits.RD2 = 1;
+"170
 [e = . . _PORTDbits 0 2 -> -> 1 `i `uc ]
-[; ;lcd.c: 151: PORTDbits.RD2 = 0;
-"151
+[; ;lcd.c: 171: PORTDbits.RD2 = 0;
+"171
 [e = . . _PORTDbits 0 2 -> -> 0 `i `uc ]
-[; ;lcd.c: 152: PORTDbits.RD1 = 0;
-"152
+[; ;lcd.c: 172: PORTDbits.RD1 = 0;
+"172
 [e = . . _PORTDbits 0 1 -> -> 0 `i `uc ]
-[; ;lcd.c: 153: TRISD &=~(1<<7);
-"153
-[e =& _TRISD -> ~ << -> 1 `i -> 7 `i `uc ]
-[; ;lcd.c: 154: return 1;
-"154
+[; ;lcd.c: 173: TRISD &=~(1<<3);
+"173
+[e =& _TRISD -> ~ << -> 1 `i -> 3 `i `uc ]
+[; ;lcd.c: 174: return 1;
+"174
 [e ) -> -> 1 `i `uc ]
 [e $UE 336  ]
-"155
+"175
 }
-[; ;lcd.c: 155: }
+[; ;lcd.c: 175: }
 [e $U 338  ]
-"156
+"176
 [e :U 337 ]
-[; ;lcd.c: 156: else
-[; ;lcd.c: 157: {
-"157
+[; ;lcd.c: 176: else
+[; ;lcd.c: 177: {
+"177
 {
-[; ;lcd.c: 158: PORTDbits.RD2 = 0;
-"158
+[; ;lcd.c: 178: PORTDbits.RD2 = 0;
+"178
 [e = . . _PORTDbits 0 2 -> -> 0 `i `uc ]
-[; ;lcd.c: 159: PORTDbits.RD2 = 1;
-"159
+[; ;lcd.c: 179: PORTDbits.RD2 = 1;
+"179
 [e = . . _PORTDbits 0 2 -> -> 1 `i `uc ]
-[; ;lcd.c: 160: PORTDbits.RD2 = 0;
-"160
+[; ;lcd.c: 180: PORTDbits.RD2 = 0;
+"180
 [e = . . _PORTDbits 0 2 -> -> 0 `i `uc ]
-[; ;lcd.c: 161: PORTDbits.RD1 = 0;
-"161
+[; ;lcd.c: 181: PORTDbits.RD1 = 0;
+"181
 [e = . . _PORTDbits 0 1 -> -> 0 `i `uc ]
-[; ;lcd.c: 162: TRISD &=~(1<<7);
-"162
-[e =& _TRISD -> ~ << -> 1 `i -> 7 `i `uc ]
-[; ;lcd.c: 163: return 0;
-"163
+[; ;lcd.c: 182: TRISD &=~(1<<3);
+"182
+[e =& _TRISD -> ~ << -> 1 `i -> 3 `i `uc ]
+[; ;lcd.c: 183: return 0;
+"183
 [e ) -> -> 0 `i `uc ]
 [e $UE 336  ]
-"164
+"184
 }
 [e :U 338 ]
-[; ;lcd.c: 164: }
+[; ;lcd.c: 184: }
 [; ;lcd.c: 187: }
 "187
 [e :UE 336 ]

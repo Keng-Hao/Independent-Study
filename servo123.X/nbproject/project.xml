@@ -4,13 +4,13 @@
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
             <name>servo123</name>
-            <creation-uuid>e1849d9f-18df-45a8-aedd-03ea1353d2f6</creation-uuid>
+            <creation-uuid>dce5ffcf-d3d1-4d8b-8705-5b1fc007f1b8</creation-uuid>
             <make-project-type>0</make-project-type>
             <c-extensions>c</c-extensions>
             <cpp-extensions/>
             <header-extensions>h</header-extensions>
             <asminc-extensions/>
-            <sourceEncoding>ISO-8859-1</sourceEncoding>
+            <sourceEncoding>UTF-8</sourceEncoding>
             <make-dep-projects/>
         </data>
     </configuration>

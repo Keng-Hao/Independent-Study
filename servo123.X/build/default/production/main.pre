@@ -4743,9 +4743,43 @@ extern char * ultoa(char * buf, unsigned long val, int base);
 
 extern char * ftoa(float f, int * status);
 
-# 5 "harwave\replace.h"
+# 14 "C:\Program Files (x86)\Microchip\xc8\v1.41\include\string.h"
+extern void * memcpy(void *, const void *, size_t);
+extern void * memmove(void *, const void *, size_t);
+extern void * memset(void *, int, size_t);
+
+# 34
+extern char * strcat(char *, const char *);
+extern char * strcpy(char *, const char *);
+extern char * strncat(char *, const char *, size_t);
+extern char * strncpy(char *, const char *, size_t);
+extern char * strdup(const char *);
+extern char * strtok(char *, const char *);
+
+
+extern int memcmp(const void *, const void *, size_t);
+extern int strcmp(const char *, const char *);
+extern int stricmp(const char *, const char *);
+extern int strncmp(const char *, const char *, size_t);
+extern int strnicmp(const char *, const char *, size_t);
+extern void * memchr(const void *, int, size_t);
+extern size_t strcspn(const char *, const char *);
+extern char * strpbrk(const char *, const char *);
+extern size_t strspn(const char *, const char *);
+extern char * strstr(const char *, const char *);
+extern char * stristr(const char *, const char *);
+extern char * strerror(int);
+extern size_t strlen(const char *);
+extern char * strchr(const char *, int);
+extern char * strichr(const char *, int);
+extern char * strrchr(const char *, int);
+extern char * strrichr(const char *, int);
+
+# 3 "harwave\replace.h"
 typedef unsigned char u8;
 typedef unsigned int u16;
+void debounce(u8 a);
+extern u8 debounce_register;
 
 # 6 "harwave\defines.h"
 typedef unsigned int u16;
@@ -4769,13 +4803,6 @@ void delay_ms(int ms);
 void delay_us(int us);
 void delayFor18Tcy(void);
 
-# 10 "harwave\24lc512.h"
-void PCA9685_init(void);
-void PCA9685_writeOneByte(u16 addr,u8 data);
-u8 PCA9685_readOneByte(u16 addr);
-void PCA9685_Read(u16 ReadAddr,u8 *pBuffer,u16 NumToRead);
-void PCA9685_Write(u16 WriteAddr,u8 *pBuffer,u16 NumToWrite);
-
 # 18 "harwave\softIIC.h"
 void IIC_Init(void);
 void IIC_Start(void);
@@ -4789,8 +4816,77 @@ void IIC_NAck(void);
 void IIC_Write_One_Byte(u8 daddr,u8 addr,u8 data);
 u8 IIC_Read_One_Byte(u8 daddr,u8 addr);
 
+# 36 "harwave\initial.h"
+void GPIO_initial();
+void oclillator_initial();
+void PCA9685_init();
+void timer_0_initial();
+void timer_intrrupt_initinal();
+void tiner_2_initial();
 
-# 35 "main.c"
+# 12 "harwave\flex.h"
+enum finger {
+thumb=0,
+index,
+middle,
+ring,
+pink
+
+};
+void ADtoPWM(u8* AD);
+void PWMt0PCA(u16 up,u16 low,enum finger finger);
+void transmit_finger(u16 HL_Value,u8 finger);
+void translate_flex(u16 AD_total);
+
+# 6 "harwave\Table.h"
+const u16 finger_up_0[155]={737};
+const u16 finger_up_1[118]={737,745,754,762,771,780,788,797,805,814,823,831,840,849,857,866,874,883,892,900,909,918,926,935,943,952,961,969,978,987,995,1004,1012,1021,1030,1038,1047,1056,1064,1073,1081,1090,1099,1107,1116,1125,1133,1142,1150,1159,1168,1176,1185,1194,1202,1211,1219,1228,1237,1245,1254,1263,1271,1280,1288,1297,1306,1314,1323,1332,1340,1349,1357,1366,1375,1383,1392,1401,1409,1418,1426,1435,1444,1452,1461,1470,1478,1487,1495,1504,1513,1521,1530,1539,1547,1556,1564,1573,1582,1590,1599,1608,1616,1625,1633,1642,1651,1659,1668,1677,1685,1694,1702,1711,1720,1728,1737,1746};
+const u16 finger_up_2[129]={737,747,758,769,779,790,801,811,822,833,844,854,865,876,886,897,908,919,929,940,951,961,972,983,994,1004,1015,1026,1036,1047,1058,1069,1079,1090,1101,1111,1122,1133,1144,1154,1165,1176,1186,1197,1208,1218,1229,1240,1251,1261,1272,1283,1293,1304,1315,1326,1336,1347,1358,1368,1379,1390,1401,1411,1422,1433,1443,1454,1465,1476,1486,1497,1508,1518,1529,1540,1551,1561,1572,1583,1593,1604,1615,1626,1636,1647,1658,1668,1679,1690,1700,1711,1722,1733,1743,1754,1765,1775,1786,1797,1808,1818,1829,1840,1850,1861,1872,1883,1893,1904,1915,1925,1936,1947,1958,1968,1979,1990,2000,2011,2022,2033,2043,2054,2065,2075,2086,2097,2108};
+const u16 finger_up_3[146]={737,744,751,759,766,773,781,788,796,803,810,818,825,832,840,847,855,862,869,877,884,891,899,906,914,921,928,936,943,951,958,965,973,980,987,995,1002,1010,1017,1024,1032,1039,1046,1054,1061,1069,1076,1083,1091,1098,1105,1113,1120,1128,1135,1142,1150,1157,1165,1172,1179,1187,1194,1201,1209,1216,1224,1231,1238,1246,1253,1260,1268,1275,1283,1290,1297,1305,1312,1319,1327,1334,1342,1349,1356,1364,1371,1379,1386,1393,1401,1408,1415,1423,1430,1438,1445,1452,1460,1467,1474,1482,1489,1497,1504,1511,1519,1526,1533,1541,1548,1556,1563,1570,1578,1585,1593,1600,1607,1615,1622,1629,1637,1644,1652,1659,1666,1674,1681,1688,1696,1703,1711,1718,1725,1733,1740,1747,1755,1762,1770,1777,1784,1792,1799,1807};
+const u16 finger_up_4[151]={737,743,749,755,761,767,773,779,785,791,797,803,809,815,821,827,833,839,845,851,857,863,869,875,881,887,893,899,905,911,917,923,929,935,941,947,953,959,966,972,978,984,990,996,1002,1008,1014,1020,1026,1032,1038,1044,1050,1056,1062,1068,1074,1080,1086,1092,1098,1104,1110,1116,1122,1128,1134,1140,1146,1152,1158,1164,1170,1176,1182,1189,1195,1201,1207,1213,1219,1225,1231,1237,1243,1249,1255,1261,1267,1273,1279,1285,1291,1297,1303,1309,1315,1321,1327,1333,1339,1345,1351,1357,1363,1369,1375,1381,1387,1393,1399,1405,1411,1418,1424,1430,1436,1442,1448,1454,1460,1466,1472,1478,1484,1490,1496,1502,1508,1514,1520,1526,1532,1538,1544,1550,1556,1562,1568,1574,1580,1586,1592,1598,1604,1610,1616,1622,1628,1634,1641};
+const u16 finger_under_0[108]={0};
+const u16 finger_under_1[96]={0,14,29,44,58,73,88,103,117,132,147,162,176,191,206,221,235,250,265,280,294,309,324,339,353,368,383,398,412,427,442,457,471,486,501,516,530,545,560,575,589,604,619,634,648,663,678,693,707,722,737,752,766,781,796,811,825,840,855,870,884,899,914,929,943,958,973,988,1002,1017,1032,1047,1061,1076,1091,1106,1120,1135,1150,1165,1179,1194,1209,1224,1238,1253,1268,1283,1297,1312,1327,1342,1356,1371,1386,1401};
+const u16 finger_under_2[113]={0,3,6,10,13,17,20,24,27,31,34,38,41,45,48,52,55,59,62,66,69,73,76,80,83,87,90,94,97,101,104,108,111,115,118,122,125,129,132,136,139,143,146,150,153,157,160,164,167,171,174,178,181,185,188,192,195,198,202,205,209,212,216,219,223,226,230,233,237,240,244,247,251,254,258,261,265,268,272,275,279,282,286,289,293,296,300,303,307,310,314,317,321,324,328,331,335,338,342,345,349,352,356,359,363,366,370,373,377,380,384,387,391};
+const u16 finger_under_3[79]={0,12,24,36,48,60,72,85,97,109,121,133,145,158,170,182,194,206,218,230,243,255,267,279,291,303,316,328,340,352,364,376,388,401,413,425,437,449,461,474,486,498,510,522,534,546,559,571,583,595,607,619,632,644,656,668,680,692,704,717,729,741,753,765,777,790,802,814,826,838,850,862,875,887,899,911,923,935,948};
+const u16 finger_under_4[120]={0,8,16,25,33,42,50,59,67,76,84,93,101,110,118,127,135,144,152,161,169,178,186,195,203,211,220,228,237,245,254,262,271,279,288,296,305,313,322,330,339,347,356,364,373,381,390,398,406,415,423,432,440,449,457,466,474,483,491,500,508,517,525,534,542,551,559,568,576,585,593,602,610,618,627,635,644,652,661,669,678,686,695,703,712,720,729,737,746,754,763,771,780,788,797,805,813,822,830,839,847,856,864,873,881,890,898,907,915,924,932,941,949,958,966,975,983,992,1000,1009};
+
+# 8 "harwave\UART.h"
+typedef enum TT {
+TCP,
+UDP
+};
+typedef enum MODE {
+STA,
+AP,
+STA_AP
+}MODE;
+typedef enum Baudrate {
+B9600,
+B115200,
+}Baudrate;
+void initial_UART();
+void ESP8266_Uart(char* cmd);
+u8 ESP8266_Cmd( char* cmd , char* reply1 , char* reply2 , u16 waittime );
+
+u8 ESP8266_SendString (u8 ucId , char* pStr , u16 ulStrLength);
+
+void ESP8266_AT_Test ( void ) ;
+void ESP8266_Rst ( void ) ;
+u8 ESP8266_Net_Mode_Choose ( enum MODE MODE ) ;
+u8 ESP8266_JoinAP ( char* pSSID, char* pPassWord );
+u8 ESP8266_BuildAP ( char* pSSID, char* pPassWord, char* enunPsdMode );
+u8 ESP8266_Link_Server ( enum TT enumE, char* ip, char* ComNum, int id);
+void AP_MODE(void);
+void ESP8266_Server(void);
+void STA_MODE();
+void ESP8266_client();
+void set_baudrate(enum Baudrate Baudrate);
+void writeUARTByte(u8 data);
+void writeUARTString( u8* cmd);
+u8 * ESP8266_ReceiveString ( );
+
+
+# 41 "main.c"
 #pragma config OSC = HSPLL
 #pragma config FCMEN = OFF
 #pragma config IESO = OFF
@@ -4806,7 +4902,7 @@ u8 IIC_Read_One_Byte(u8 daddr,u8 addr);
 
 
 #pragma config CCP2MX = PORTBE
-#pragma config PBADEN = ON
+#pragma config PBADEN = OFF
 #pragma config LPT1OSC = OFF
 #pragma config MCLRE = ON
 
@@ -4844,138 +4940,92 @@ u8 IIC_Read_One_Byte(u8 daddr,u8 addr);
 
 
 #pragma config EBTRB = OFF
+extern struct STRUCT_USARTx_Fram
+{
+char Data_RX_BUF [50];
 
-volatile u16 base,pwm,x=0;
-void GPIO_initial()
+union {
+u16 InfAll;
+struct {
+u8 FramLength :7;
+u8 FramFinishFlag :1;
+} InfBit;
+};
+
+} strPc_Fram_Record, strEsp8266_Fram_Record;
+
+
+extern struct STRUCT_USART1_1_Fram
 {
-TRISAbits.TRISA0=1;
-TRISAbits.TRISA1=0;
-TRISD = 0x00;
-LATD = 0x00;
-TRISC = 0xF0;
+char Data_RX_BUF [50];
+
+union {
+u8 InfAll;
+struct {
+u8 FramLength :7 ;
+u8 FramFinishFlag :1 ;
+} InfBit;
+};
+} strPc1_1_Fram_Record, str1_1esp8266;
+
+
+
+u8 count,write;
+char test[30];
+int test_index;
+u8 work_flag=0;
+u16 s,IP;
+void interrupt time_adc (void){
+if(PIR1bits.RCIF ){
+char ch;
+ch = RCREG;
+if( strEsp8266_Fram_Record .InfBit .FramLength < ( 50 - 1 ) ) {
+strEsp8266_Fram_Record .Data_RX_BUF [ strEsp8266_Fram_Record .InfBit .FramLength ++ ] = ch;
+
+
+if(strEsp8266_Fram_Record .Data_RX_BUF [ strEsp8266_Fram_Record .InfBit .FramLength] == '\0')
+strEsp8266_Fram_Record .InfBit .FramFinishFlag = 1;
+
 }
-void oclillator_initial()
-{
-OSCCONbits.IOFS=0;
-OSCCONbits.SCS0=0;
-OSCCONbits.SCS1=0;
-}
-void PCA9685_init(){
-IIC_Init();
-PCA9685_writeOneByte(0xFE,121);
-PCA9685_writeOneByte(0x00,1);
-}
-void timer_0_initial()
-{
-T0CONbits.TMR0ON=0;
-T0CONbits.T08BIT=1;
-T0CONbits.T0CS=0;
-T0CONbits.PSA=0;
-T0CONbits.T0PS2=0;
-T0CONbits.T0PS1=0;
-T0CONbits.T0PS0=1;
-}
-void timer_intrrupt_initinal()
-{
-RCONbits.IPEN=0;
-INTCONbits.GIE=1;
-INTCONbits.PEIE=1;
-INTCONbits.TMR0IE=1;
-INTCONbits.TMR0IF=0;
-}
-void adc_initial(){
-ADCON0bits.ADON=1;
-ADCON1bits.VCFG1=0;
-ADCON1bits.VCFG0=0;
-ADCON1bits.PCFG3=1;
-ADCON1bits.PCFG2=1;
-ADCON1bits.PCFG1=1;
-ADCON1bits.PCFG0=0;
-ADCON0bits.CHS3=0;
-ADCON0bits.CHS2=0;
-ADCON0bits.CHS1=0;
-ADCON0bits.CHS0=0;
-ADCON2bits.ADFM=1;
-ADCON2bits.ACQT2=1;
-ADCON2bits.ACQT1=1;
-ADCON2bits.ACQT0=1;
-ADCON2bits.ADCS2=0;
-ADCON2bits.ADCS1=0;
-ADCON2bits.ADCS0=1;
-PIE1bits.ADIE=0;
+PIR1bits.RCIF=0;
 }
 
-# 162
-void servo_U90degree()
-{
-pwm=6;
+if(PIR1bits.TMR2IF){
+s++;
+IP++;
+PIR1bits.TMR2IF=0;
 }
+}
+void finger_reset(){
 
-void servo_90degree()
-{
-pwm=31;
-}
-void servo_0degree()
-{
-PCA9685_writeOneByte(0x06,0x99);
-PCA9685_writeOneByte(0x07,0x1);
-PCA9685_writeOneByte(0x08,0xCC);
-PCA9685_writeOneByte(0x09,0x4);
-}
-void scan_first_row()
-{
-LATC=0xFE;
-if(PORTC==0xEE){
-delay_ms(10);
-pwm++;
-delay_ms(200);
-
-delay_ms(10);
-}
-else if(PORTC==0xDE)
-{
-delay_ms(10);
-
-pwm--;
-delay_ms(200);
-
-delay_ms(10);
-}
-else if(PORTC==0xBE)
-{
-delay_ms(10);
-servo_0degree();
-while(PORTC!=0xFE);
-delay_ms(10);
-}
-else if(PORTC==0x7E)
-{
-delay_ms(10);
-servo_U90degree();
-while(PORTC!=0xFE);
-delay_ms(10);
-}
 }
 void main()
 {
 oclillator_initial();
 GPIO_initial();
-adc_initial();
-base=0;
 PCA9685_init();
-servo_0degree();
-timer_0_initial();
+timer_2_initial() ;
 timer_intrrupt_initinal();
 LCD_Initialize();
-int ADRES,ADRES1;
-float value;
-char temp[5];
+initial_UART();
+ESP8266_client();
 LCD_WriteCmd(0x01);
 LCD_GotoXY(0,0);
-LCD_WritetStr("hello");
+LCD_WritetStr("Hello");
+delay_ms ( 3000 );
+LCD_WriteCmd(0x01);
+finger_reset();
+char* temp;
+char t[20];
+char print[5];
+write=0;
+
+memset(&(strEsp8266_Fram_Record.Data_RX_BUF[0]), '\0', 50);
 while(1)
 {
+temp=ESP8266_ReceiveString();
 
-# 247
+# 202
+ADtoPWM(temp);
 }
 }

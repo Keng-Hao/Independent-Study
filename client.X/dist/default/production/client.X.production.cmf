@@ -11,7 +11,7 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\Keng\AppData\Local\Temp\s1o4.obj
+$C:\Users\Keng\AppData\Local\Temp\s8hc.obj
 idloc IDLOC 0 200000 200000 8 1
 init CODE 0 E E 4 1
 reset_vec CODE 0 0 0 4 1
@@ -117,43 +117,43 @@ MEDIUMCONST 2C20-7DF9 1
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\client.X.production.obj
-8 intcode CODE >62:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-8 intcode CODE >120:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-1FC2 intcode_body CODE >120:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-1FFC intcode_body CODE >121:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-2000 intcode_body CODE >123:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-2004 intcode_body CODE >124:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-2006 intcode_body CODE >125:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-2008 intcode_body CODE >126:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-2008 intcode_body CODE >127:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-200C intcode_body CODE >129:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-2010 intcode_body CODE >130:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-201E intcode_body CODE >131:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-2058 intcode_body CODE >132:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-2076 intcode_body CODE >133:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-207A intcode_body CODE >134:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-207A intcode_body CODE >135:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-207C intcode_body CODE >140:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-207C intcode_body CODE >141:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-2080 intcode_body CODE >142:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-2082 intcode_body CODE >143:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-2086 intcode_body CODE >144:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-208A intcode_body CODE >145:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-208E intcode_body CODE >147:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-27B0 text47 CODE >53:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-27B0 text47 CODE >54:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-27B4 text47 CODE >57:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-27B8 text47 CODE >58:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-27BC text47 CODE >59:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-27EA text47 CODE >60:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-281C text47 CODE >61:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
+8 intcode CODE >62:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+8 intcode CODE >120:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+1FC2 intcode_body CODE >120:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+1FFC intcode_body CODE >121:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+2000 intcode_body CODE >123:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+2004 intcode_body CODE >124:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+2006 intcode_body CODE >125:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+2008 intcode_body CODE >126:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+2008 intcode_body CODE >127:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+200C intcode_body CODE >129:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+2010 intcode_body CODE >130:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+201E intcode_body CODE >131:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+2058 intcode_body CODE >132:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+2076 intcode_body CODE >133:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+207A intcode_body CODE >134:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+207A intcode_body CODE >135:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+207C intcode_body CODE >140:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+207C intcode_body CODE >141:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+2080 intcode_body CODE >142:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+2082 intcode_body CODE >143:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+2086 intcode_body CODE >144:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+208A intcode_body CODE >145:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+208E intcode_body CODE >147:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+27B0 text47 CODE >53:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+27B0 text47 CODE >54:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+27B4 text47 CODE >57:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+27B8 text47 CODE >58:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+27BC text47 CODE >59:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+27EA text47 CODE >60:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+281C text47 CODE >61:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
 2BD0 text46 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\pic18\d10ktcyx.c
 2BD2 text46 CODE >11:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\pic18\d10ktcyx.c
 2BE0 text46 CODE >12:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\pic18\d10ktcyx.c
-2BB4 text45 CODE >4:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/delay.c
-2BB4 text45 CODE >6:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/delay.c
-2BC2 text45 CODE >8:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/delay.c
-2BC8 text45 CODE >6:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/delay.c
+2BB4 text45 CODE >4:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/delay.c
+2BB4 text45 CODE >6:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/delay.c
+2BC2 text45 CODE >8:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/delay.c
+2BC8 text45 CODE >6:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/delay.c
 29F6 text44 CODE >4:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strchr.c
 29F6 text44 CODE >7:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strchr.c
 2A06 text44 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strchr.c
@@ -180,17 +180,17 @@ $dist/default/production\client.X.production.obj
 26E6 text41 CODE >9:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strstr.c
 270E text41 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strstr.c
 2724 text41 CODE >11:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strstr.c
-237C text40 CODE >63:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-237C text40 CODE >65:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-238C text40 CODE >67:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-2398 text40 CODE >69:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-23A8 text40 CODE >70:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-23AC text40 CODE >72:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-23B8 text40 CODE >74:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-23C8 text40 CODE >75:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-2404 text40 CODE >76:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-240C text40 CODE >77:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-2424 text40 CODE >80:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
+237C text40 CODE >63:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+237C text40 CODE >65:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+238C text40 CODE >67:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+2398 text40 CODE >69:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+23A8 text40 CODE >70:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+23AC text40 CODE >72:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+23B8 text40 CODE >74:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+23C8 text40 CODE >75:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+2404 text40 CODE >76:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+240C text40 CODE >77:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+2424 text40 CODE >80:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
 28E4 text39 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwdiv.c
 28E4 text39 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwdiv.c
 28EC text39 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwdiv.c
@@ -387,48 +387,48 @@ EA text35 CODE >602:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\do
 2A68 text34 CODE >20:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strcpy.c
 2A6C text34 CODE >21:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strcpy.c
 2A70 text34 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strcpy.c
-243C text33 CODE >84:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-2440 text33 CODE >86:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-2452 text33 CODE >87:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-245C text33 CODE >91:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-2470 text33 CODE >92:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-2476 text33 CODE >93:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-2498 text33 CODE >94:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-24BC text33 CODE >95:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-259A text32 CODE >120:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-259A text32 CODE >121:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-259C text32 CODE >123:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-259E text32 CODE >126:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-25C4 text32 CODE >129:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-25EA text32 CODE >132:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-260E text32 CODE >136:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-2610 text32 CODE >123:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-2A2C text31 CODE >184:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-2A2C text31 CODE >185:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-2A32 text31 CODE >186:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-2A8C text30 CODE >100:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-2A8C text30 CODE >104:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-2892 text29 CODE >148:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-2892 text29 CODE >152:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-28BE text29 CODE >154:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-2AE0 text28 CODE >107:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-2AE0 text28 CODE >110:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-2B04 text28 CODE >119:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-22A4 text27 CODE >192:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-22A4 text27 CODE >193:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-22A8 text27 CODE >194:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-22AC text27 CODE >195:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-22B0 text27 CODE >196:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-22D2 text27 CODE >197:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-22FC text27 CODE >198:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-2326 text27 CODE >200:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-2350 text27 CODE >201:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-2BE6 text26 CODE >3:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2BE6 text26 CODE >6:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2BEA text26 CODE >7:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2BEE text26 CODE >8:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2BF2 text26 CODE >9:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2BF6 text26 CODE >10:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
+243C text33 CODE >84:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+2440 text33 CODE >86:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+2452 text33 CODE >87:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+245C text33 CODE >91:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+2470 text33 CODE >92:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+2476 text33 CODE >93:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+2498 text33 CODE >94:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+24BC text33 CODE >95:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+259A text32 CODE >120:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+259A text32 CODE >121:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+259C text32 CODE >123:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+259E text32 CODE >126:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+25C4 text32 CODE >129:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+25EA text32 CODE >132:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+260E text32 CODE >136:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+2610 text32 CODE >123:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+2A2C text31 CODE >184:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+2A2C text31 CODE >185:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+2A32 text31 CODE >186:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+2A8C text30 CODE >100:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+2A8C text30 CODE >104:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+2892 text29 CODE >148:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+2892 text29 CODE >152:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+28BE text29 CODE >154:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+2AE0 text28 CODE >107:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+2AE0 text28 CODE >110:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+2B04 text28 CODE >119:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+22A4 text27 CODE >192:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+22A4 text27 CODE >193:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+22A8 text27 CODE >194:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+22AC text27 CODE >195:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+22B0 text27 CODE >196:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+22D2 text27 CODE >197:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+22FC text27 CODE >198:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+2326 text27 CODE >200:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+2350 text27 CODE >201:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+2BE6 text26 CODE >3:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2BE6 text26 CODE >6:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2BEA text26 CODE >7:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2BEE text26 CODE >8:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2BF2 text26 CODE >9:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2BF6 text26 CODE >10:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
 2822 text25 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
 2822 text25 CODE >13:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
 2826 text25 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
@@ -449,66 +449,66 @@ EA text35 CODE >602:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\do
 287A text25 CODE >32:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
 2880 text25 CODE >33:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
 2888 text25 CODE >34:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
-2AB8 text24 CODE >46:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2AB8 text24 CODE >47:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2ABA text24 CODE >48:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2ABC text24 CODE >49:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2ABE text24 CODE >50:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2AC0 text24 CODE >51:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2AC2 text24 CODE >52:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2AC4 text24 CODE >53:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2AC6 text24 CODE >54:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2AC8 text24 CODE >55:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2ACA text24 CODE >56:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2ACC text24 CODE >57:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2ACE text24 CODE >58:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2AD0 text24 CODE >59:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2AD2 text24 CODE >60:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2AD4 text24 CODE >61:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2AD6 text24 CODE >62:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2AD8 text24 CODE >63:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2ADA text24 CODE >64:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2ADC text24 CODE >65:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2ADE text24 CODE >66:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2B74 text23 CODE >36:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-2B74 text23 CODE >37:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-2B76 text23 CODE >38:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-2B78 text23 CODE >39:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-2B7A text23 CODE >40:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-2B7C text23 CODE >41:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-2B7E text23 CODE >43:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-2B80 text23 CODE >44:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-2B82 text23 CODE >45:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-2B84 text23 CODE >46:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-2B86 text23 CODE >47:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-2B88 text23 CODE >48:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-2B8A text23 CODE >49:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-2B8C text23 CODE >50:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-2B90 text23 CODE >51:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-2B94 text23 CODE >52:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/UART.c
-2C18 text22 CODE >11:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2C18 text22 CODE >13:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2C1A text22 CODE >14:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2C1C text22 CODE >15:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2C1E text22 CODE >16:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2C08 text21 CODE >24:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2C08 text21 CODE >27:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2C0A text21 CODE >28:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2C0C text21 CODE >29:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2C0E text21 CODE >30:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2C10 text21 CODE >31:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2C12 text21 CODE >32:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2C14 text21 CODE >33:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2C16 text21 CODE >34:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2BF8 text20 CODE >35:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2BF8 text20 CODE >37:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2BFA text20 CODE >38:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2BFC text20 CODE >39:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2BFE text20 CODE >40:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2C00 text20 CODE >41:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2C02 text20 CODE >42:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2C04 text20 CODE >43:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
-2C06 text20 CODE >44:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/initial.c
+2AB8 text24 CODE >46:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2AB8 text24 CODE >47:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2ABA text24 CODE >48:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2ABC text24 CODE >49:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2ABE text24 CODE >50:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2AC0 text24 CODE >51:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2AC2 text24 CODE >52:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2AC4 text24 CODE >53:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2AC6 text24 CODE >54:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2AC8 text24 CODE >55:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2ACA text24 CODE >56:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2ACC text24 CODE >57:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2ACE text24 CODE >58:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2AD0 text24 CODE >59:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2AD2 text24 CODE >60:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2AD4 text24 CODE >61:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2AD6 text24 CODE >62:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2AD8 text24 CODE >63:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2ADA text24 CODE >64:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2ADC text24 CODE >65:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2ADE text24 CODE >66:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2B74 text23 CODE >36:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+2B74 text23 CODE >37:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+2B76 text23 CODE >38:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+2B78 text23 CODE >39:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+2B7A text23 CODE >40:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+2B7C text23 CODE >41:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+2B7E text23 CODE >43:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+2B80 text23 CODE >44:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+2B82 text23 CODE >45:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+2B84 text23 CODE >46:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+2B86 text23 CODE >47:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+2B88 text23 CODE >48:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+2B8A text23 CODE >49:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+2B8C text23 CODE >50:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+2B90 text23 CODE >51:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+2B94 text23 CODE >52:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/UART.c
+2C18 text22 CODE >11:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2C18 text22 CODE >13:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2C1A text22 CODE >14:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2C1C text22 CODE >15:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2C1E text22 CODE >16:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2C08 text21 CODE >24:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2C08 text21 CODE >27:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2C0A text21 CODE >28:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2C0C text21 CODE >29:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2C0E text21 CODE >30:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2C10 text21 CODE >31:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2C12 text21 CODE >32:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2C14 text21 CODE >33:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2C16 text21 CODE >34:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2BF8 text20 CODE >35:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2BF8 text20 CODE >37:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2BFA text20 CODE >38:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2BFC text20 CODE >39:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2BFE text20 CODE >40:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2C00 text20 CODE >41:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2C02 text20 CODE >42:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2C04 text20 CODE >43:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
+2C06 text20 CODE >44:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/initial.c
 24EC text19 CODE >62:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\float.c
 24EC text19 CODE >64:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\float.c
 24FC text19 CODE >65:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\float.c
@@ -627,126 +627,126 @@ DAC text18 CODE >146:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\f
 2B5A text15 CODE >18:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\ftneg.c
 2B66 text15 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\ftneg.c
 2B72 text15 CODE >20:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\ftneg.c
-1BF4 text14 CODE >8:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1BF4 text14 CODE >11:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1C00 text14 CODE >12:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1C0C text14 CODE >15:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1C18 text14 CODE >24:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1C24 text14 CODE >25:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1C4C text14 CODE >30:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1C90 text14 CODE >31:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1D0C text14 CODE >32:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1D60 text14 CODE >33:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1D6C text14 CODE >34:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1D78 text14 CODE >35:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1A62 text13 CODE >37:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1A62 text13 CODE >40:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1A6E text13 CODE >41:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1A7A text13 CODE >44:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1A86 text13 CODE >53:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1A92 text13 CODE >54:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1ABA text13 CODE >59:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1AFE text13 CODE >60:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1B7A text13 CODE >61:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1BCE text13 CODE >62:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1BDA text13 CODE >63:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1BE6 text13 CODE >64:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-18D0 text12 CODE >66:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-18D0 text12 CODE >69:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-18DC text12 CODE >70:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-18E8 text12 CODE >73:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-18F4 text12 CODE >82:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1900 text12 CODE >83:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1928 text12 CODE >88:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-196C text12 CODE >89:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-19E8 text12 CODE >90:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1A3C text12 CODE >91:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1A48 text12 CODE >92:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1A54 text12 CODE >93:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-173E text11 CODE >95:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-173E text11 CODE >98:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-174A text11 CODE >99:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1756 text11 CODE >102:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1762 text11 CODE >111:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-176E text11 CODE >112:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1796 text11 CODE >117:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-17DA text11 CODE >118:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1856 text11 CODE >119:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-18AA text11 CODE >120:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-18B6 text11 CODE >121:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-18C2 text11 CODE >122:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-15AC text10 CODE >124:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-15AC text10 CODE >127:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-15B8 text10 CODE >128:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-15C4 text10 CODE >131:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-15D0 text10 CODE >140:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-15DC text10 CODE >141:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1604 text10 CODE >146:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1648 text10 CODE >147:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-16C4 text10 CODE >148:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1718 text10 CODE >149:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1724 text10 CODE >150:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1730 text10 CODE >151:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-141A text9 CODE >153:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-141A text9 CODE >156:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1426 text9 CODE >157:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1432 text9 CODE >160:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-143E text9 CODE >169:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-144A text9 CODE >170:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1472 text9 CODE >175:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-14B6 text9 CODE >176:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1532 text9 CODE >177:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1586 text9 CODE >178:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1592 text9 CODE >179:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-159E text9 CODE >180:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1288 text8 CODE >182:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1288 text8 CODE >185:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1294 text8 CODE >186:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-12A0 text8 CODE >189:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-12AC text8 CODE >198:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-12B8 text8 CODE >199:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-12E0 text8 CODE >204:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1324 text8 CODE >205:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-13A0 text8 CODE >206:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-13F4 text8 CODE >207:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1400 text8 CODE >208:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-140C text8 CODE >209:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-10F6 text7 CODE >211:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-10F6 text7 CODE >214:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1102 text7 CODE >215:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-110E text7 CODE >218:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-111A text7 CODE >227:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1126 text7 CODE >228:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-114E text7 CODE >233:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1192 text7 CODE >234:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-120E text7 CODE >235:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1262 text7 CODE >236:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-126E text7 CODE >237:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-127A text7 CODE >238:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-F64 text6 CODE >240:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-F64 text6 CODE >243:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-F70 text6 CODE >244:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-F7C text6 CODE >247:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-F88 text6 CODE >256:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-F94 text6 CODE >257:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-FBC text6 CODE >262:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1000 text6 CODE >263:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-107C text6 CODE >264:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-10D0 text6 CODE >265:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-10DC text6 CODE >266:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-10E8 text6 CODE >267:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-DD2 text5 CODE >269:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-DD2 text5 CODE >272:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-DDE text5 CODE >273:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-DEA text5 CODE >276:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-DF6 text5 CODE >285:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-E02 text5 CODE >286:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-E2A text5 CODE >291:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-E6E text5 CODE >292:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-EEA text5 CODE >293:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-F3E text5 CODE >294:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-F4A text5 CODE >295:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-F56 text5 CODE >296:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
+1BF4 text14 CODE >8:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1BF4 text14 CODE >11:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1C00 text14 CODE >12:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1C0C text14 CODE >15:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1C18 text14 CODE >24:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1C24 text14 CODE >25:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1C4C text14 CODE >30:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1C90 text14 CODE >31:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1D0C text14 CODE >32:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1D60 text14 CODE >33:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1D6C text14 CODE >34:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1D78 text14 CODE >35:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1A62 text13 CODE >37:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1A62 text13 CODE >40:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1A6E text13 CODE >41:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1A7A text13 CODE >44:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1A86 text13 CODE >53:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1A92 text13 CODE >54:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1ABA text13 CODE >59:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1AFE text13 CODE >60:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1B7A text13 CODE >61:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1BCE text13 CODE >62:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1BDA text13 CODE >63:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1BE6 text13 CODE >64:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+18D0 text12 CODE >66:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+18D0 text12 CODE >69:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+18DC text12 CODE >70:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+18E8 text12 CODE >73:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+18F4 text12 CODE >82:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1900 text12 CODE >83:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1928 text12 CODE >88:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+196C text12 CODE >89:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+19E8 text12 CODE >90:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1A3C text12 CODE >91:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1A48 text12 CODE >92:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1A54 text12 CODE >93:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+173E text11 CODE >95:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+173E text11 CODE >98:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+174A text11 CODE >99:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1756 text11 CODE >102:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1762 text11 CODE >111:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+176E text11 CODE >112:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1796 text11 CODE >117:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+17DA text11 CODE >118:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1856 text11 CODE >119:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+18AA text11 CODE >120:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+18B6 text11 CODE >121:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+18C2 text11 CODE >122:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+15AC text10 CODE >124:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+15AC text10 CODE >127:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+15B8 text10 CODE >128:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+15C4 text10 CODE >131:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+15D0 text10 CODE >140:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+15DC text10 CODE >141:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1604 text10 CODE >146:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1648 text10 CODE >147:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+16C4 text10 CODE >148:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1718 text10 CODE >149:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1724 text10 CODE >150:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1730 text10 CODE >151:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+141A text9 CODE >153:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+141A text9 CODE >156:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1426 text9 CODE >157:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1432 text9 CODE >160:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+143E text9 CODE >169:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+144A text9 CODE >170:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1472 text9 CODE >175:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+14B6 text9 CODE >176:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1532 text9 CODE >177:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1586 text9 CODE >178:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1592 text9 CODE >179:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+159E text9 CODE >180:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1288 text8 CODE >182:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1288 text8 CODE >185:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1294 text8 CODE >186:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+12A0 text8 CODE >189:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+12AC text8 CODE >198:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+12B8 text8 CODE >199:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+12E0 text8 CODE >204:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1324 text8 CODE >205:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+13A0 text8 CODE >206:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+13F4 text8 CODE >207:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1400 text8 CODE >208:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+140C text8 CODE >209:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+10F6 text7 CODE >211:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+10F6 text7 CODE >214:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1102 text7 CODE >215:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+110E text7 CODE >218:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+111A text7 CODE >227:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1126 text7 CODE >228:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+114E text7 CODE >233:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1192 text7 CODE >234:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+120E text7 CODE >235:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1262 text7 CODE >236:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+126E text7 CODE >237:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+127A text7 CODE >238:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+F64 text6 CODE >240:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+F64 text6 CODE >243:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+F70 text6 CODE >244:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+F7C text6 CODE >247:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+F88 text6 CODE >256:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+F94 text6 CODE >257:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+FBC text6 CODE >262:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1000 text6 CODE >263:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+107C text6 CODE >264:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+10D0 text6 CODE >265:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+10DC text6 CODE >266:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+10E8 text6 CODE >267:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+DD2 text5 CODE >269:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+DD2 text5 CODE >272:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+DDE text5 CODE >273:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+DEA text5 CODE >276:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+DF6 text5 CODE >285:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+E02 text5 CODE >286:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+E2A text5 CODE >291:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+E6E text5 CODE >292:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+EEA text5 CODE >293:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+F3E text5 CODE >294:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+F4A text5 CODE >295:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+F56 text5 CODE >296:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
 2626 text4 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awdiv.c
 2626 text4 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awdiv.c
 262A text4 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awdiv.c
@@ -795,89 +795,89 @@ F56 text5 CODE >296:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex
 1EA2 text3 CODE >72:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\fttol.c
 2B2C text2 CODE >28:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwtoft.c
 2B2C text2 CODE >30:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwtoft.c
-8B4 text1 CODE >374:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-8B4 text1 CODE >379:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-8B6 text1 CODE >381:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-8C6 text1 CODE >382:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-90C text1 CODE >383:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-910 text1 CODE >384:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-912 text1 CODE >386:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-958 text1 CODE >391:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-968 text1 CODE >392:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-974 text1 CODE >393:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-9BA text1 CODE >398:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-A00 text1 CODE >403:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-A10 text1 CODE >404:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-A56 text1 CODE >408:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-A9C text1 CODE >413:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-AAC text1 CODE >414:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-AF2 text1 CODE >418:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-B38 text1 CODE >423:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-B48 text1 CODE >424:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-B8E text1 CODE >428:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-BD8 text1 CODE >429:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-BDA text1 CODE >379:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-C20 text1 CODE >437:C:\Users\Keng\Desktop\college\pic\wifi\client.X\harwave/flex.c
-1EB4 text0 CODE >150:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-1EB4 text0 CODE >152:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-1EB8 text0 CODE >153:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-1EBC text0 CODE >154:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-1EC0 text0 CODE >155:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-1EC4 text0 CODE >156:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-1EC8 text0 CODE >157:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-1EE2 text0 CODE >158:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-1EE6 text0 CODE >159:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-1EEA text0 CODE >160:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-1EEC text0 CODE >161:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-1EF0 text0 CODE >165:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-1EF8 text0 CODE >166:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-1EFA text0 CODE >167:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-1EFC text0 CODE >168:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-1EFE text0 CODE >179:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-1F30 text0 CODE >180:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-1F36 text0 CODE >181:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-1F3E text0 CODE >182:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-1F72 text0 CODE >183:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-1F7E text0 CODE >184:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-1F84 text0 CODE >185:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-1F9A text0 CODE >186:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-1FBC text0 CODE >188:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-1FC0 text0 CODE >177:C:\Users\Keng\Desktop\college\pic\wifi\client.X\main.c
-2978 cinit CODE >2312:C:\Users\Keng\AppData\Local\Temp\s1o4.
-2978 cinit CODE >2314:C:\Users\Keng\AppData\Local\Temp\s1o4.
-2978 cinit CODE >2317:C:\Users\Keng\AppData\Local\Temp\s1o4.
-2978 cinit CODE >2431:C:\Users\Keng\AppData\Local\Temp\s1o4.
-297C cinit CODE >2432:C:\Users\Keng\AppData\Local\Temp\s1o4.
-297E cinit CODE >2433:C:\Users\Keng\AppData\Local\Temp\s1o4.
-297E cinit CODE >2434:C:\Users\Keng\AppData\Local\Temp\s1o4.
-2980 cinit CODE >2435:C:\Users\Keng\AppData\Local\Temp\s1o4.
-2982 cinit CODE >2436:C:\Users\Keng\AppData\Local\Temp\s1o4.
-2984 cinit CODE >2439:C:\Users\Keng\AppData\Local\Temp\s1o4.
-2988 cinit CODE >2440:C:\Users\Keng\AppData\Local\Temp\s1o4.
-298A cinit CODE >2441:C:\Users\Keng\AppData\Local\Temp\s1o4.
-298A cinit CODE >2442:C:\Users\Keng\AppData\Local\Temp\s1o4.
-298C cinit CODE >2443:C:\Users\Keng\AppData\Local\Temp\s1o4.
-298E cinit CODE >2444:C:\Users\Keng\AppData\Local\Temp\s1o4.
-2990 cinit CODE >2447:C:\Users\Keng\AppData\Local\Temp\s1o4.
-2992 cinit CODE >2448:C:\Users\Keng\AppData\Local\Temp\s1o4.
-2994 cinit CODE >2449:C:\Users\Keng\AppData\Local\Temp\s1o4.
-2996 cinit CODE >2450:C:\Users\Keng\AppData\Local\Temp\s1o4.
-2998 cinit CODE >2451:C:\Users\Keng\AppData\Local\Temp\s1o4.
-299A cinit CODE >2452:C:\Users\Keng\AppData\Local\Temp\s1o4.
-299C cinit CODE >2453:C:\Users\Keng\AppData\Local\Temp\s1o4.
-299E cinit CODE >2456:C:\Users\Keng\AppData\Local\Temp\s1o4.
-29A2 cinit CODE >2457:C:\Users\Keng\AppData\Local\Temp\s1o4.
-29A4 cinit CODE >2458:C:\Users\Keng\AppData\Local\Temp\s1o4.
-29A4 cinit CODE >2459:C:\Users\Keng\AppData\Local\Temp\s1o4.
-29A6 cinit CODE >2460:C:\Users\Keng\AppData\Local\Temp\s1o4.
-29A8 cinit CODE >2461:C:\Users\Keng\AppData\Local\Temp\s1o4.
-29AA cinit CODE >2467:C:\Users\Keng\AppData\Local\Temp\s1o4.
-29AA cinit CODE >2469:C:\Users\Keng\AppData\Local\Temp\s1o4.
-29AC cinit CODE >2470:C:\Users\Keng\AppData\Local\Temp\s1o4.
-29AE cinit CODE >2472:C:\Users\Keng\AppData\Local\Temp\s1o4.
-29B0 cinit CODE >2473:C:\Users\Keng\AppData\Local\Temp\s1o4.
-29B2 cinit CODE >2474:C:\Users\Keng\AppData\Local\Temp\s1o4.
-29B4 cinit CODE >2475:C:\Users\Keng\AppData\Local\Temp\s1o4.
+8B4 text1 CODE >374:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+8B4 text1 CODE >379:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+8B6 text1 CODE >381:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+8C6 text1 CODE >382:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+90C text1 CODE >383:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+910 text1 CODE >384:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+912 text1 CODE >386:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+958 text1 CODE >391:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+968 text1 CODE >392:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+974 text1 CODE >393:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+9BA text1 CODE >398:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+A00 text1 CODE >403:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+A10 text1 CODE >404:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+A56 text1 CODE >408:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+A9C text1 CODE >413:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+AAC text1 CODE >414:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+AF2 text1 CODE >418:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+B38 text1 CODE >423:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+B48 text1 CODE >424:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+B8E text1 CODE >428:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+BD8 text1 CODE >429:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+BDA text1 CODE >379:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+C20 text1 CODE >437:C:\Users\Keng\Desktop\college\Independent-Study\client.X\harwave/flex.c
+1EB4 text0 CODE >150:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+1EB4 text0 CODE >152:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+1EB8 text0 CODE >153:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+1EBC text0 CODE >154:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+1EC0 text0 CODE >155:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+1EC4 text0 CODE >156:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+1EC8 text0 CODE >157:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+1EE2 text0 CODE >158:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+1EE6 text0 CODE >159:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+1EEA text0 CODE >160:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+1EEC text0 CODE >161:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+1EF0 text0 CODE >165:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+1EF8 text0 CODE >166:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+1EFA text0 CODE >167:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+1EFC text0 CODE >168:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+1EFE text0 CODE >179:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+1F30 text0 CODE >180:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+1F36 text0 CODE >181:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+1F3E text0 CODE >182:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+1F72 text0 CODE >183:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+1F7E text0 CODE >184:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+1F84 text0 CODE >185:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+1F9A text0 CODE >186:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+1FBC text0 CODE >188:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+1FC0 text0 CODE >177:C:\Users\Keng\Desktop\college\Independent-Study\client.X\main.c
+2978 cinit CODE >2312:C:\Users\Keng\AppData\Local\Temp\s8hc.
+2978 cinit CODE >2314:C:\Users\Keng\AppData\Local\Temp\s8hc.
+2978 cinit CODE >2317:C:\Users\Keng\AppData\Local\Temp\s8hc.
+2978 cinit CODE >2431:C:\Users\Keng\AppData\Local\Temp\s8hc.
+297C cinit CODE >2432:C:\Users\Keng\AppData\Local\Temp\s8hc.
+297E cinit CODE >2433:C:\Users\Keng\AppData\Local\Temp\s8hc.
+297E cinit CODE >2434:C:\Users\Keng\AppData\Local\Temp\s8hc.
+2980 cinit CODE >2435:C:\Users\Keng\AppData\Local\Temp\s8hc.
+2982 cinit CODE >2436:C:\Users\Keng\AppData\Local\Temp\s8hc.
+2984 cinit CODE >2439:C:\Users\Keng\AppData\Local\Temp\s8hc.
+2988 cinit CODE >2440:C:\Users\Keng\AppData\Local\Temp\s8hc.
+298A cinit CODE >2441:C:\Users\Keng\AppData\Local\Temp\s8hc.
+298A cinit CODE >2442:C:\Users\Keng\AppData\Local\Temp\s8hc.
+298C cinit CODE >2443:C:\Users\Keng\AppData\Local\Temp\s8hc.
+298E cinit CODE >2444:C:\Users\Keng\AppData\Local\Temp\s8hc.
+2990 cinit CODE >2447:C:\Users\Keng\AppData\Local\Temp\s8hc.
+2992 cinit CODE >2448:C:\Users\Keng\AppData\Local\Temp\s8hc.
+2994 cinit CODE >2449:C:\Users\Keng\AppData\Local\Temp\s8hc.
+2996 cinit CODE >2450:C:\Users\Keng\AppData\Local\Temp\s8hc.
+2998 cinit CODE >2451:C:\Users\Keng\AppData\Local\Temp\s8hc.
+299A cinit CODE >2452:C:\Users\Keng\AppData\Local\Temp\s8hc.
+299C cinit CODE >2453:C:\Users\Keng\AppData\Local\Temp\s8hc.
+299E cinit CODE >2456:C:\Users\Keng\AppData\Local\Temp\s8hc.
+29A2 cinit CODE >2457:C:\Users\Keng\AppData\Local\Temp\s8hc.
+29A4 cinit CODE >2458:C:\Users\Keng\AppData\Local\Temp\s8hc.
+29A4 cinit CODE >2459:C:\Users\Keng\AppData\Local\Temp\s8hc.
+29A6 cinit CODE >2460:C:\Users\Keng\AppData\Local\Temp\s8hc.
+29A8 cinit CODE >2461:C:\Users\Keng\AppData\Local\Temp\s8hc.
+29AA cinit CODE >2467:C:\Users\Keng\AppData\Local\Temp\s8hc.
+29AA cinit CODE >2469:C:\Users\Keng\AppData\Local\Temp\s8hc.
+29AC cinit CODE >2470:C:\Users\Keng\AppData\Local\Temp\s8hc.
+29AE cinit CODE >2472:C:\Users\Keng\AppData\Local\Temp\s8hc.
+29B0 cinit CODE >2473:C:\Users\Keng\AppData\Local\Temp\s8hc.
+29B2 cinit CODE >2474:C:\Users\Keng\AppData\Local\Temp\s8hc.
+29B4 cinit CODE >2475:C:\Users\Keng\AppData\Local\Temp\s8hc.
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -914,7 +914,7 @@ ___ftdiv@exp 33 0 COMRAM 1 cstackCOMRAM dist/default/production\client.X.product
 _KalmanFilter_7$2190 47 0 COMRAM 1 cstackCOMRAM dist/default/production\client.X.production.obj
 __Hibigdata 0 0 CODE 0 ibigdata dist/default/production\client.X.production.obj
 __end_of_ESP8266_Server 237C 0 CODE 0 text27 dist/default/production\client.X.production.obj
-__mediumconst 7DFA 0 MEDIUMCONST 0 mediumconst C:\Users\Keng\AppData\Local\Temp\s1o4.obj
+__mediumconst 7DFA 0 MEDIUMCONST 0 mediumconst C:\Users\Keng\AppData\Local\Temp\s8hc.obj
 __Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\client.X.production.obj
 _KalmanFilter_8$2191 47 0 COMRAM 1 cstackCOMRAM dist/default/production\client.X.production.obj
 __CFG_MCLRE$ON 0 0 ABS 0 - dist/default/production\client.X.production.obj
@@ -933,7 +933,7 @@ _LATD F8C 0 ABS 0 - dist/default/production\client.X.production.obj
 _TRMT 7D61 0 ABS 0 - dist/default/production\client.X.production.obj
 _TXIF 7CF4 0 ABS 0 - dist/default/production\client.X.production.obj
 _UART 8 0 CODE 0 intcode dist/default/production\client.X.production.obj
-___sp 0 0 STACK 2 stack C:\Users\Keng\AppData\Local\Temp\s1o4.obj
+___sp 0 0 STACK 2 stack C:\Users\Keng\AppData\Local\Temp\s8hc.obj
 _main 1EB4 0 CODE 0 text0 dist/default/production\client.X.production.obj
 _time 67 0 COMRAM 1 bssCOMRAM dist/default/production\client.X.production.obj
 btemp 6E 0 COMRAM 1 temp dist/default/production\client.X.production.obj
@@ -942,7 +942,7 @@ __size_of_ESP8266_Cmd 0 0 ABS 0 - dist/default/production\client.X.production.ob
 __size_of_ESP8266_Rst 0 0 ABS 0 - dist/default/production\client.X.production.obj
 ___ftadd@f1 1A 0 COMRAM 1 cstackCOMRAM dist/default/production\client.X.production.obj
 ___ftadd@f2 1D 0 COMRAM 1 cstackCOMRAM dist/default/production\client.X.production.obj
-start E 0 CODE 0 init C:\Users\Keng\AppData\Local\Temp\s1o4.obj
+start E 0 CODE 0 init C:\Users\Keng\AppData\Local\Temp\s8hc.obj
 __size_of___awdiv 0 0 ABS 0 - dist/default/production\client.X.production.obj
 __size_of___awmod 0 0 ABS 0 - dist/default/production\client.X.production.obj
 __size_of___ftadd 0 0 ABS 0 - dist/default/production\client.X.production.obj
@@ -989,11 +989,11 @@ KalmanFilter_5@p_last_5 192 0 BANK1 1 bssBANK1 dist/default/production\client.X.
 _sprintf$1533 2D 0 COMRAM 1 cstackCOMRAM dist/default/production\client.X.production.obj
 _sprintf$1534 2F 0 COMRAM 1 cstackCOMRAM dist/default/production\client.X.production.obj
 _sprintf$1540 31 0 COMRAM 1 cstackCOMRAM dist/default/production\client.X.production.obj
-__accesstop 80 0 ABS 0 - C:\Users\Keng\AppData\Local\Temp\s1o4.obj
-intlevel0 0 0 CODE 0 text C:\Users\Keng\AppData\Local\Temp\s1o4.obj
-intlevel1 0 0 CODE 0 text C:\Users\Keng\AppData\Local\Temp\s1o4.obj
-intlevel2 0 0 CODE 0 text C:\Users\Keng\AppData\Local\Temp\s1o4.obj
-intlevel3 0 0 CODE 0 text C:\Users\Keng\AppData\Local\Temp\s1o4.obj
+__accesstop 80 0 ABS 0 - C:\Users\Keng\AppData\Local\Temp\s8hc.obj
+intlevel0 0 0 CODE 0 text C:\Users\Keng\AppData\Local\Temp\s8hc.obj
+intlevel1 0 0 CODE 0 text C:\Users\Keng\AppData\Local\Temp\s8hc.obj
+intlevel2 0 0 CODE 0 text C:\Users\Keng\AppData\Local\Temp\s8hc.obj
+intlevel3 0 0 CODE 0 text C:\Users\Keng\AppData\Local\Temp\s8hc.obj
 __LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\client.X.production.obj
 KalmanFilter_6@p_last_6 18C 0 BANK1 1 bssBANK1 dist/default/production\client.X.production.obj
 _OSCCONbits FD3 0 ABS 0 - dist/default/production\client.X.production.obj
@@ -1025,8 +1025,8 @@ _ADRESH FC4 0 ABS 0 - dist/default/production\client.X.production.obj
 _ADRESL FC3 0 ABS 0 - dist/default/production\client.X.production.obj
 ___awdiv@dividend 12 0 COMRAM 1 cstackCOMRAM dist/default/production\client.X.production.obj
 _Delay10KTCYx 2BD0 0 CODE 0 text46 dist/default/production\client.X.production.obj
-___inthi_sp 0 0 STACK 2 stack C:\Users\Keng\AppData\Local\Temp\s1o4.obj
-___intlo_sp 0 0 STACK 2 stack C:\Users\Keng\AppData\Local\Temp\s1o4.obj
+___inthi_sp 0 0 STACK 2 stack C:\Users\Keng\AppData\Local\Temp\s8hc.obj
+___intlo_sp 0 0 STACK 2 stack C:\Users\Keng\AppData\Local\Temp\s8hc.obj
 KalmanFilter_0@Q 41 0 COMRAM 1 cstackCOMRAM dist/default/production\client.X.production.obj
 KalmanFilter_0@R 3E 0 COMRAM 1 cstackCOMRAM dist/default/production\client.X.production.obj
 KalmanFilter_1@Q 41 0 COMRAM 1 cstackCOMRAM dist/default/production\client.X.production.obj
@@ -1169,7 +1169,7 @@ __Htext9 0 0 ABS 0 text9 dist/default/production\client.X.production.obj
 ___lwdiv@counter 16 0 COMRAM 1 cstackCOMRAM dist/default/production\client.X.production.obj
 __Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\client.X.production.obj
 __Hbigram 0 0 ABS 0 bigram dist/default/production\client.X.production.obj
-__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\Keng\AppData\Local\Temp\s1o4.obj
+__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\Keng\AppData\Local\Temp\s8hc.obj
 __end_of_sprintf 8B4 0 CODE 0 text35 dist/default/production\client.X.production.obj
 KalmanFilter_0@x_last_0 62 0 COMRAM 1 bssCOMRAM dist/default/production\client.X.production.obj
 __Hcomram 0 0 ABS 0 comram dist/default/production\client.X.production.obj
@@ -1417,8 +1417,8 @@ __end_of_GPIO_initial 2BF8 0 CODE 0 text26 dist/default/production\client.X.prod
 __size_of_ESP8266_AT_Test 0 0 ABS 0 - dist/default/production\client.X.production.obj
 _timer_0_initial 2C08 0 CODE 0 text21 dist/default/production\client.X.production.obj
 ___lwtoft@c 1A 0 COMRAM 1 cstackCOMRAM dist/default/production\client.X.production.obj
-stackhi 5FF 0 ABS 0 - C:\Users\Keng\AppData\Local\Temp\s1o4.obj
-stacklo 298 0 ABS 0 - C:\Users\Keng\AppData\Local\Temp\s1o4.obj
+stackhi 5FF 0 ABS 0 - C:\Users\Keng\AppData\Local\Temp\s8hc.obj
+stacklo 298 0 ABS 0 - C:\Users\Keng\AppData\Local\Temp\s8hc.obj
 __Lintcode 8 0 CODE 0 intcode dist/default/production\client.X.production.obj
 __Lintret 0 0 ABS 0 intret dist/default/production\client.X.production.obj
 strstr@s1 21 0 COMRAM 1 cstackCOMRAM dist/default/production\client.X.production.obj
@@ -1531,7 +1531,7 @@ __Ltext45 0 0 ABS 0 text45 dist/default/production\client.X.production.obj
 __Ltext46 0 0 ABS 0 text46 dist/default/production\client.X.production.obj
 __Ltext47 0 0 ABS 0 text47 dist/default/production\client.X.production.obj
 _bounce_time 69 0 COMRAM 1 bssCOMRAM dist/default/production\client.X.production.obj
-__ramtop 600 0 RAM 0 ramtop C:\Users\Keng\AppData\Local\Temp\s1o4.obj
+__ramtop 600 0 RAM 0 ramtop C:\Users\Keng\AppData\Local\Temp\s8hc.obj
 _sprintf 12 0 CODE 0 text35 dist/default/production\client.X.production.obj
 __end_of_ESP8266_Cmd 243C 0 CODE 0 text40 dist/default/production\client.X.production.obj
 __end_of_ESP8266_Rst 2B06 0 CODE 0 text28 dist/default/production\client.X.production.obj

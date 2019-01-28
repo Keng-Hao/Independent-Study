@@ -52,7 +52,7 @@ u8 PCA9685_readOneByte(u16 addr)
 //24C512 敺??雿蔭撖思???蝭
 //addr  :??雿蔭?啣?0~65535   
 //data  :撖怠?豢?
-void PCA9685_writeOneByte(u16 addr,u8 data)
+void PCA9685_writeOneByte(u8 addr,u8 data)
 {
     IIC_Start();
     IIC_Send_Byte(PCA9685_SLAVE_ADDR);

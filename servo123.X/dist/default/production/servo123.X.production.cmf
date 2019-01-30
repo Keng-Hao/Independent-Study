@@ -12,70 +12,73 @@
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
 $dist/default/production\servo123.X.production.obj
-cinit CODE 0 1430 1430 52 1
-intcode_body CODE 0 D4A D4A F8 1
-text0 CODE 0 10F4 10F4 8C 1
-text1 CODE 0 1974 1974 10 1
-text2 CODE 0 191A 191A 18 1
-text3 CODE 0 19B4 19B4 8 1
-text4 CODE 0 1750 1750 2C 1
-text5 CODE 0 184A 184A 24 1
-text6 CODE 0 19C4 19C4 2 1
-text7 CODE 0 186E 186E 24 1
-text8 CODE 0 18DA 18DA 22 1
-text9 CODE 0 13DC 13DC 54 1
-text10 CODE 0 17D4 17D4 2A 1
-text11 CODE 0 FCE FCE 96 1
-text12 CODE 0 1720 1720 30 1
-text13 CODE 0 19BC 19BC 8 1
-text14 CODE 0 19A2 19A2 A 1
-text15 CODE 0 1560 1560 3E 1
-text16 CODE 0 1616 1616 36 1
-text17 CODE 0 177C 177C 2C 1
-text18 CODE 0 1994 1994 E 1
-text19 CODE 0 F0A F0A C4 1
-text20 CODE 0 16EE 16EE 32 1
-text21 CODE 0 1180 1180 8C 1
-text22 CODE 0 17FE 17FE 26 1
-text23 CODE 0 C4E C4E FC 1
-text24 CODE 0 14D4 14D4 4A 1
-text25 CODE 0 12 12 A12 1
-text26 CODE 0 18FC 18FC 1E 1
-text27 CODE 0 1824 1824 26 1
-text28 CODE 0 151E 151E 42 1
-text29 CODE 0 1482 1482 52 1
-text30 CODE 0 17A8 17A8 2C 1
-text31 CODE 0 E42 E42 C8 1
-text32 CODE 0 1312 1312 72 1
-text33 CODE 0 1064 1064 90 1
-text34 CODE 0 120C 120C 84 1
-text35 CODE 0 1290 1290 82 1
-text36 CODE 0 159E 159E 3E 1
-text37 CODE 0 164C 164C 36 1
-text38 CODE 0 B48 B48 106 1
-text39 CODE 0 A24 A24 124 1
-text40 CODE 0 1682 1682 36 1
-text41 CODE 0 16B8 16B8 36 1
-text42 CODE 0 1932 1932 16 1
-text43 CODE 0 1948 1948 16 1
-text44 CODE 0 15DC 15DC 3A 1
-text45 CODE 0 1892 1892 24 1
-text46 CODE 0 18B6 18B6 24 1
-text47 CODE 0 1384 1384 58 1
-text48 CODE 0 195E 195E 16 1
-text49 CODE 0 1984 1984 10 1
-idataCOMRAM CODE 0 19AC 19AC 8 1
-cstackCOMRAM COMRAM 1 1 1 3B 1
-cstackBANK0 BANK0 1 80 80 15 1
+cinit CODE 0 12EC 12EC 5E 1
+intcode_body CODE 0 C04 C04 F8 1
+text0 CODE 0 8B4 8B4 130 1
+text1 CODE 0 18C4 18C4 10 1
+text2 CODE 0 186A 186A 18 1
+text3 CODE 0 1670 1670 2E 1
+text4 CODE 0 1904 1904 8 1
+text5 CODE 0 16CC 16CC 2C 1
+text6 CODE 0 179A 179A 24 1
+text7 CODE 0 1914 1914 2 1
+text8 CODE 0 17BE 17BE 24 1
+text9 CODE 0 182A 182A 22 1
+text10 CODE 0 11FE 11FE 7C 1
+text11 CODE 0 1724 1724 2A 1
+text12 CODE 0 F46 F46 96 1
+text13 CODE 0 1640 1640 30 1
+text14 CODE 0 190C 190C 8 1
+text15 CODE 0 18F2 18F2 A 1
+text16 CODE 0 1480 1480 3E 1
+text17 CODE 0 1536 1536 36 1
+text18 CODE 0 169E 169E 2E 1
+text19 CODE 0 18E4 18E4 E 1
+text20 CODE 0 DC4 DC4 C4 1
+text21 CODE 0 160E 160E 32 1
+text22 CODE 0 106C 106C 8C 1
+text23 CODE 0 174E 174E 26 1
+text24 CODE 0 B08 B08 FC 1
+text25 CODE 0 13F4 13F4 4A 1
+text26 CODE 0 12 12 8A2 1
+text27 CODE 0 184C 184C 1E 1
+text28 CODE 0 1774 1774 26 1
+text29 CODE 0 143E 143E 42 1
+text30 CODE 0 13A2 13A2 52 1
+text31 CODE 0 16F8 16F8 2C 1
+text32 CODE 0 CFC CFC C8 1
+text33 CODE 0 127A 127A 72 1
+text34 CODE 0 FDC FDC 90 1
+text35 CODE 0 10F8 10F8 84 1
+text36 CODE 0 117C 117C 82 1
+text37 CODE 0 14BE 14BE 3E 1
+text38 CODE 0 156C 156C 36 1
+text39 CODE 0 E88 E88 BE 1
+text40 CODE 0 9E4 9E4 124 1
+text41 CODE 0 15A2 15A2 36 1
+text42 CODE 0 15D8 15D8 36 1
+text43 CODE 0 1882 1882 16 1
+text44 CODE 0 1898 1898 16 1
+text45 CODE 0 14FC 14FC 3A 1
+text46 CODE 0 17E2 17E2 24 1
+text47 CODE 0 1806 1806 24 1
+text48 CODE 0 134A 134A 58 1
+text49 CODE 0 18AE 18AE 16 1
+text50 CODE 0 18D4 18D4 10 1
+idataCOMRAM CODE 0 18FC 18FC 8 1
+cstackCOMRAM COMRAM 1 1 1 47 1
+cstackBANK0 BANK0 1 80 80 78 1
 cstackBANK1 BANK1 1 100 100 DD 1
-temp COMRAM 1 6B 6B 1 1
+cstackBANK2 BANK2 1 2CE 2CE 1B 1
+temp COMRAM 1 59 59 1 1
+bssBANK1 BANK1 1 1DD 1DD 1E 1
 bssBANK2 BANK2 1 200 200 CE 1
 bssBANK3 BANK3 1 300 300 64 1
 intcode CODE 0 8 8 6 1
-dataCOMRAM COMRAM 1 63 63 8 1
-bssCOMRAM COMRAM 1 3C 3C 27 1
-mediumconst MEDIUMCONST 0 7484 7484 B7C 1
-$C:\Users\Keng\AppData\Local\Temp\sfdc.obj
+dataCOMRAM COMRAM 1 51 51 8 1
+bssCOMRAM COMRAM 1 48 48 9 1
+mediumconst MEDIUMCONST 0 7480 7480 B80 1
+$C:\Users\Keng\AppData\Local\Temp\s9g4.obj
 idloc IDLOC 0 200000 200000 8 1
 init CODE 0 E E 4 1
 reset_vec CODE 0 0 0 4 1
@@ -86,31 +89,31 @@ config CONFIG 0 300000 300000 E 1
 #    <class name> <range> <delta>
 # Addresses given in the range are in hexadecimal and units of delta.
 %UNUSED
-RAM 95-FF 1
-RAM 1DD-1FF 1
-RAM 2CE-2FF 1
+RAM F8-FF 1
+RAM 1FB-1FF 1
+RAM 2E9-2FF 1
 RAM 364-5FF 1
 SFR F80-FFF 1
-BANK0 95-FF 1
-BANK1 1DD-1FF 1
-BANK2 2CE-2FF 1
+BANK0 F8-FF 1
+BANK1 1FB-1FF 1
+BANK2 2E9-2FF 1
 BANK3 364-3FF 1
 BANK4 400-4FF 1
 BANK5 500-5FF 1
 CONST 4-7 1
-CONST 19C6-7483 1
+CONST 1916-747F 1
 STACK 364-5FF 1
-SMALLCONST 19C6-7483 1
+SMALLCONST 1916-747F 1
 CODE 4-7 1
-CODE 19C6-7483 1
-BIGRAM 6C-7F 1
-BIGRAM 95-FF 1
-BIGRAM 1DD-1FF 1
-BIGRAM 2CE-2FF 1
+CODE 1916-747F 1
+BIGRAM 5A-7F 1
+BIGRAM F8-FF 1
+BIGRAM 1FB-1FF 1
+BIGRAM 2E9-2FF 1
 BIGRAM 364-5FF 1
-COMRAM 6C-7F 1
+COMRAM 5A-7F 1
 EEDATA F00000-F000FF 1
-MEDIUMCONST 19C6-7483 1
+MEDIUMCONST 1916-747F 1
 # %LINETAB Section
 # This section enumerates the file/line to address mappings.
 # The beginning of the section is indicated by %LINETAB.
@@ -127,627 +130,644 @@ MEDIUMCONST 19C6-7483 1
 $dist/default/production\servo123.X.production.obj
 8 intcode CODE >13:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\pic18\d10tcyx.c
 8 intcode CODE >129:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
-D4A intcode_body CODE >129:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
-D84 intcode_body CODE >130:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
-D88 intcode_body CODE >132:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
-D8C intcode_body CODE >133:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
-D9A intcode_body CODE >134:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
-DD4 intcode_body CODE >137:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
-DF2 intcode_body CODE >138:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
-DF6 intcode_body CODE >140:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
-DF6 intcode_body CODE >141:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
-DF8 intcode_body CODE >142:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
-DF8 intcode_body CODE >144:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
-DFC intcode_body CODE >145:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
-E00 intcode_body CODE >146:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
-E04 intcode_body CODE >147:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
-E06 intcode_body CODE >149:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
-1984 text49 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\pic18\d10tcyx.c
-1986 text49 CODE >11:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\pic18\d10tcyx.c
-198E text49 CODE >12:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\pic18\d10tcyx.c
-195E text48 CODE >11:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/mydelay.c
-195E text48 CODE >14:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/mydelay.c
-1964 text48 CODE >15:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/mydelay.c
-196A text48 CODE >16:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/mydelay.c
-1384 text47 CODE >91:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-1386 text47 CODE >94:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-1388 text47 CODE >95:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-138A text47 CODE >96:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-1396 text47 CODE >98:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-13AC text47 CODE >99:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-13B0 text47 CODE >100:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-13BC text47 CODE >101:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-13BE text47 CODE >102:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-13CA text47 CODE >103:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-13CC text47 CODE >104:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-13D8 text47 CODE >96:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-18B6 text46 CODE >18:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-18B6 text46 CODE >20:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-18B8 text46 CODE >21:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-18BA text46 CODE >22:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-18BC text46 CODE >23:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-18C8 text46 CODE >24:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-18CA text46 CODE >25:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-18D6 text46 CODE >26:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-18D8 text46 CODE >27:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-1892 text45 CODE >29:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-1892 text45 CODE >31:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-1894 text45 CODE >32:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-1896 text45 CODE >33:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-1898 text45 CODE >34:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-18A4 text45 CODE >35:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-18A6 text45 CODE >36:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-18B2 text45 CODE >37:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-18B4 text45 CODE >39:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-15DC text44 CODE >43:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-15DC text44 CODE >45:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-15E0 text44 CODE >46:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-15E2 text44 CODE >47:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-15E4 text44 CODE >49:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-15F0 text44 CODE >50:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-15F2 text44 CODE >52:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-15FE text44 CODE >53:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-1600 text44 CODE >55:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-1602 text44 CODE >56:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-1608 text44 CODE >58:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-160C text44 CODE >59:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-160E text44 CODE >53:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-160E text44 CODE >61:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-1612 text44 CODE >62:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-1614 text44 CODE >64:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-1948 text43 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\pic18\d10ktcyx.c
-194A text43 CODE >11:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\pic18\d10ktcyx.c
-1958 text43 CODE >12:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\pic18\d10ktcyx.c
-1932 text42 CODE >3:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/mydelay.c
-1932 text42 CODE >6:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/mydelay.c
-1938 text42 CODE >7:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/mydelay.c
-193E text42 CODE >8:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/mydelay.c
-16B8 text41 CODE >6:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/PCA9685.c
-16BA text41 CODE >8:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/PCA9685.c
-16BE text41 CODE >9:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/PCA9685.c
-16C4 text41 CODE >10:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/PCA9685.c
-16C8 text41 CODE >11:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/PCA9685.c
-16CE text41 CODE >12:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/PCA9685.c
-16D2 text41 CODE >13:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/PCA9685.c
-16D8 text41 CODE >14:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/PCA9685.c
-16DC text41 CODE >15:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/PCA9685.c
-16E0 text41 CODE >16:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/PCA9685.c
-16EC text41 CODE >17:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/PCA9685.c
-1682 text40 CODE >7:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
-1682 text40 CODE >9:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
-1686 text40 CODE >10:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
-168A text40 CODE >11:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
-1694 text40 CODE >12:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
-169E text40 CODE >13:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
-16AA text40 CODE >14:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
-16B6 text40 CODE >15:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
-A24 text39 CODE >47:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
-A24 text39 CODE >48:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
-A26 text39 CODE >50:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
-A2E text39 CODE >51:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
-A40 text39 CODE >53:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
-A54 text39 CODE >54:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
-A56 text39 CODE >56:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
-A62 text39 CODE >57:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
-A74 text39 CODE >59:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
-A88 text39 CODE >60:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
-A8A text39 CODE >62:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
-A96 text39 CODE >63:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
-AA8 text39 CODE >65:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
-ABC text39 CODE >66:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
-ABE text39 CODE >68:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
-ACA text39 CODE >69:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
-ADC text39 CODE >71:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
-AF0 text39 CODE >72:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
-AF2 text39 CODE >74:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
-AFE text39 CODE >75:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
-B10 text39 CODE >77:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
-B24 text39 CODE >79:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
-B26 text39 CODE >48:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
-B48 text38 CODE >16:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
-B48 text38 CODE >19:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
-B5A text38 CODE >20:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
-B9A text38 CODE >28:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
-BAC text38 CODE >29:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
-BEC text38 CODE >37:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
-C04 text38 CODE >39:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
-C1C text38 CODE >41:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
-C34 text38 CODE >43:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
-C4C text38 CODE >45:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
-164C text37 CODE >4:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strchr.c
-164C text37 CODE >7:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strchr.c
-165C text37 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strchr.c
-1666 text37 CODE >9:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strchr.c
-1678 text37 CODE >10:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strchr.c
-159E text36 CODE >4:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strlen.c
-159E text36 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strlen.c
-15A6 text36 CODE >9:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strlen.c
-15A8 text36 CODE >10:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strlen.c
-15AC text36 CODE >9:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strlen.c
-15BE text36 CODE >12:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strlen.c
-1290 text35 CODE >4:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strncmp.c
-1290 text35 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strncmp.c
-1292 text35 CODE >7:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strncmp.c
-12BE text35 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strncmp.c
-12F0 text35 CODE >10:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strncmp.c
-12F4 text35 CODE >11:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strncmp.c
-12F8 text35 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strncmp.c
-1308 text35 CODE >13:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strncmp.c
-120C text34 CODE >4:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strstr.c
-120C text34 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strstr.c
-120E text34 CODE >7:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strstr.c
-123E text34 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strstr.c
-1248 text34 CODE >9:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strstr.c
-1270 text34 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strstr.c
-1286 text34 CODE >11:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strstr.c
-1064 text33 CODE >257:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-1064 text33 CODE >259:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-106C text33 CODE >260:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-107C text33 CODE >261:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-1096 text33 CODE >268:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-10A6 text33 CODE >269:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-10AA text33 CODE >270:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-10C6 text33 CODE >271:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-10E2 text33 CODE >272:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-10EA text33 CODE >275:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-1312 text32 CODE >73:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-1312 text32 CODE >74:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-1316 text32 CODE >78:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-131A text32 CODE >79:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-131E text32 CODE >80:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-134C text32 CODE >81:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-137E text32 CODE >82:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-E42 text31 CODE >86:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-E42 text31 CODE >88:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-E4A text31 CODE >89:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-E5A text31 CODE >93:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-E66 text31 CODE >96:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-E76 text31 CODE >97:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-E7A text31 CODE >99:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-E86 text31 CODE >106:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-E96 text31 CODE >107:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-ED2 text31 CODE >108:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-EDA text31 CODE >109:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-EF2 text31 CODE >111:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-17A8 text30 CODE >130:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-17A8 text30 CODE >132:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-1482 text29 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwdiv.c
-1482 text29 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwdiv.c
-148A text29 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwdiv.c
-1492 text29 CODE >16:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwdiv.c
-1496 text29 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwdiv.c
-1498 text29 CODE >18:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwdiv.c
-149E text29 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwdiv.c
-14A0 text29 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwdiv.c
-14A4 text29 CODE >22:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwdiv.c
-14AA text29 CODE >23:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwdiv.c
-14B6 text29 CODE >24:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwdiv.c
-14BE text29 CODE >25:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwdiv.c
-14C0 text29 CODE >27:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwdiv.c
-14C6 text29 CODE >28:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwdiv.c
-14CA text29 CODE >29:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwdiv.c
-14CA text29 CODE >30:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwdiv.c
-14D2 text29 CODE >31:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwdiv.c
-151E text28 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwmod.c
-151E text28 CODE >13:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwmod.c
-1526 text28 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwmod.c
-152A text28 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwmod.c
-152C text28 CODE >16:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwmod.c
-1532 text28 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwmod.c
-1534 text28 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwmod.c
-1538 text28 CODE >20:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwmod.c
-1544 text28 CODE >21:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwmod.c
-154C text28 CODE >22:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwmod.c
-1552 text28 CODE >23:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwmod.c
-1556 text28 CODE >24:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwmod.c
-1556 text28 CODE >25:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwmod.c
-155E text28 CODE >26:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwmod.c
-1824 text27 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\Umul16.c
-1824 text27 CODE >37:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\Umul16.c
-1830 text27 CODE >38:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\Umul16.c
-1838 text27 CODE >39:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\Umul16.c
-1840 text27 CODE >52:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\Umul16.c
-18FC text26 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\isdigit.c
-18FE text26 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\isdigit.c
-12 text25 CODE >492:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-12 text25 CODE >533:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-1E text25 CODE >536:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-22 text25 CODE >538:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-2C text25 CODE >541:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-3C text25 CODE >542:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-40 text25 CODE >546:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-4A text25 CODE >548:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-54 text25 CODE >551:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-56 text25 CODE >554:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-5C text25 CODE >561:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-62 text25 CODE >574:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-68 text25 CODE >580:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-6C text25 CODE >581:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-70 text25 CODE >551:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-94 text25 CODE >593:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-9A text25 CODE >594:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-9E text25 CODE >597:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-B2 text25 CODE >598:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-BC text25 CODE >600:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-D8 text25 CODE >601:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-108 text25 CODE >602:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-11E text25 CODE >604:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-130 text25 CODE >605:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-14A text25 CODE >606:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-14E text25 CODE >611:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-160 text25 CODE >612:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-164 text25 CODE >613:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-168 text25 CODE >615:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-17A text25 CODE >616:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-192 text25 CODE >617:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-196 text25 CODE >618:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-198 text25 CODE >621:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-19E text25 CODE >622:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-1A0 text25 CODE >623:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-1C2 text25 CODE >622:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-1D8 text25 CODE >626:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-1DE text25 CODE >635:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-1E0 text25 CODE >691:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-1E4 text25 CODE >699:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-1E6 text25 CODE >707:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-1EA text25 CODE >712:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-1EA text25 CODE >714:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-1EE text25 CODE >718:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-1EE text25 CODE >721:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-1F2 text25 CODE >723:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-1F4 text25 CODE >734:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-20E text25 CODE >740:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-21A text25 CODE >741:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-226 text25 CODE >745:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-230 text25 CODE >746:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-232 text25 CODE >747:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-238 text25 CODE >746:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-272 text25 CODE >753:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-296 text25 CODE >754:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-2A4 text25 CODE >757:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-2B8 text25 CODE >758:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-2CA text25 CODE >760:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-2D4 text25 CODE >762:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-2DC text25 CODE >765:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-2EC text25 CODE >764:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-304 text25 CODE >768:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-338 text25 CODE >767:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-34E text25 CODE >770:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-356 text25 CODE >772:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-366 text25 CODE >771:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-37E text25 CODE >799:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-396 text25 CODE >805:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-3A2 text25 CODE >806:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-3AC text25 CODE >807:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-3AE text25 CODE >818:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-3B4 text25 CODE >822:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-3B6 text25 CODE >635:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-40A text25 CODE >1251:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-422 text25 CODE >1259:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-43C text25 CODE >1261:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-442 text25 CODE >1262:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-448 text25 CODE >1263:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-452 text25 CODE >1266:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-454 text25 CODE >1286:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-46E text25 CODE >1290:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-484 text25 CODE >1291:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-488 text25 CODE >1294:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-48A text25 CODE >1305:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-49A text25 CODE >1306:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-4C0 text25 CODE >1305:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-4C6 text25 CODE >1316:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-4D6 text25 CODE >1317:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-4FC text25 CODE >1316:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-502 text25 CODE >1328:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-512 text25 CODE >1329:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-538 text25 CODE >1328:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-53E text25 CODE >1294:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-55C text25 CODE >1339:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-570 text25 CODE >1340:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-576 text25 CODE >1341:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-588 text25 CODE >1342:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-58C text25 CODE >1345:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-5B0 text25 CODE >1346:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-5B8 text25 CODE >1348:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-5BE text25 CODE >1349:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-5DC text25 CODE >1350:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-5F2 text25 CODE >1352:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-5FC text25 CODE >1361:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-622 text25 CODE >1362:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-62E text25 CODE >1363:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-636 text25 CODE >1364:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-638 text25 CODE >1368:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-65E text25 CODE >1372:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-674 text25 CODE >1373:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-680 text25 CODE >1375:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-68A text25 CODE >1381:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-6A8 text25 CODE >1382:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-6BE text25 CODE >1384:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-6C8 text25 CODE >1387:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-6CE text25 CODE >1392:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-6E6 text25 CODE >1393:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-6F8 text25 CODE >1396:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-6F8 text25 CODE >1399:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-6FE text25 CODE >1400:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-70C text25 CODE >1403:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-732 text25 CODE >1404:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-742 text25 CODE >1406:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-76A text25 CODE >1415:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-776 text25 CODE >1417:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-786 text25 CODE >1418:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-790 text25 CODE >1428:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-7A2 text25 CODE >1430:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-7B2 text25 CODE >1431:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-7C6 text25 CODE >1438:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-7DE text25 CODE >1439:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-7F0 text25 CODE >1443:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-7F6 text25 CODE >1444:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-804 text25 CODE >1448:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-82A text25 CODE >1449:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-838 text25 CODE >1454:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-85E text25 CODE >1458:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-86E text25 CODE >1460:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-896 text25 CODE >1489:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-8D8 text25 CODE >1500:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-90A text25 CODE >1502:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-94A text25 CODE >1510:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-94C text25 CODE >1518:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-980 text25 CODE >1523:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-982 text25 CODE >1476:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-9A0 text25 CODE >1524:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-9B0 text25 CODE >1474:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-9BC text25 CODE >1528:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-9D6 text25 CODE >1530:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-9E6 text25 CODE >1531:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-9FA text25 CODE >536:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-A16 text25 CODE >1538:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
-14D4 text24 CODE >167:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-14D4 text24 CODE >171:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-14F8 text24 CODE >173:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-C4E text23 CODE >185:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-C52 text23 CODE >187:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-C64 text23 CODE >189:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-C66 text23 CODE >192:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-C92 text23 CODE >193:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-C94 text23 CODE >196:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-CC0 text23 CODE >201:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-CC2 text23 CODE >189:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-CD2 text23 CODE >203:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-CE2 text23 CODE >204:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-D08 text23 CODE >207:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-D24 text23 CODE >209:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-17FE text22 CODE >135:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-17FE text22 CODE >138:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-1822 text22 CODE >147:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-1180 text21 CODE >148:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-1180 text21 CODE >149:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-1182 text21 CODE >151:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-1184 text21 CODE >154:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-11AA text21 CODE >157:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-11D0 text21 CODE >160:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-11F4 text21 CODE >164:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-11F6 text21 CODE >151:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-16EE text20 CODE >230:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-16EE text20 CODE >231:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-16F4 text20 CODE >232:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-F0A text19 CODE >246:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-F0A text19 CODE >247:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-F0E text19 CODE >248:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-F12 text19 CODE >249:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-F36 text19 CODE >250:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-F3A text19 CODE >251:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-F54 text19 CODE >252:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-F7E text19 CODE >253:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-FA8 text19 CODE >254:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-1994 text18 CODE >5:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
-1994 text18 CODE >7:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
-1998 text18 CODE >8:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
-199C text18 CODE >9:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
-199E text18 CODE >10:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
-19A0 text18 CODE >12:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
-177C text17 CODE >41:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-177E text17 CODE >44:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-1784 text17 CODE >47:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-178A text17 CODE >56:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-1790 text17 CODE >59:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-1796 text17 CODE >62:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-17A0 text17 CODE >65:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-17A2 text17 CODE >68:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-17A4 text17 CODE >71:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-17A6 text17 CODE >72:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-1616 text16 CODE >74:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-1618 text16 CODE >76:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-1624 text16 CODE >79:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-162E text16 CODE >82:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-1634 text16 CODE >84:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-1640 text16 CODE >87:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-164A text16 CODE >88:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-1560 text15 CODE >89:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-1562 text15 CODE >92:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-1570 text15 CODE >99:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-1590 text15 CODE >102:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-159C text15 CODE >103:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-19A2 text14 CODE >4:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\pic18\d1tcyx.c
-19A4 text14 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\pic18\d1tcyx.c
-19A4 text14 CODE >7:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\pic18\d1tcyx.c
-19A6 text14 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\pic18\d1tcyx.c
-19BC text13 CODE >18:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/mydelay.c
-19BC text13 CODE >20:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/mydelay.c
-19C2 text13 CODE >21:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/mydelay.c
-1720 text12 CODE >138:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-1720 text12 CODE >140:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-1722 text12 CODE >141:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-1724 text12 CODE >142:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-1728 text12 CODE >143:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-172A text12 CODE >144:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-172E text12 CODE >166:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-1730 text12 CODE >167:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-1734 text12 CODE >169:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-1736 text12 CODE >170:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-1738 text12 CODE >171:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-173A text12 CODE >172:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-173C text12 CODE >173:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-173E text12 CODE >174:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-1740 text12 CODE >175:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-1742 text12 CODE >176:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-1742 text12 CODE >178:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-1744 text12 CODE >179:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-1746 text12 CODE >180:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-1748 text12 CODE >181:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-174A text12 CODE >182:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-174C text12 CODE >183:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-FCE text11 CODE >4:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-FCE text11 CODE >7:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-FD2 text11 CODE >9:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-FD6 text11 CODE >10:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-FE2 text11 CODE >12:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-FE8 text11 CODE >13:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-FF4 text11 CODE >15:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-FFA text11 CODE >16:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-1006 text11 CODE >18:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-100C text11 CODE >21:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-1016 text11 CODE >22:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-101C text11 CODE >24:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-1026 text11 CODE >25:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-102C text11 CODE >27:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-1036 text11 CODE >28:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-103C text11 CODE >30:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-1046 text11 CODE >31:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-104C text11 CODE >34:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-1052 text11 CODE >36:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-105C text11 CODE >37:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-1062 text11 CODE >38:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-17D4 text10 CODE >105:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-17D6 text10 CODE >107:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-17E2 text10 CODE >110:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-17EC text10 CODE >113:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-17F2 text10 CODE >116:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-17FC text10 CODE >117:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-13DC text9 CODE >119:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-13DC text9 CODE >121:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-13E0 text9 CODE >124:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-13E2 text9 CODE >127:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-1408 text9 CODE >124:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
-18DA text8 CODE >5:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-18DA text8 CODE >8:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-18DC text8 CODE >9:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-18DE text8 CODE >12:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-18E0 text8 CODE >13:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-18EC text8 CODE >14:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-18EE text8 CODE >15:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-18FA text8 CODE >16:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
-186E text7 CODE >19:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
-186E text7 CODE >20:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
-1872 text7 CODE >21:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
-187C text7 CODE >22:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
-1886 text7 CODE >23:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
-1890 text7 CODE >24:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
-19C4 text6 CODE >150:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
-19C4 text6 CODE >152:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
-184A text5 CODE >36:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-184A text5 CODE >37:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-184C text5 CODE >38:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-184E text5 CODE >39:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-1850 text5 CODE >40:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-1852 text5 CODE >41:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-1854 text5 CODE >43:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-1856 text5 CODE >44:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-1858 text5 CODE >45:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-185A text5 CODE >47:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-185C text5 CODE >48:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-185E text5 CODE >49:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-1860 text5 CODE >50:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-1862 text5 CODE >51:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-1864 text5 CODE >52:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-1868 text5 CODE >53:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-186C text5 CODE >54:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
-1750 text4 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\memset.c
-1750 text4 CODE >18:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\memset.c
-1758 text4 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\memset.c
-175A text4 CODE >20:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\memset.c
-176A text4 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\memset.c
-19B4 text3 CODE >13:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
-19B4 text3 CODE >15:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
-19B6 text3 CODE >16:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
-19B8 text3 CODE >17:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
-19BA text3 CODE >18:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
-191A text2 CODE >46:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
-191A text2 CODE >48:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
-191E text2 CODE >49:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
-1926 text2 CODE >50:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
-192E text2 CODE >51:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
-1930 text2 CODE >52:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
-1974 text1 CODE >36:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
-1974 text1 CODE >38:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
-1976 text1 CODE >39:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
-1978 text1 CODE >40:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
-197A text1 CODE >41:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
-197C text1 CODE >42:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
-197E text1 CODE >43:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
-1980 text1 CODE >44:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
-1982 text1 CODE >45:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
-10F4 text0 CODE >153:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
-10F4 text0 CODE >155:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
-10F8 text0 CODE >156:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
-10FC text0 CODE >157:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
-1100 text0 CODE >158:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
-1104 text0 CODE >159:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
-1108 text0 CODE >160:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
-110C text0 CODE >161:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
-1110 text0 CODE >162:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
-1114 text0 CODE >163:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
-111A text0 CODE >164:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
-1124 text0 CODE >165:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
-1130 text0 CODE >166:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
-113C text0 CODE >167:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
-1142 text0 CODE >168:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
-1146 text0 CODE >172:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
-114A text0 CODE >174:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
-1166 text0 CODE >177:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
-1172 text0 CODE >202:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
-117E text0 CODE >175:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
-1430 cinit CODE >4646:C:\Users\Keng\AppData\Local\Temp\sfdc.
-1430 cinit CODE >4648:C:\Users\Keng\AppData\Local\Temp\sfdc.
-1430 cinit CODE >4651:C:\Users\Keng\AppData\Local\Temp\sfdc.
-1430 cinit CODE >4715:C:\Users\Keng\AppData\Local\Temp\sfdc.
-1432 cinit CODE >4716:C:\Users\Keng\AppData\Local\Temp\sfdc.
-1434 cinit CODE >4717:C:\Users\Keng\AppData\Local\Temp\sfdc.
-1436 cinit CODE >4718:C:\Users\Keng\AppData\Local\Temp\sfdc.
-1438 cinit CODE >4719:C:\Users\Keng\AppData\Local\Temp\sfdc.
-143A cinit CODE >4720:C:\Users\Keng\AppData\Local\Temp\sfdc.
-143C cinit CODE >4721:C:\Users\Keng\AppData\Local\Temp\sfdc.
-1440 cinit CODE >4722:C:\Users\Keng\AppData\Local\Temp\sfdc.
-1444 cinit CODE >4723:C:\Users\Keng\AppData\Local\Temp\sfdc.
-1444 cinit CODE >4724:C:\Users\Keng\AppData\Local\Temp\sfdc.
-1446 cinit CODE >4725:C:\Users\Keng\AppData\Local\Temp\sfdc.
-144A cinit CODE >4726:C:\Users\Keng\AppData\Local\Temp\sfdc.
-144C cinit CODE >4727:C:\Users\Keng\AppData\Local\Temp\sfdc.
-144E cinit CODE >4728:C:\Users\Keng\AppData\Local\Temp\sfdc.
-1450 cinit CODE >4732:C:\Users\Keng\AppData\Local\Temp\sfdc.
-1454 cinit CODE >4733:C:\Users\Keng\AppData\Local\Temp\sfdc.
-1456 cinit CODE >4734:C:\Users\Keng\AppData\Local\Temp\sfdc.
-1456 cinit CODE >4735:C:\Users\Keng\AppData\Local\Temp\sfdc.
-1458 cinit CODE >4736:C:\Users\Keng\AppData\Local\Temp\sfdc.
-145A cinit CODE >4737:C:\Users\Keng\AppData\Local\Temp\sfdc.
-145C cinit CODE >4740:C:\Users\Keng\AppData\Local\Temp\sfdc.
-1460 cinit CODE >4741:C:\Users\Keng\AppData\Local\Temp\sfdc.
-1462 cinit CODE >4742:C:\Users\Keng\AppData\Local\Temp\sfdc.
-1462 cinit CODE >4743:C:\Users\Keng\AppData\Local\Temp\sfdc.
-1464 cinit CODE >4744:C:\Users\Keng\AppData\Local\Temp\sfdc.
-1466 cinit CODE >4745:C:\Users\Keng\AppData\Local\Temp\sfdc.
-1468 cinit CODE >4748:C:\Users\Keng\AppData\Local\Temp\sfdc.
-146C cinit CODE >4749:C:\Users\Keng\AppData\Local\Temp\sfdc.
-146E cinit CODE >4750:C:\Users\Keng\AppData\Local\Temp\sfdc.
-146E cinit CODE >4751:C:\Users\Keng\AppData\Local\Temp\sfdc.
-1470 cinit CODE >4752:C:\Users\Keng\AppData\Local\Temp\sfdc.
-1472 cinit CODE >4753:C:\Users\Keng\AppData\Local\Temp\sfdc.
-1474 cinit CODE >4759:C:\Users\Keng\AppData\Local\Temp\sfdc.
-1474 cinit CODE >4761:C:\Users\Keng\AppData\Local\Temp\sfdc.
-1476 cinit CODE >4762:C:\Users\Keng\AppData\Local\Temp\sfdc.
-1478 cinit CODE >4764:C:\Users\Keng\AppData\Local\Temp\sfdc.
-147A cinit CODE >4765:C:\Users\Keng\AppData\Local\Temp\sfdc.
-147C cinit CODE >4766:C:\Users\Keng\AppData\Local\Temp\sfdc.
-147E cinit CODE >4767:C:\Users\Keng\AppData\Local\Temp\sfdc.
+C04 intcode_body CODE >129:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+C3E intcode_body CODE >130:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+C42 intcode_body CODE >132:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+C46 intcode_body CODE >133:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+C54 intcode_body CODE >134:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+C8E intcode_body CODE >137:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+CAC intcode_body CODE >138:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+CB0 intcode_body CODE >140:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+CB0 intcode_body CODE >141:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+CB2 intcode_body CODE >142:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+CB2 intcode_body CODE >144:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+CB6 intcode_body CODE >145:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+CBA intcode_body CODE >146:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+CBE intcode_body CODE >147:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+CC0 intcode_body CODE >149:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+18D4 text50 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\pic18\d10tcyx.c
+18D6 text50 CODE >11:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\pic18\d10tcyx.c
+18DE text50 CODE >12:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\pic18\d10tcyx.c
+18AE text49 CODE >11:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/mydelay.c
+18AE text49 CODE >14:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/mydelay.c
+18B4 text49 CODE >15:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/mydelay.c
+18BA text49 CODE >16:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/mydelay.c
+134A text48 CODE >91:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+134C text48 CODE >94:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+134E text48 CODE >95:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+1350 text48 CODE >96:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+135C text48 CODE >98:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+1372 text48 CODE >99:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+1376 text48 CODE >100:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+1382 text48 CODE >101:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+1384 text48 CODE >102:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+1390 text48 CODE >103:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+1392 text48 CODE >104:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+139E text48 CODE >96:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+1806 text47 CODE >18:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+1806 text47 CODE >20:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+1808 text47 CODE >21:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+180A text47 CODE >22:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+180C text47 CODE >23:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+1818 text47 CODE >24:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+181A text47 CODE >25:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+1826 text47 CODE >26:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+1828 text47 CODE >27:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+17E2 text46 CODE >29:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+17E2 text46 CODE >31:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+17E4 text46 CODE >32:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+17E6 text46 CODE >33:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+17E8 text46 CODE >34:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+17F4 text46 CODE >35:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+17F6 text46 CODE >36:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+1802 text46 CODE >37:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+1804 text46 CODE >39:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+14FC text45 CODE >43:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+14FC text45 CODE >45:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+1500 text45 CODE >46:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+1502 text45 CODE >47:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+1504 text45 CODE >49:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+1510 text45 CODE >50:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+1512 text45 CODE >52:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+151E text45 CODE >53:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+1520 text45 CODE >55:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+1522 text45 CODE >56:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+1528 text45 CODE >58:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+152C text45 CODE >59:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+152E text45 CODE >53:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+152E text45 CODE >61:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+1532 text45 CODE >62:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+1534 text45 CODE >64:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+1898 text44 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\pic18\d10ktcyx.c
+189A text44 CODE >11:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\pic18\d10ktcyx.c
+18A8 text44 CODE >12:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\pic18\d10ktcyx.c
+1882 text43 CODE >3:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/mydelay.c
+1882 text43 CODE >6:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/mydelay.c
+1888 text43 CODE >7:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/mydelay.c
+188E text43 CODE >8:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/mydelay.c
+15D8 text42 CODE >6:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/PCA9685.c
+15DA text42 CODE >8:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/PCA9685.c
+15DE text42 CODE >9:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/PCA9685.c
+15E4 text42 CODE >10:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/PCA9685.c
+15E8 text42 CODE >11:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/PCA9685.c
+15EE text42 CODE >12:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/PCA9685.c
+15F2 text42 CODE >13:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/PCA9685.c
+15F8 text42 CODE >14:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/PCA9685.c
+15FC text42 CODE >15:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/PCA9685.c
+1600 text42 CODE >16:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/PCA9685.c
+160C text42 CODE >17:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/PCA9685.c
+15A2 text41 CODE >7:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
+15A2 text41 CODE >9:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
+15A6 text41 CODE >10:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
+15AA text41 CODE >11:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
+15B4 text41 CODE >12:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
+15BE text41 CODE >13:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
+15CA text41 CODE >14:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
+15D6 text41 CODE >15:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
+9E4 text40 CODE >47:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
+9E4 text40 CODE >48:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
+9E6 text40 CODE >50:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
+9EE text40 CODE >51:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
+A00 text40 CODE >53:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
+A14 text40 CODE >54:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
+A16 text40 CODE >56:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
+A22 text40 CODE >57:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
+A34 text40 CODE >59:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
+A48 text40 CODE >60:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
+A4A text40 CODE >62:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
+A56 text40 CODE >63:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
+A68 text40 CODE >65:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
+A7C text40 CODE >66:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
+A7E text40 CODE >68:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
+A8A text40 CODE >69:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
+A9C text40 CODE >71:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
+AB0 text40 CODE >72:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
+AB2 text40 CODE >74:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
+ABE text40 CODE >75:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
+AD0 text40 CODE >77:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
+AE4 text40 CODE >79:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
+AE6 text40 CODE >48:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
+E88 text39 CODE >16:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
+E88 text39 CODE >25:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
+E9A text39 CODE >26:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
+EDA text39 CODE >34:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
+EEC text39 CODE >35:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
+F2C text39 CODE >43:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
+F44 text39 CODE >45:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
+156C text38 CODE >4:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strchr.c
+156C text38 CODE >7:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strchr.c
+157C text38 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strchr.c
+1586 text38 CODE >9:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strchr.c
+1598 text38 CODE >10:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strchr.c
+14BE text37 CODE >4:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strlen.c
+14BE text37 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strlen.c
+14C6 text37 CODE >9:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strlen.c
+14C8 text37 CODE >10:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strlen.c
+14CC text37 CODE >9:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strlen.c
+14DE text37 CODE >12:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strlen.c
+117C text36 CODE >4:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strncmp.c
+117C text36 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strncmp.c
+117E text36 CODE >7:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strncmp.c
+11AA text36 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strncmp.c
+11DC text36 CODE >10:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strncmp.c
+11E0 text36 CODE >11:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strncmp.c
+11E4 text36 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strncmp.c
+11F4 text36 CODE >13:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strncmp.c
+10F8 text35 CODE >4:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strstr.c
+10F8 text35 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strstr.c
+10FA text35 CODE >7:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strstr.c
+112A text35 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strstr.c
+1134 text35 CODE >9:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strstr.c
+115C text35 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strstr.c
+1172 text35 CODE >11:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strstr.c
+FDC text34 CODE >257:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+FDC text34 CODE >259:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+FE4 text34 CODE >260:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+FF4 text34 CODE >261:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+100E text34 CODE >268:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+101E text34 CODE >269:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+1022 text34 CODE >270:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+103E text34 CODE >271:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+105A text34 CODE >272:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+1062 text34 CODE >275:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+127A text33 CODE >73:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+127A text33 CODE >74:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+127E text33 CODE >78:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+1282 text33 CODE >79:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+1286 text33 CODE >80:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+12B4 text33 CODE >81:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+12E6 text33 CODE >82:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+CFC text32 CODE >86:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+CFC text32 CODE >88:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+D04 text32 CODE >89:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+D14 text32 CODE >93:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+D20 text32 CODE >96:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+D30 text32 CODE >97:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+D34 text32 CODE >99:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+D40 text32 CODE >106:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+D50 text32 CODE >107:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+D8C text32 CODE >108:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+D94 text32 CODE >109:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+DAC text32 CODE >111:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+16F8 text31 CODE >130:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+16F8 text31 CODE >132:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+13A2 text30 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwdiv.c
+13A2 text30 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwdiv.c
+13AA text30 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwdiv.c
+13B2 text30 CODE >16:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwdiv.c
+13B6 text30 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwdiv.c
+13B8 text30 CODE >18:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwdiv.c
+13BE text30 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwdiv.c
+13C0 text30 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwdiv.c
+13C4 text30 CODE >22:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwdiv.c
+13CA text30 CODE >23:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwdiv.c
+13D6 text30 CODE >24:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwdiv.c
+13DE text30 CODE >25:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwdiv.c
+13E0 text30 CODE >27:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwdiv.c
+13E6 text30 CODE >28:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwdiv.c
+13EA text30 CODE >29:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwdiv.c
+13EA text30 CODE >30:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwdiv.c
+13F2 text30 CODE >31:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwdiv.c
+143E text29 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwmod.c
+143E text29 CODE >13:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwmod.c
+1446 text29 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwmod.c
+144A text29 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwmod.c
+144C text29 CODE >16:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwmod.c
+1452 text29 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwmod.c
+1454 text29 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwmod.c
+1458 text29 CODE >20:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwmod.c
+1464 text29 CODE >21:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwmod.c
+146C text29 CODE >22:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwmod.c
+1472 text29 CODE >23:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwmod.c
+1476 text29 CODE >24:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwmod.c
+1476 text29 CODE >25:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwmod.c
+147E text29 CODE >26:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwmod.c
+1774 text28 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\Umul16.c
+1774 text28 CODE >37:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\Umul16.c
+1780 text28 CODE >38:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\Umul16.c
+1788 text28 CODE >39:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\Umul16.c
+1790 text28 CODE >52:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\Umul16.c
+184C text27 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\isdigit.c
+184E text27 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\isdigit.c
+12 text26 CODE >492:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+12 text26 CODE >533:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+1A text26 CODE >536:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+1E text26 CODE >538:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+26 text26 CODE >541:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+36 text26 CODE >542:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+3A text26 CODE >546:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+42 text26 CODE >548:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+4A text26 CODE >551:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+4C text26 CODE >554:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+50 text26 CODE >561:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+54 text26 CODE >574:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+58 text26 CODE >580:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+5A text26 CODE >581:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+5E text26 CODE >551:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+82 text26 CODE >593:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+84 text26 CODE >594:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+86 text26 CODE >597:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+9A text26 CODE >598:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+A2 text26 CODE >600:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+BE text26 CODE >601:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+EA text26 CODE >602:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+100 text26 CODE >604:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+112 text26 CODE >605:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+12A text26 CODE >606:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+12E text26 CODE >611:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+140 text26 CODE >612:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+142 text26 CODE >613:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+146 text26 CODE >615:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+158 text26 CODE >616:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+16C text26 CODE >617:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+170 text26 CODE >618:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+172 text26 CODE >621:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+176 text26 CODE >622:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+178 text26 CODE >623:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+196 text26 CODE >622:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+1AC text26 CODE >626:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+1B0 text26 CODE >635:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+1B2 text26 CODE >691:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+1B4 text26 CODE >699:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+1B6 text26 CODE >707:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+1B8 text26 CODE >712:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+1B8 text26 CODE >714:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+1BA text26 CODE >718:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+1BA text26 CODE >721:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+1BC text26 CODE >723:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+1BE text26 CODE >734:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+1D6 text26 CODE >740:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+1DE text26 CODE >741:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+1E6 text26 CODE >745:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+1EE text26 CODE >746:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+1F0 text26 CODE >747:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+1F4 text26 CODE >746:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+226 text26 CODE >753:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+242 text26 CODE >754:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+24C text26 CODE >757:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+258 text26 CODE >758:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+262 text26 CODE >760:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+26A text26 CODE >762:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+270 text26 CODE >765:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+280 text26 CODE >764:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+292 text26 CODE >768:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+2C4 text26 CODE >767:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+2D4 text26 CODE >770:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+2DA text26 CODE >772:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+2EA text26 CODE >771:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+2FC text26 CODE >799:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+310 text26 CODE >805:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+318 text26 CODE >806:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+320 text26 CODE >807:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+322 text26 CODE >818:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+326 text26 CODE >822:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+328 text26 CODE >635:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+37A text26 CODE >1251:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+38E text26 CODE >1259:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+3A6 text26 CODE >1261:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+3AA text26 CODE >1262:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+3AE text26 CODE >1263:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+3B6 text26 CODE >1266:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+3B8 text26 CODE >1286:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+3D0 text26 CODE >1290:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+3DE text26 CODE >1291:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+3E0 text26 CODE >1294:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+3E2 text26 CODE >1305:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+3EE text26 CODE >1306:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+40E text26 CODE >1305:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+412 text26 CODE >1316:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+41E text26 CODE >1317:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+43E text26 CODE >1316:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+442 text26 CODE >1328:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+44E text26 CODE >1329:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+46E text26 CODE >1328:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+472 text26 CODE >1294:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+48E text26 CODE >1339:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+49E text26 CODE >1340:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+4A4 text26 CODE >1341:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+4B2 text26 CODE >1342:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+4B6 text26 CODE >1345:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+4D2 text26 CODE >1346:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+4D8 text26 CODE >1348:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+4DC text26 CODE >1349:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+4F2 text26 CODE >1350:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+500 text26 CODE >1352:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+508 text26 CODE >1361:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+52E text26 CODE >1362:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+536 text26 CODE >1363:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+53C text26 CODE >1364:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+53E text26 CODE >1368:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+564 text26 CODE >1372:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+574 text26 CODE >1373:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+57E text26 CODE >1375:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+586 text26 CODE >1381:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+59C text26 CODE >1382:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+5AA text26 CODE >1384:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+5B2 text26 CODE >1387:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+5B6 text26 CODE >1392:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+5CA text26 CODE >1393:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+5DC text26 CODE >1396:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+5DC text26 CODE >1399:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+5E0 text26 CODE >1400:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+5EE text26 CODE >1403:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+614 text26 CODE >1404:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+624 text26 CODE >1406:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+646 text26 CODE >1415:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+64E text26 CODE >1417:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+65E text26 CODE >1418:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+666 text26 CODE >1428:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+670 text26 CODE >1430:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+680 text26 CODE >1431:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+68E text26 CODE >1438:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+6A2 text26 CODE >1439:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+6B4 text26 CODE >1443:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+6B8 text26 CODE >1444:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+6C6 text26 CODE >1448:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+6EC text26 CODE >1449:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+6FA text26 CODE >1454:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+720 text26 CODE >1458:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+730 text26 CODE >1460:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+752 text26 CODE >1489:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+792 text26 CODE >1500:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+7C0 text26 CODE >1502:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+7F6 text26 CODE >1510:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+7F8 text26 CODE >1518:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+828 text26 CODE >1523:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+82A text26 CODE >1476:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+846 text26 CODE >1524:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+856 text26 CODE >1474:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+85E text26 CODE >1528:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+86E text26 CODE >1530:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+87E text26 CODE >1531:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+88C text26 CODE >536:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+8A6 text26 CODE >1538:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+13F4 text25 CODE >167:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+13F4 text25 CODE >171:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+1418 text25 CODE >173:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+B08 text24 CODE >185:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+B0C text24 CODE >187:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+B1E text24 CODE >189:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+B20 text24 CODE >192:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+B4C text24 CODE >193:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+B4E text24 CODE >196:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+B7A text24 CODE >201:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+B7C text24 CODE >189:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+B8C text24 CODE >203:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+B9C text24 CODE >204:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+BC2 text24 CODE >207:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+BDE text24 CODE >209:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+174E text23 CODE >135:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+174E text23 CODE >138:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+1772 text23 CODE >147:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+106C text22 CODE >148:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+106C text22 CODE >149:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+106E text22 CODE >151:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+1070 text22 CODE >154:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+1096 text22 CODE >157:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+10BC text22 CODE >160:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+10E0 text22 CODE >164:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+10E2 text22 CODE >151:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+160E text21 CODE >230:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+160E text21 CODE >231:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+1614 text21 CODE >232:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+DC4 text20 CODE >246:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+DC4 text20 CODE >247:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+DC8 text20 CODE >248:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+DCC text20 CODE >249:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+DF0 text20 CODE >250:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+DF4 text20 CODE >251:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+E0E text20 CODE >252:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+E38 text20 CODE >253:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+E62 text20 CODE >254:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+18E4 text19 CODE >5:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
+18E4 text19 CODE >7:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
+18E8 text19 CODE >8:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
+18EC text19 CODE >9:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
+18EE text19 CODE >10:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
+18F0 text19 CODE >12:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
+169E text18 CODE >41:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+16A0 text18 CODE >44:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+16A6 text18 CODE >47:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+16AC text18 CODE >50:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+16B2 text18 CODE >53:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+16BA text18 CODE >62:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+16C4 text18 CODE >65:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+16C6 text18 CODE >68:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+16C8 text18 CODE >71:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+16CA text18 CODE >72:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+1536 text17 CODE >74:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+1538 text17 CODE >76:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+1544 text17 CODE >79:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+154E text17 CODE >82:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+1554 text17 CODE >84:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+1560 text17 CODE >87:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+156A text17 CODE >88:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+1480 text16 CODE >89:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+1482 text16 CODE >92:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+1490 text16 CODE >99:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+14B0 text16 CODE >102:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+14BC text16 CODE >103:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+18F2 text15 CODE >4:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\pic18\d1tcyx.c
+18F4 text15 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\pic18\d1tcyx.c
+18F4 text15 CODE >7:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\pic18\d1tcyx.c
+18F6 text15 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\pic18\d1tcyx.c
+190C text14 CODE >18:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/mydelay.c
+190C text14 CODE >20:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/mydelay.c
+1912 text14 CODE >21:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/mydelay.c
+1640 text13 CODE >138:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+1640 text13 CODE >140:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+1642 text13 CODE >141:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+1644 text13 CODE >142:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+1648 text13 CODE >143:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+164A text13 CODE >144:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+164E text13 CODE >146:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+1650 text13 CODE >147:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+1654 text13 CODE >149:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+1656 text13 CODE >150:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+1658 text13 CODE >151:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+165A text13 CODE >152:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+165C text13 CODE >153:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+165E text13 CODE >154:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+1660 text13 CODE >155:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+1662 text13 CODE >156:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+1662 text13 CODE >158:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+1664 text13 CODE >159:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+1666 text13 CODE >160:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+1668 text13 CODE >161:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+166A text13 CODE >162:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+166C text13 CODE >163:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+F46 text12 CODE >4:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+F46 text12 CODE >7:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+F4A text12 CODE >9:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+F4E text12 CODE >10:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+F5A text12 CODE >12:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+F60 text12 CODE >13:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+F6C text12 CODE >15:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+F72 text12 CODE >16:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+F7E text12 CODE >18:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+F84 text12 CODE >21:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+F8E text12 CODE >22:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+F94 text12 CODE >24:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+F9E text12 CODE >25:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+FA4 text12 CODE >27:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+FAE text12 CODE >28:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+FB4 text12 CODE >30:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+FBE text12 CODE >31:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+FC4 text12 CODE >34:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+FCA text12 CODE >36:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+FD4 text12 CODE >37:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+FDA text12 CODE >38:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+1724 text11 CODE >105:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+1726 text11 CODE >107:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+1732 text11 CODE >110:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+173C text11 CODE >113:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+1742 text11 CODE >116:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+174C text11 CODE >117:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+11FE text10 CODE >119:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+11FE text10 CODE >121:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+1202 text10 CODE >124:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+1204 text10 CODE >127:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+123E text10 CODE >124:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/lcd.c
+182A text9 CODE >5:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+182A text9 CODE >8:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+182C text9 CODE >9:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+182E text9 CODE >12:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+1830 text9 CODE >13:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+183C text9 CODE >14:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+183E text9 CODE >15:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+184A text9 CODE >16:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/softIIC.c
+17BE text8 CODE >19:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
+17BE text8 CODE >20:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
+17C2 text8 CODE >21:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
+17CC text8 CODE >22:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
+17D6 text8 CODE >23:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
+17E0 text8 CODE >24:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
+1914 text7 CODE >150:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+1914 text7 CODE >152:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+179A text6 CODE >36:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+179A text6 CODE >37:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+179C text6 CODE >38:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+179E text6 CODE >39:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+17A0 text6 CODE >40:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+17A2 text6 CODE >41:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+17A4 text6 CODE >43:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+17A6 text6 CODE >44:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+17A8 text6 CODE >45:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+17AA text6 CODE >47:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+17AC text6 CODE >48:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+17AE text6 CODE >49:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+17B0 text6 CODE >50:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+17B2 text6 CODE >51:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+17B4 text6 CODE >52:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+17B8 text6 CODE >53:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+17BC text6 CODE >54:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/UART.c
+16CC text5 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\memset.c
+16CC text5 CODE >18:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\memset.c
+16D4 text5 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\memset.c
+16D6 text5 CODE >20:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\memset.c
+16E6 text5 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\memset.c
+1904 text4 CODE >13:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
+1904 text4 CODE >15:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
+1906 text4 CODE >16:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
+1908 text4 CODE >17:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
+190A text4 CODE >18:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
+1670 text3 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strcpy.c
+1670 text3 CODE >18:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strcpy.c
+1678 text3 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strcpy.c
+167A text3 CODE >20:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strcpy.c
+167E text3 CODE >21:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strcpy.c
+1682 text3 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strcpy.c
+186A text2 CODE >46:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
+186A text2 CODE >48:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
+186E text2 CODE >49:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
+1876 text2 CODE >50:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
+187E text2 CODE >51:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
+1880 text2 CODE >52:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
+18C4 text1 CODE >36:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
+18C4 text1 CODE >38:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
+18C6 text1 CODE >39:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
+18C8 text1 CODE >40:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
+18CA text1 CODE >41:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
+18CC text1 CODE >42:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
+18CE text1 CODE >43:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
+18D0 text1 CODE >44:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
+18D2 text1 CODE >45:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
+8B4 text0 CODE >153:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+8B4 text0 CODE >155:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+8B8 text0 CODE >156:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+8BC text0 CODE >157:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+8C0 text0 CODE >158:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+8C4 text0 CODE >159:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+8C8 text0 CODE >160:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+8CC text0 CODE >161:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+8D0 text0 CODE >162:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+8D4 text0 CODE >163:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+8DA text0 CODE >164:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+8E4 text0 CODE >165:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+8F0 text0 CODE >166:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+8FC text0 CODE >167:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+902 text0 CODE >168:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+906 text0 CODE >172:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+90A text0 CODE >174:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+926 text0 CODE >177:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+932 text0 CODE >179:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+946 text0 CODE >180:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+952 text0 CODE >181:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+95C text0 CODE >182:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+988 text0 CODE >183:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+994 text0 CODE >184:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+99E text0 CODE >185:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+9CA text0 CODE >186:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+9D6 text0 CODE >202:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+9E2 text0 CODE >175:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
+12EC cinit CODE >4654:C:\Users\Keng\AppData\Local\Temp\s9g4.
+12EC cinit CODE >4656:C:\Users\Keng\AppData\Local\Temp\s9g4.
+12EC cinit CODE >4659:C:\Users\Keng\AppData\Local\Temp\s9g4.
+12EC cinit CODE >4726:C:\Users\Keng\AppData\Local\Temp\s9g4.
+12EE cinit CODE >4727:C:\Users\Keng\AppData\Local\Temp\s9g4.
+12F0 cinit CODE >4728:C:\Users\Keng\AppData\Local\Temp\s9g4.
+12F2 cinit CODE >4729:C:\Users\Keng\AppData\Local\Temp\s9g4.
+12F4 cinit CODE >4730:C:\Users\Keng\AppData\Local\Temp\s9g4.
+12F6 cinit CODE >4731:C:\Users\Keng\AppData\Local\Temp\s9g4.
+12F8 cinit CODE >4732:C:\Users\Keng\AppData\Local\Temp\s9g4.
+12FC cinit CODE >4733:C:\Users\Keng\AppData\Local\Temp\s9g4.
+1300 cinit CODE >4734:C:\Users\Keng\AppData\Local\Temp\s9g4.
+1300 cinit CODE >4735:C:\Users\Keng\AppData\Local\Temp\s9g4.
+1302 cinit CODE >4736:C:\Users\Keng\AppData\Local\Temp\s9g4.
+1306 cinit CODE >4737:C:\Users\Keng\AppData\Local\Temp\s9g4.
+1308 cinit CODE >4738:C:\Users\Keng\AppData\Local\Temp\s9g4.
+130A cinit CODE >4739:C:\Users\Keng\AppData\Local\Temp\s9g4.
+130C cinit CODE >4743:C:\Users\Keng\AppData\Local\Temp\s9g4.
+1310 cinit CODE >4744:C:\Users\Keng\AppData\Local\Temp\s9g4.
+1312 cinit CODE >4745:C:\Users\Keng\AppData\Local\Temp\s9g4.
+1312 cinit CODE >4746:C:\Users\Keng\AppData\Local\Temp\s9g4.
+1314 cinit CODE >4747:C:\Users\Keng\AppData\Local\Temp\s9g4.
+1316 cinit CODE >4748:C:\Users\Keng\AppData\Local\Temp\s9g4.
+1318 cinit CODE >4751:C:\Users\Keng\AppData\Local\Temp\s9g4.
+131C cinit CODE >4752:C:\Users\Keng\AppData\Local\Temp\s9g4.
+131E cinit CODE >4753:C:\Users\Keng\AppData\Local\Temp\s9g4.
+131E cinit CODE >4754:C:\Users\Keng\AppData\Local\Temp\s9g4.
+1320 cinit CODE >4755:C:\Users\Keng\AppData\Local\Temp\s9g4.
+1322 cinit CODE >4756:C:\Users\Keng\AppData\Local\Temp\s9g4.
+1324 cinit CODE >4759:C:\Users\Keng\AppData\Local\Temp\s9g4.
+1328 cinit CODE >4760:C:\Users\Keng\AppData\Local\Temp\s9g4.
+132A cinit CODE >4761:C:\Users\Keng\AppData\Local\Temp\s9g4.
+132A cinit CODE >4762:C:\Users\Keng\AppData\Local\Temp\s9g4.
+132C cinit CODE >4763:C:\Users\Keng\AppData\Local\Temp\s9g4.
+132E cinit CODE >4764:C:\Users\Keng\AppData\Local\Temp\s9g4.
+1330 cinit CODE >4767:C:\Users\Keng\AppData\Local\Temp\s9g4.
+1334 cinit CODE >4768:C:\Users\Keng\AppData\Local\Temp\s9g4.
+1336 cinit CODE >4769:C:\Users\Keng\AppData\Local\Temp\s9g4.
+1336 cinit CODE >4770:C:\Users\Keng\AppData\Local\Temp\s9g4.
+1338 cinit CODE >4771:C:\Users\Keng\AppData\Local\Temp\s9g4.
+133A cinit CODE >4772:C:\Users\Keng\AppData\Local\Temp\s9g4.
+133C cinit CODE >4778:C:\Users\Keng\AppData\Local\Temp\s9g4.
+133C cinit CODE >4780:C:\Users\Keng\AppData\Local\Temp\s9g4.
+133E cinit CODE >4781:C:\Users\Keng\AppData\Local\Temp\s9g4.
+1340 cinit CODE >4783:C:\Users\Keng\AppData\Local\Temp\s9g4.
+1342 cinit CODE >4784:C:\Users\Keng\AppData\Local\Temp\s9g4.
+1344 cinit CODE >4785:C:\Users\Keng\AppData\Local\Temp\s9g4.
+1346 cinit CODE >4786:C:\Users\Keng\AppData\Local\Temp\s9g4.
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -760,43 +780,44 @@ FFA text11 CODE >16:C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\h
 # was defined in a psect then <psect> will be "-". File-name
 # is the name of the object file in which the symbol was defined.
 %SYMTAB
-_s 5A 0 COMRAM 1 bssCOMRAM dist/default/production\servo123.X.production.obj
+_s 48 0 COMRAM 1 bssCOMRAM dist/default/production\servo123.X.production.obj
 ___lwmod@counter 1D 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
-__end_of_timer_intrrupt_initinal 1984 0 CODE 0 text1 dist/default/production\servo123.X.production.obj
-__Lmediumconst 7484 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
+__end_of_timer_intrrupt_initinal 18D4 0 CODE 0 text1 dist/default/production\servo123.X.production.obj
+__Lmediumconst 7480 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
 __size_of_IIC_Init 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __size_of_IIC_Stop 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __Hspace_0 30000E 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __Hspace_1 364 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __Hspace_2 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __CFG_IESO$OFF 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
-_LCD_Initialize FCE 0 CODE 0 text11 dist/default/production\servo123.X.production.obj
-_IIC_Send_Byte 1384 0 CODE 0 text47 dist/default/production\servo123.X.production.obj
+_LCD_Initialize F46 0 CODE 0 text12 dist/default/production\servo123.X.production.obj
+_IIC_Send_Byte 134A 0 CODE 0 text48 dist/default/production\servo123.X.production.obj
 strncmp@s1 18 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 strncmp@s2 1A 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 __Hibigdata 0 0 CODE 0 ibigdata dist/default/production\servo123.X.production.obj
-__mediumconst 7484 0 MEDIUMCONST 0 mediumconst C:\Users\Keng\AppData\Local\Temp\sfdc.obj
+__mediumconst 7480 0 MEDIUMCONST 0 mediumconst C:\Users\Keng\AppData\Local\Temp\s9g4.obj
 __Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\servo123.X.production.obj
-_Delay10TCYx 1984 0 CODE 0 text49 dist/default/production\servo123.X.production.obj
+_Delay10TCYx 18D4 0 CODE 0 text50 dist/default/production\servo123.X.production.obj
 __CFG_MCLRE$ON 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
-LCD_CreateFont@F3803 63 0 COMRAM 1 dataCOMRAM dist/default/production\servo123.X.production.obj
-_IP 5C 0 COMRAM 1 bssCOMRAM dist/default/production\servo123.X.production.obj
+LCD_CreateFont@F3803 51 0 COMRAM 1 dataCOMRAM dist/default/production\servo123.X.production.obj
+_IP 4A 0 COMRAM 1 bssCOMRAM dist/default/production\servo123.X.production.obj
+main@t 2CE 0 BANK2 1 cstackBANK2 dist/default/production\servo123.X.production.obj
 __size_of_ESP8266_Uart 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __Lsmallconst 0 0 SMALLCONST 0 smallconst dist/default/production\servo123.X.production.obj
 _LATD F8C 0 ABS 0 - dist/default/production\servo123.X.production.obj
 _TRMT 7D61 0 ABS 0 - dist/default/production\servo123.X.production.obj
 _TXIF 7CF4 0 ABS 0 - dist/default/production\servo123.X.production.obj
-___sp 0 0 STACK 2 stack C:\Users\Keng\AppData\Local\Temp\sfdc.obj
-_main 10F4 0 CODE 0 text0 dist/default/production\servo123.X.production.obj
-_ESP8266_client F0A 0 CODE 0 text19 dist/default/production\servo123.X.production.obj
-_test 3C 0 COMRAM 1 bssCOMRAM dist/default/production\servo123.X.production.obj
-btemp 6B 0 COMRAM 1 temp dist/default/production\servo123.X.production.obj
+___sp 0 0 STACK 2 stack C:\Users\Keng\AppData\Local\Temp\s9g4.obj
+_main 8B4 0 CODE 0 text0 dist/default/production\servo123.X.production.obj
+_ESP8266_client DC4 0 CODE 0 text20 dist/default/production\servo123.X.production.obj
+_test 1DD 0 BANK1 1 bssBANK1 dist/default/production\servo123.X.production.obj
+btemp 59 0 COMRAM 1 temp dist/default/production\servo123.X.production.obj
 __size_of_ESP8266_Cmd 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __size_of_ESP8266_Rst 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
-_LCD_WaitBusy 1720 0 CODE 0 text12 dist/default/production\servo123.X.production.obj
-start E 0 CODE 0 init C:\Users\Keng\AppData\Local\Temp\sfdc.obj
-__end_of_LCD_WriteData 17FE 0 CODE 0 text10 dist/default/production\servo123.X.production.obj
-__end_of_LCD_WritetStr 1430 0 CODE 0 text9 dist/default/production\servo123.X.production.obj
+_LCD_WaitBusy 1640 0 CODE 0 text13 dist/default/production\servo123.X.production.obj
+start E 0 CODE 0 init C:\Users\Keng\AppData\Local\Temp\s9g4.obj
+__end_of_LCD_WriteData 174E 0 CODE 0 text11 dist/default/production\servo123.X.production.obj
+__end_of_LCD_WritetStr 127A 0 CODE 0 text10 dist/default/production\servo123.X.production.obj
 __size_of_main 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __size_of___lwdiv 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __size_of___lwmod 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
@@ -804,29 +825,29 @@ __size_of_ESP8266_Net_Mode_Choose 0 0 ABS 0 - dist/default/production\servo123.X
 ESP8266_Cmd@reply1 27 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 ESP8266_Cmd@reply2 29 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 __HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\servo123.X.production.obj
-_finger_reset 19C4 0 CODE 0 text6 dist/default/production\servo123.X.production.obj
+_finger_reset 1914 0 CODE 0 text7 dist/default/production\servo123.X.production.obj
 IIC_Send_Byte@txd 16 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 ?___wmul 12 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 __size_of_ESP8266_ReceiveString 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
-_LCD_GotoXY 1560 0 CODE 0 text15 dist/default/production\servo123.X.production.obj
+_LCD_GotoXY 1480 0 CODE 0 text16 dist/default/production\servo123.X.production.obj
 __CFG_CCP2MX$PORTBE 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
-_test_index 5E 0 COMRAM 1 bssCOMRAM dist/default/production\servo123.X.production.obj
+_test_index 4C 0 COMRAM 1 bssCOMRAM dist/default/production\servo123.X.production.obj
 __Hpowerup E 0 CODE 0 powerup dist/default/production\servo123.X.production.obj
 Delay1TCYx@unit 12 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
-__end_of_ESP8266_Uart 1384 0 CODE 0 text32 dist/default/production\servo123.X.production.obj
+__end_of_ESP8266_Uart 12EC 0 CODE 0 text33 dist/default/production\servo123.X.production.obj
 _T0CONbits FD5 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __HdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/production\servo123.X.production.obj
-_sprintf$1439 81 0 BANK0 1 cstackBANK0 dist/default/production\servo123.X.production.obj
-_sprintf$1440 83 0 BANK0 1 cstackBANK0 dist/default/production\servo123.X.production.obj
-_sprintf$1446 85 0 BANK0 1 cstackBANK0 dist/default/production\servo123.X.production.obj
-_IIC_Init 18DA 0 CODE 0 text8 dist/default/production\servo123.X.production.obj
-_IIC_Stop 1892 0 CODE 0 text45 dist/default/production\servo123.X.production.obj
-__accesstop 80 0 ABS 0 - C:\Users\Keng\AppData\Local\Temp\sfdc.obj
-intlevel0 0 0 CODE 0 text C:\Users\Keng\AppData\Local\Temp\sfdc.obj
-intlevel1 0 0 CODE 0 text C:\Users\Keng\AppData\Local\Temp\sfdc.obj
-intlevel2 0 0 CODE 0 text C:\Users\Keng\AppData\Local\Temp\sfdc.obj
-intlevel3 0 0 CODE 0 text C:\Users\Keng\AppData\Local\Temp\sfdc.obj
-__end_of_LCD_Initialize 1064 0 CODE 0 text11 dist/default/production\servo123.X.production.obj
+_sprintf$1448 2D 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
+_sprintf$1449 2F 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
+_sprintf$1455 31 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
+_IIC_Init 182A 0 CODE 0 text9 dist/default/production\servo123.X.production.obj
+_IIC_Stop 17E2 0 CODE 0 text46 dist/default/production\servo123.X.production.obj
+__accesstop 80 0 ABS 0 - C:\Users\Keng\AppData\Local\Temp\s9g4.obj
+intlevel0 0 0 CODE 0 text C:\Users\Keng\AppData\Local\Temp\s9g4.obj
+intlevel1 0 0 CODE 0 text C:\Users\Keng\AppData\Local\Temp\s9g4.obj
+intlevel2 0 0 CODE 0 text C:\Users\Keng\AppData\Local\Temp\s9g4.obj
+intlevel3 0 0 CODE 0 text C:\Users\Keng\AppData\Local\Temp\s9g4.obj
+__end_of_LCD_Initialize FDC 0 CODE 0 text12 dist/default/production\servo123.X.production.obj
 __LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\servo123.X.production.obj
 PCA9685_writeOneByte@addr 19 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 PCA9685_writeOneByte@data 18 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
@@ -837,8 +858,8 @@ __CFG_EBTR1$OFF 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __CFG_EBTR2$OFF 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __CFG_EBTR3$OFF 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __CFG_EBTRB$OFF 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
-__end_of_IIC_Init 18FC 0 CODE 0 text8 dist/default/production\servo123.X.production.obj
-__end_of_IIC_Stop 18B6 0 CODE 0 text45 dist/default/production\servo123.X.production.obj
+__end_of_IIC_Init 184C 0 CODE 0 text9 dist/default/production\servo123.X.production.obj
+__end_of_IIC_Stop 1806 0 CODE 0 text46 dist/default/production\servo123.X.production.obj
 __Hifardata 0 0 CODE 0 ifardata dist/default/production\servo123.X.production.obj
 __size_of_LCD_WaitBusy 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 transmit_finger@HL_Value 1A 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
@@ -846,103 +867,98 @@ __Hclrtext 0 0 ABS 0 clrtext dist/default/production\servo123.X.production.obj
 transmit_finger@finger 1C 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 __size_of_LCDWriteNibble 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __size_of_finger_reset 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
-_LCD_WriteCmd 1616 0 CODE 0 text16 dist/default/production\servo123.X.production.obj
-__pidataCOMRAM 19AC 0 CODE 0 idataCOMRAM dist/default/production\servo123.X.production.obj
-__end_of_ESP8266_client FCE 0 CODE 0 text19 dist/default/production\servo123.X.production.obj
+_LCD_WriteCmd 1536 0 CODE 0 text17 dist/default/production\servo123.X.production.obj
+__pidataCOMRAM 18FC 0 CODE 0 idataCOMRAM dist/default/production\servo123.X.production.obj
+__end_of_ESP8266_client E88 0 CODE 0 text20 dist/default/production\servo123.X.production.obj
 ___wmul@multiplicand 14 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
-ESP8266_Link_Server@ComNum 30 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
-_Delay10KTCYx 1948 0 CODE 0 text43 dist/default/production\servo123.X.production.obj
-___inthi_sp 0 0 STACK 2 stack C:\Users\Keng\AppData\Local\Temp\sfdc.obj
-___intlo_sp 0 0 STACK 2 stack C:\Users\Keng\AppData\Local\Temp\sfdc.obj
+ESP8266_Link_Server@ComNum 43 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
+_Delay10KTCYx 1898 0 CODE 0 text44 dist/default/production\servo123.X.production.obj
+___inthi_sp 0 0 STACK 2 stack C:\Users\Keng\AppData\Local\Temp\s9g4.obj
+___intlo_sp 0 0 STACK 2 stack C:\Users\Keng\AppData\Local\Temp\s9g4.obj
 __LdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/production\servo123.X.production.obj
 __Hintcode_body 0 0 ABS 0 intcode_body dist/default/production\servo123.X.production.obj
-__end_of___wmul 184A 0 CODE 0 text27 dist/default/production\servo123.X.production.obj
+__end_of___wmul 179A 0 CODE 0 text28 dist/default/production\servo123.X.production.obj
 __size_of_IIC_Send_Byte 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
-__end_of_LCD_WaitBusy 1750 0 CODE 0 text12 dist/default/production\servo123.X.production.obj
-_PCA9685_init 186E 0 CODE 0 text7 dist/default/production\servo123.X.production.obj
-__end_of_LCD_GotoXY 159E 0 CODE 0 text15 dist/default/production\servo123.X.production.obj
+__end_of_LCD_WaitBusy 1670 0 CODE 0 text13 dist/default/production\servo123.X.production.obj
+_PCA9685_init 17BE 0 CODE 0 text8 dist/default/production\servo123.X.production.obj
+__end_of_LCD_GotoXY 14BE 0 CODE 0 text16 dist/default/production\servo123.X.production.obj
 __Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\servo123.X.production.obj
 LCD_WritetStr@i 1B 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
-__end_of_finger_reset 19C6 0 CODE 0 text6 dist/default/production\servo123.X.production.obj
-_delayFor18Tcy 19BC 0 CODE 0 text13 dist/default/production\servo123.X.production.obj
+__end_of_finger_reset 1916 0 CODE 0 text7 dist/default/production\servo123.X.production.obj
+_delayFor18Tcy 190C 0 CODE 0 text14 dist/default/production\servo123.X.production.obj
 __size_of_sprintf 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 PWMt0PCA@up 1F 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 _BAUDCONbits FB8 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __Hmediumconst 8000 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
 __Hintcodelo E 0 CODE 0 intcodelo dist/default/production\servo123.X.production.obj
-__end_of_finger_up_0 75BB 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
-__end_of_finger_up_1 7AEB 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
-__end_of_finger_up_2 790F 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
-__end_of_finger_up_3 780D 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
-__end_of_finger_up_4 76E9 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
-__end_of_oclillator_initial 19BC 0 CODE 0 text3 dist/default/production\servo123.X.production.obj
+__end_of_finger_up_0 75B7 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
+__end_of_finger_up_1 7AE7 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
+__end_of_finger_up_2 790B 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
+__end_of_finger_up_3 7809 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
+__end_of_finger_up_4 76E5 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
+__end_of_oclillator_initial 190C 0 CODE 0 text4 dist/default/production\servo123.X.production.obj
 ___lwmod@divisor 1B 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
-__end_of___lwdiv 14D4 0 CODE 0 text29 dist/default/production\servo123.X.production.obj
-__end_of___lwmod 1560 0 CODE 0 text28 dist/default/production\servo123.X.production.obj
+__end_of___lwdiv 13F4 0 CODE 0 text30 dist/default/production\servo123.X.production.obj
+__end_of___lwmod 1480 0 CODE 0 text29 dist/default/production\servo123.X.production.obj
 __size_of_isdigit 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 ?_strchr 12 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 ?_strlen 12 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 ?_strstr 21 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 __size_of_LCD_WriteCmd 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
-_PCA9685_writeOneByte 16B8 0 CODE 0 text41 dist/default/production\servo123.X.production.obj
-__end_of_IIC_Start 18DA 0 CODE 0 text46 dist/default/production\servo123.X.production.obj
+_PCA9685_writeOneByte 15D8 0 CODE 0 text42 dist/default/production\servo123.X.production.obj
+__end_of_IIC_Start 182A 0 CODE 0 text47 dist/default/production\servo123.X.production.obj
 __size_of_strncmp 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
-_dpowers 7E0F 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
+_dpowers 7E0B 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
 __size_of_IIC_Start 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 ___lwdiv@quotient 17 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 __LidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/production\servo123.X.production.obj
 time_adc@ch 11 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 __size_of_Delay10KTCYx 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
-__end_of_IIC_Send_Byte 13DC 0 CODE 0 text47 dist/default/production\servo123.X.production.obj
+__end_of_IIC_Send_Byte 13A2 0 CODE 0 text48 dist/default/production\servo123.X.production.obj
 ESP8266_Uart@cmd 12 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 ___lwmod@dividend 19 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 __Lintcodelo E 0 CODE 0 intcodelo dist/default/production\servo123.X.production.obj
 __CFG_FCMEN$OFF 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
-start_initialization 1430 0 CODE 0 cinit dist/default/production\servo123.X.production.obj
-__end_of_hexpowers 7E21 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
+start_initialization 12EC 0 CODE 0 cinit dist/default/production\servo123.X.production.obj
+__end_of_hexpowers 7E1D 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
 __size_of_PCA9685_init 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\servo123.X.production.obj
 LCD_WriteData@ch 16 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
-_IIC_Start 18B6 0 CODE 0 text46 dist/default/production\servo123.X.production.obj
+_IIC_Start 1806 0 CODE 0 text47 dist/default/production\servo123.X.production.obj
 _TRISAbits F92 0 ABS 0 - dist/default/production\servo123.X.production.obj
 _TRISBbits F93 0 ABS 0 - dist/default/production\servo123.X.production.obj
-__end_of_LCD_WriteCmd 164C 0 CODE 0 text16 dist/default/production\servo123.X.production.obj
-_oclillator_initial 19B4 0 CODE 0 text3 dist/default/production\servo123.X.production.obj
+__end_of_LCD_WriteCmd 156C 0 CODE 0 text17 dist/default/production\servo123.X.production.obj
+_oclillator_initial 1904 0 CODE 0 text4 dist/default/production\servo123.X.production.obj
 ___rparam_used 1 0 ABS 0 - dist/default/production\servo123.X.production.obj
-__end_of_memset 177C 0 CODE 0 text4 dist/default/production\servo123.X.production.obj
+__end_of_memset 16F8 0 CODE 0 text5 dist/default/production\servo123.X.production.obj
 __CFG_WDTPS$32768 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
-_ADtoPWM B48 0 CODE 0 text38 dist/default/production\servo123.X.production.obj
+_ADtoPWM E88 0 CODE 0 text39 dist/default/production\servo123.X.production.obj
 _SPBRGH FB0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __pcstackBANK0 80 0 BANK0 1 cstackBANK0 dist/default/production\servo123.X.production.obj
 __pcstackBANK1 100 0 BANK1 1 cstackBANK1 dist/default/production\servo123.X.production.obj
-__end_of_Delay10KTCYx 195E 0 CODE 0 text43 dist/default/production\servo123.X.production.obj
+__pcstackBANK2 2CE 0 BANK2 1 cstackBANK2 dist/default/production\servo123.X.production.obj
+__end_of_Delay10KTCYx 18AE 0 CODE 0 text44 dist/default/production\servo123.X.production.obj
 ADtoPWM@AD 24 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
-ADtoPWM@u1 36 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
-ADtoPWM@u2 2A 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
-ADtoPWM@u3 2C 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
-ADtoPWM@u4 2E 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
-ADtoPWM@w1 38 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
-ADtoPWM@w2 30 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
-ADtoPWM@w3 32 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
-ADtoPWM@w4 34 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
+ADtoPWM@u4 2A 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
+ADtoPWM@w4 2C 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 IIC_Send_Byte@t 17 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
-__end_of_ESP8266_AT_Test 17D4 0 CODE 0 text30 dist/default/production\servo123.X.production.obj
+__end_of_ESP8266_AT_Test 1724 0 CODE 0 text31 dist/default/production\servo123.X.production.obj
 _ESP8266_Cmd$1210 2D 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
-_hexpowers 7E19 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
+_hexpowers 7E15 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
 __size_of_ESP8266_JoinAP 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
-ESP8266_JoinAP@pPassWord 30 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
-__end_of_PCA9685_init 1892 0 CODE 0 text7 dist/default/production\servo123.X.production.obj
+ESP8266_JoinAP@pPassWord 43 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
+__end_of_PCA9685_init 17E2 0 CODE 0 text8 dist/default/production\servo123.X.production.obj
 LCD_GotoXY@ln 17 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
-_ESP8266_Cmd E42 0 CODE 0 text31 dist/default/production\servo123.X.production.obj
-_ESP8266_Rst 17FE 0 CODE 0 text22 dist/default/production\servo123.X.production.obj
-_Delay1TCYx 19A2 0 CODE 0 text14 dist/default/production\servo123.X.production.obj
-_finger_under_0 7BCD 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
-_finger_under_1 7CA5 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
-_finger_under_2 7AEB 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
-_finger_under_3 7D65 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
-_finger_under_4 790F 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
-ESP8266_Link_Server@id 32 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
-ESP8266_Link_Server@ip 2E 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
+_ESP8266_Cmd CFC 0 CODE 0 text32 dist/default/production\servo123.X.production.obj
+_ESP8266_Rst 174E 0 CODE 0 text23 dist/default/production\servo123.X.production.obj
+_Delay1TCYx 18F2 0 CODE 0 text15 dist/default/production\servo123.X.production.obj
+_finger_under_0 7BC9 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
+_finger_under_1 7CA1 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
+_finger_under_2 7AE7 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
+_finger_under_3 7D61 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
+_finger_under_4 790B 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
+ESP8266_Link_Server@id 45 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
+ESP8266_Link_Server@ip 41 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 __Hbank0 0 0 ABS 0 bank0 dist/default/production\servo123.X.production.obj
 __Hbank1 0 0 ABS 0 bank1 dist/default/production\servo123.X.production.obj
 __Hbank2 0 0 ABS 0 bank2 dist/default/production\servo123.X.production.obj
@@ -951,9 +967,10 @@ __Hbank4 0 0 ABS 0 bank4 dist/default/production\servo123.X.production.obj
 __Hbank5 0 0 ABS 0 bank5 dist/default/production\servo123.X.production.obj
 __Hcinit 0 0 ABS 0 cinit dist/default/production\servo123.X.production.obj
 __Hconst 0 0 CONST 0 const dist/default/production\servo123.X.production.obj
-__end_of_strchr 1682 0 CODE 0 text37 dist/default/production\servo123.X.production.obj
-__end_of_strlen 15DC 0 CODE 0 text36 dist/default/production\servo123.X.production.obj
-__end_of_strstr 1290 0 CODE 0 text34 dist/default/production\servo123.X.production.obj
+__end_of_strchr 15A2 0 CODE 0 text38 dist/default/production\servo123.X.production.obj
+__end_of_strcpy 169E 0 CODE 0 text3 dist/default/production\servo123.X.production.obj
+__end_of_strlen 14FC 0 CODE 0 text37 dist/default/production\servo123.X.production.obj
+__end_of_strstr 117C 0 CODE 0 text35 dist/default/production\servo123.X.production.obj
 __Hidata 0 0 CODE 0 idata dist/default/production\servo123.X.production.obj
 __Hidloc 200008 0 IDLOC 0 idloc dist/default/production\servo123.X.production.obj
 __Hnvbit 0 0 COMRAM 1 nvbit dist/default/production\servo123.X.production.obj
@@ -974,20 +991,20 @@ ___lwdiv@counter 16 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.p
 __Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\servo123.X.production.obj
 __Hbigram 0 0 ABS 0 bigram dist/default/production\servo123.X.production.obj
 __size_of_ESP8266_Link_Server 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
-__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\Keng\AppData\Local\Temp\sfdc.obj
-__end_of_sprintf A24 0 CODE 0 text25 dist/default/production\servo123.X.production.obj
+__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\Keng\AppData\Local\Temp\s9g4.obj
+__end_of_sprintf 8B4 0 CODE 0 text26 dist/default/production\servo123.X.production.obj
 __Hcomram 0 0 ABS 0 comram dist/default/production\servo123.X.production.obj
 __Hconfig 30000E 0 CONFIG 0 config dist/default/production\servo123.X.production.obj
 __CFG_LPT1OSC$OFF 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __size_of_delayFor18Tcy 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
-__end_of_Delay10TCYx 1994 0 CODE 0 text49 dist/default/production\servo123.X.production.obj
+__end_of_Delay10TCYx 18E4 0 CODE 0 text50 dist/default/production\servo123.X.production.obj
 __Lbank0 0 0 ABS 0 bank0 dist/default/production\servo123.X.production.obj
 __Lbank1 0 0 ABS 0 bank1 dist/default/production\servo123.X.production.obj
 __Lbank2 0 0 ABS 0 bank2 dist/default/production\servo123.X.production.obj
 __Lbank3 0 0 ABS 0 bank3 dist/default/production\servo123.X.production.obj
 __Lbank4 0 0 ABS 0 bank4 dist/default/production\servo123.X.production.obj
 __Lbank5 0 0 ABS 0 bank5 dist/default/production\servo123.X.production.obj
-__end_of_isdigit 191A 0 CODE 0 text26 dist/default/production\servo123.X.production.obj
+__end_of_isdigit 186A 0 CODE 0 text27 dist/default/production\servo123.X.production.obj
 __Lcinit 0 0 ABS 0 cinit dist/default/production\servo123.X.production.obj
 __Lconst 0 0 CONST 0 const dist/default/production\servo123.X.production.obj
 __Lidata 0 0 CODE 0 idata dist/default/production\servo123.X.production.obj
@@ -1008,36 +1025,37 @@ __Ltext8 0 0 ABS 0 text8 dist/default/production\servo123.X.production.obj
 __Ltext9 0 0 ABS 0 text9 dist/default/production\servo123.X.production.obj
 __Hfarbss 0 0 FARRAM 0 farbss dist/default/production\servo123.X.production.obj
 __Lintcode_body 0 0 ABS 0 intcode_body dist/default/production\servo123.X.production.obj
-__end_of_octpowers 7E0F 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
+__end_of_octpowers 7E0B 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
 _PORTBbits F81 0 ABS 0 - dist/default/production\servo123.X.production.obj
 _PORTDbits F83 0 ABS 0 - dist/default/production\servo123.X.production.obj
-__end_of_strncmp 1312 0 CODE 0 text35 dist/default/production\servo123.X.production.obj
+__end_of_strncmp 11FE 0 CODE 0 text36 dist/default/production\servo123.X.production.obj
 _INTCONbits FF2 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __Habs1 0 0 ABS 0 abs1 dist/default/production\servo123.X.production.obj
 __Hdata 0 0 ABS 0 data dist/default/production\servo123.X.production.obj
 __Hinit 12 0 CODE 0 init dist/default/production\servo123.X.production.obj
 __Hrbit 0 0 COMRAM 1 rbit dist/default/production\servo123.X.production.obj
 __Hrbss 0 0 COMRAM 1 rbss dist/default/production\servo123.X.production.obj
-__Htemp 6C 0 COMRAM 1 temp dist/default/production\servo123.X.production.obj
+__Htemp 5A 0 COMRAM 1 temp dist/default/production\servo123.X.production.obj
 __Htext 0 0 ABS 0 text dist/default/production\servo123.X.production.obj
 __Labs1 0 0 ABS 0 abs1 dist/default/production\servo123.X.production.obj
 __Ldata 0 0 ABS 0 data dist/default/production\servo123.X.production.obj
 __Linit E 0 CODE 0 init dist/default/production\servo123.X.production.obj
 __Lrbit 0 0 COMRAM 1 rbit dist/default/production\servo123.X.production.obj
 __Lrbss 0 0 COMRAM 1 rbss dist/default/production\servo123.X.production.obj
-__Ltemp 6B 0 COMRAM 1 temp dist/default/production\servo123.X.production.obj
+__Ltemp 59 0 COMRAM 1 temp dist/default/production\servo123.X.production.obj
 __Ltext 0 0 ABS 0 text dist/default/production\servo123.X.production.obj
-__end_of_timer_2_initial 1932 0 CODE 0 text2 dist/default/production\servo123.X.production.obj
+__end_of_timer_2_initial 1882 0 CODE 0 text2 dist/default/production\servo123.X.production.obj
 __CFG_XINST$OFF 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 memset@c 14 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 memset@n 16 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 memset@p 18 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
-___wmul 1824 0 CODE 0 text27 dist/default/production\servo123.X.production.obj
+___wmul 1774 0 CODE 0 text28 dist/default/production\servo123.X.production.obj
 __LcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/production\servo123.X.production.obj
 __LcstackBANK1 0 0 ABS 0 cstackBANK1 dist/default/production\servo123.X.production.obj
-int$flags 6B 0 COMRAM 1 temp dist/default/production\servo123.X.production.obj
+__LcstackBANK2 0 0 ABS 0 cstackBANK2 dist/default/production\servo123.X.production.obj
+int$flags 59 0 COMRAM 1 temp dist/default/production\servo123.X.production.obj
 __HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\servo123.X.production.obj
-_ESP8266_AT_Test 17A8 0 CODE 0 text30 dist/default/production\servo123.X.production.obj
+_ESP8266_AT_Test 16F8 0 CODE 0 text31 dist/default/production\servo123.X.production.obj
 __Hintret 0 0 ABS 0 intret dist/default/production\servo123.X.production.obj
 __Hirdata 0 0 CODE 0 irdata dist/default/production\servo123.X.production.obj
 __size_of_timer_intrrupt_initinal 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
@@ -1047,26 +1065,28 @@ __S1 364 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __S2 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 ESP8266_Link_Server@F4048 300 0 BANK3 1 bssBANK3 dist/default/production\servo123.X.production.obj
 ESP8266_Link_Server@enumE 1DC 0 BANK1 1 cstackBANK1 dist/default/production\servo123.X.production.obj
-_GPIO_initial 1994 0 CODE 0 text18 dist/default/production\servo123.X.production.obj
-__end_of_delayFor18Tcy 19C4 0 CODE 0 text13 dist/default/production\servo123.X.production.obj
-__end_of_finger_under_0 7CA5 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
-__end_of_finger_under_1 7D65 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
-__end_of_finger_under_2 7BCD 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
-__end_of_finger_under_3 7E03 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
-__end_of_finger_under_4 79FF 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
-_octpowers 7E03 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
+_GPIO_initial 18E4 0 CODE 0 text19 dist/default/production\servo123.X.production.obj
+__end_of_delayFor18Tcy 1914 0 CODE 0 text14 dist/default/production\servo123.X.production.obj
+__end_of_finger_under_0 7CA1 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
+__end_of_finger_under_1 7D61 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
+__end_of_finger_under_2 7BC9 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
+__end_of_finger_under_3 7DFF 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
+__end_of_finger_under_4 79FB 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
+_octpowers 7DFF 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
 __CFG_PBADEN$OFF 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
-_ESP8266_Link_Server C4E 0 CODE 0 text23 dist/default/production\servo123.X.production.obj
+_ESP8266_Link_Server B08 0 CODE 0 text24 dist/default/production\servo123.X.production.obj
 __size_of_STA_MODE 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __HidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/production\servo123.X.production.obj
-__end_of_Delay1TCYx 19AC 0 CODE 0 text14 dist/default/production\servo123.X.production.obj
+__end_of_Delay1TCYx 18FC 0 CODE 0 text15 dist/default/production\servo123.X.production.obj
 __Lbigdata 0 0 BIGRAM 1 bigdata dist/default/production\servo123.X.production.obj
 __Hnvrram 0 0 COMRAM 1 nvrram dist/default/production\servo123.X.production.obj
-sprintf@idx 80 0 BANK0 1 cstackBANK0 dist/default/production\servo123.X.production.obj
-sprintf@len 89 0 BANK0 1 cstackBANK0 dist/default/production\servo123.X.production.obj
-sprintf@val 8D 0 BANK0 1 cstackBANK0 dist/default/production\servo123.X.production.obj
+sprintf@idx 2C 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
+sprintf@len 35 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
+sprintf@val 39 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
+strcpy@cp 16 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
+strcpy@to 12 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 __size_of_LCD_GotoXY 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
-int_func D4A 0 CODE 0 intcode_body dist/default/production\servo123.X.production.obj
+int_func C04 0 CODE 0 intcode_body dist/default/production\servo123.X.production.obj
 delay_ms@ms 14 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 delay_us@us 13 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 __Lintentry 0 0 ABS 0 intentry dist/default/production\servo123.X.production.obj
@@ -1076,9 +1096,10 @@ __Hrparam 0 0 COMRAM 1 rparam dist/default/production\servo123.X.production.obj
 __size_of_LCD_Initialize 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __activetblptr 2 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __Hstruct 0 0 COMRAM 1 struct dist/default/production\servo123.X.production.obj
-_work_flag 60 0 COMRAM 1 bssCOMRAM dist/default/production\servo123.X.production.obj
+_work_flag 4E 0 COMRAM 1 bssCOMRAM dist/default/production\servo123.X.production.obj
 __size_of___wmul 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
-_ESP8266_Net_Mode_Choose 1180 0 CODE 0 text21 dist/default/production\servo123.X.production.obj
+_ESP8266_Net_Mode_Choose 106C 0 CODE 0 text22 dist/default/production\servo123.X.production.obj
+__LbssBANK1 0 0 ABS 0 bssBANK1 dist/default/production\servo123.X.production.obj
 __LbssBANK2 0 0 ABS 0 bssBANK2 dist/default/production\servo123.X.production.obj
 __LbssBANK3 0 0 ABS 0 bssBANK3 dist/default/production\servo123.X.production.obj
 __Htext10 0 0 ABS 0 text10 dist/default/production\servo123.X.production.obj
@@ -1121,67 +1142,69 @@ __Htext46 0 0 ABS 0 text46 dist/default/production\servo123.X.production.obj
 __Htext47 0 0 ABS 0 text47 dist/default/production\servo123.X.production.obj
 __Htext48 0 0 ABS 0 text48 dist/default/production\servo123.X.production.obj
 __Htext49 0 0 ABS 0 text49 dist/default/production\servo123.X.production.obj
-_timer_2_initial 191A 0 CODE 0 text2 dist/default/production\servo123.X.production.obj
+__Htext50 0 0 ABS 0 text50 dist/default/production\servo123.X.production.obj
+_timer_2_initial 186A 0 CODE 0 text2 dist/default/production\servo123.X.production.obj
 ESP8266_Cmd@waittime 2B 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
-__end_of_ESP8266_Net_Mode_Choose 120C 0 CODE 0 text21 dist/default/production\servo123.X.production.obj
+__end_of_ESP8266_Net_Mode_Choose 10F8 0 CODE 0 text22 dist/default/production\servo123.X.production.obj
 _RCSTAbits FAB 0 ABS 0 - dist/default/production\servo123.X.production.obj
 _PIE1bits F9D 0 ABS 0 - dist/default/production\servo123.X.production.obj
-_IIC_Wait_Ack 15DC 0 CODE 0 text44 dist/default/production\servo123.X.production.obj
-_memset 1750 0 CODE 0 text4 dist/default/production\servo123.X.production.obj
-sprintf@flag 93 0 BANK0 1 cstackBANK0 dist/default/production\servo123.X.production.obj
-sprintf@prec 8F 0 BANK0 1 cstackBANK0 dist/default/production\servo123.X.production.obj
+_IIC_Wait_Ack 14FC 0 CODE 0 text45 dist/default/production\servo123.X.production.obj
+_memset 16CC 0 CODE 0 text5 dist/default/production\servo123.X.production.obj
+sprintf@flag 3F 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
+sprintf@prec 3B 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 memset@p1 12 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 __size_of_GPIO_initial 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __size_of_ESP8266_client 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
-__ptext10 17D4 0 CODE 0 text10 dist/default/production\servo123.X.production.obj
-__ptext11 FCE 0 CODE 0 text11 dist/default/production\servo123.X.production.obj
-__ptext12 1720 0 CODE 0 text12 dist/default/production\servo123.X.production.obj
-__ptext13 19BC 0 CODE 0 text13 dist/default/production\servo123.X.production.obj
-__ptext14 19A2 0 CODE 0 text14 dist/default/production\servo123.X.production.obj
-__ptext15 1560 0 CODE 0 text15 dist/default/production\servo123.X.production.obj
-__ptext16 1616 0 CODE 0 text16 dist/default/production\servo123.X.production.obj
-__ptext17 177C 0 CODE 0 text17 dist/default/production\servo123.X.production.obj
-__ptext18 1994 0 CODE 0 text18 dist/default/production\servo123.X.production.obj
-__ptext19 F0A 0 CODE 0 text19 dist/default/production\servo123.X.production.obj
-__ptext20 16EE 0 CODE 0 text20 dist/default/production\servo123.X.production.obj
-__ptext21 1180 0 CODE 0 text21 dist/default/production\servo123.X.production.obj
-__ptext22 17FE 0 CODE 0 text22 dist/default/production\servo123.X.production.obj
-__ptext23 C4E 0 CODE 0 text23 dist/default/production\servo123.X.production.obj
-__ptext24 14D4 0 CODE 0 text24 dist/default/production\servo123.X.production.obj
-__ptext25 12 0 CODE 0 text25 dist/default/production\servo123.X.production.obj
-__ptext26 18FC 0 CODE 0 text26 dist/default/production\servo123.X.production.obj
-__ptext27 1824 0 CODE 0 text27 dist/default/production\servo123.X.production.obj
-__ptext28 151E 0 CODE 0 text28 dist/default/production\servo123.X.production.obj
-__ptext29 1482 0 CODE 0 text29 dist/default/production\servo123.X.production.obj
-__ptext30 17A8 0 CODE 0 text30 dist/default/production\servo123.X.production.obj
-__ptext31 E42 0 CODE 0 text31 dist/default/production\servo123.X.production.obj
-__ptext32 1312 0 CODE 0 text32 dist/default/production\servo123.X.production.obj
-__ptext33 1064 0 CODE 0 text33 dist/default/production\servo123.X.production.obj
-__ptext34 120C 0 CODE 0 text34 dist/default/production\servo123.X.production.obj
-__ptext35 1290 0 CODE 0 text35 dist/default/production\servo123.X.production.obj
-__ptext36 159E 0 CODE 0 text36 dist/default/production\servo123.X.production.obj
-__ptext37 164C 0 CODE 0 text37 dist/default/production\servo123.X.production.obj
-__ptext38 B48 0 CODE 0 text38 dist/default/production\servo123.X.production.obj
-__ptext39 A24 0 CODE 0 text39 dist/default/production\servo123.X.production.obj
-__ptext40 1682 0 CODE 0 text40 dist/default/production\servo123.X.production.obj
-__ptext41 16B8 0 CODE 0 text41 dist/default/production\servo123.X.production.obj
-__ptext42 1932 0 CODE 0 text42 dist/default/production\servo123.X.production.obj
-__ptext43 1948 0 CODE 0 text43 dist/default/production\servo123.X.production.obj
-__ptext44 15DC 0 CODE 0 text44 dist/default/production\servo123.X.production.obj
-__ptext45 1892 0 CODE 0 text45 dist/default/production\servo123.X.production.obj
-__ptext46 18B6 0 CODE 0 text46 dist/default/production\servo123.X.production.obj
-__ptext47 1384 0 CODE 0 text47 dist/default/production\servo123.X.production.obj
-__ptext48 195E 0 CODE 0 text48 dist/default/production\servo123.X.production.obj
-__ptext49 1984 0 CODE 0 text49 dist/default/production\servo123.X.production.obj
-__pintcode_body D4A 0 CODE 0 intcode_body dist/default/production\servo123.X.production.obj
-___lwdiv 1482 0 CODE 0 text29 dist/default/production\servo123.X.production.obj
-___lwmod 151E 0 CODE 0 text28 dist/default/production\servo123.X.production.obj
+__ptext10 11FE 0 CODE 0 text10 dist/default/production\servo123.X.production.obj
+__ptext11 1724 0 CODE 0 text11 dist/default/production\servo123.X.production.obj
+__ptext12 F46 0 CODE 0 text12 dist/default/production\servo123.X.production.obj
+__ptext13 1640 0 CODE 0 text13 dist/default/production\servo123.X.production.obj
+__ptext14 190C 0 CODE 0 text14 dist/default/production\servo123.X.production.obj
+__ptext15 18F2 0 CODE 0 text15 dist/default/production\servo123.X.production.obj
+__ptext16 1480 0 CODE 0 text16 dist/default/production\servo123.X.production.obj
+__ptext17 1536 0 CODE 0 text17 dist/default/production\servo123.X.production.obj
+__ptext18 169E 0 CODE 0 text18 dist/default/production\servo123.X.production.obj
+__ptext19 18E4 0 CODE 0 text19 dist/default/production\servo123.X.production.obj
+__ptext20 DC4 0 CODE 0 text20 dist/default/production\servo123.X.production.obj
+__ptext21 160E 0 CODE 0 text21 dist/default/production\servo123.X.production.obj
+__ptext22 106C 0 CODE 0 text22 dist/default/production\servo123.X.production.obj
+__ptext23 174E 0 CODE 0 text23 dist/default/production\servo123.X.production.obj
+__ptext24 B08 0 CODE 0 text24 dist/default/production\servo123.X.production.obj
+__ptext25 13F4 0 CODE 0 text25 dist/default/production\servo123.X.production.obj
+__ptext26 12 0 CODE 0 text26 dist/default/production\servo123.X.production.obj
+__ptext27 184C 0 CODE 0 text27 dist/default/production\servo123.X.production.obj
+__ptext28 1774 0 CODE 0 text28 dist/default/production\servo123.X.production.obj
+__ptext29 143E 0 CODE 0 text29 dist/default/production\servo123.X.production.obj
+__ptext30 13A2 0 CODE 0 text30 dist/default/production\servo123.X.production.obj
+__ptext31 16F8 0 CODE 0 text31 dist/default/production\servo123.X.production.obj
+__ptext32 CFC 0 CODE 0 text32 dist/default/production\servo123.X.production.obj
+__ptext33 127A 0 CODE 0 text33 dist/default/production\servo123.X.production.obj
+__ptext34 FDC 0 CODE 0 text34 dist/default/production\servo123.X.production.obj
+__ptext35 10F8 0 CODE 0 text35 dist/default/production\servo123.X.production.obj
+__ptext36 117C 0 CODE 0 text36 dist/default/production\servo123.X.production.obj
+__ptext37 14BE 0 CODE 0 text37 dist/default/production\servo123.X.production.obj
+__ptext38 156C 0 CODE 0 text38 dist/default/production\servo123.X.production.obj
+__ptext39 E88 0 CODE 0 text39 dist/default/production\servo123.X.production.obj
+__ptext40 9E4 0 CODE 0 text40 dist/default/production\servo123.X.production.obj
+__ptext41 15A2 0 CODE 0 text41 dist/default/production\servo123.X.production.obj
+__ptext42 15D8 0 CODE 0 text42 dist/default/production\servo123.X.production.obj
+__ptext43 1882 0 CODE 0 text43 dist/default/production\servo123.X.production.obj
+__ptext44 1898 0 CODE 0 text44 dist/default/production\servo123.X.production.obj
+__ptext45 14FC 0 CODE 0 text45 dist/default/production\servo123.X.production.obj
+__ptext46 17E2 0 CODE 0 text46 dist/default/production\servo123.X.production.obj
+__ptext47 1806 0 CODE 0 text47 dist/default/production\servo123.X.production.obj
+__ptext48 134A 0 CODE 0 text48 dist/default/production\servo123.X.production.obj
+__ptext49 18AE 0 CODE 0 text49 dist/default/production\servo123.X.production.obj
+__ptext50 18D4 0 CODE 0 text50 dist/default/production\servo123.X.production.obj
+__pintcode_body C04 0 CODE 0 intcode_body dist/default/production\servo123.X.production.obj
+___lwdiv 13A2 0 CODE 0 text30 dist/default/production\servo123.X.production.obj
+___lwmod 143E 0 CODE 0 text29 dist/default/production\servo123.X.production.obj
 strlen@cp 16 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
-_LCDWriteNibble 177C 0 CODE 0 text17 dist/default/production\servo123.X.production.obj
-__end_of_transmit_finger 16B8 0 CODE 0 text40 dist/default/production\servo123.X.production.obj
+_LCDWriteNibble 169E 0 CODE 0 text18 dist/default/production\servo123.X.production.obj
+__end_of_transmit_finger 15D8 0 CODE 0 text41 dist/default/production\servo123.X.production.obj
 __Lbigbss 0 0 BIGRAM 1 bigbss dist/default/production\servo123.X.production.obj
 __Lbigram 0 0 ABS 0 bigram dist/default/production\servo123.X.production.obj
-__end_of_ESP8266_ReceiveString 10F4 0 CODE 0 text33 dist/default/production\servo123.X.production.obj
+__end_of_ESP8266_ReceiveString 106C 0 CODE 0 text34 dist/default/production\servo123.X.production.obj
 __CFG_BORV$3 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 Delay10KTCYx@unit 13 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 __Lcomram 0 0 ABS 0 comram dist/default/production\servo123.X.production.obj
@@ -1190,51 +1213,55 @@ ___wmul@multiplier 12 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X
 _LATAbits F89 0 ABS 0 - dist/default/production\servo123.X.production.obj
 ESP8266_Cmd@cmd 25 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 _strPc_Fram_Record 200 0 BANK2 1 bssBANK2 dist/default/production\servo123.X.production.obj
-_STA_MODE 16EE 0 CODE 0 text20 dist/default/production\servo123.X.production.obj
-main@temp 3A 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
+_STA_MODE 160E 0 CODE 0 text21 dist/default/production\servo123.X.production.obj
+main@temp 2E7 0 BANK2 1 cstackBANK2 dist/default/production\servo123.X.production.obj
 __Lfarbss 0 0 FARRAM 0 farbss dist/default/production\servo123.X.production.obj
-ESP8266_JoinAP@pSSID 2E 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
+ESP8266_JoinAP@pSSID 41 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 ___lwdiv@divisor 14 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
-_strchr 164C 0 CODE 0 text37 dist/default/production\servo123.X.production.obj
-_strlen 159E 0 CODE 0 text36 dist/default/production\servo123.X.production.obj
-_strstr 120C 0 CODE 0 text34 dist/default/production\servo123.X.production.obj
+main@print 2E2 0 BANK2 1 cstackBANK2 dist/default/production\servo123.X.production.obj
+_strchr 156C 0 CODE 0 text38 dist/default/production\servo123.X.production.obj
+_strcpy 1670 0 CODE 0 text3 dist/default/production\servo123.X.production.obj
+_strlen 14BE 0 CODE 0 text37 dist/default/production\servo123.X.production.obj
+_strstr 10F8 0 CODE 0 text35 dist/default/production\servo123.X.production.obj
 __Lfardata 0 0 FARRAM 0 fardata dist/default/production\servo123.X.production.obj
 transmit_finger@Hbyte 1D 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 transmit_finger@Lbyte 1E 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
-__end_of_GPIO_initial 19A2 0 CODE 0 text18 dist/default/production\servo123.X.production.obj
+__end_of_GPIO_initial 18F2 0 CODE 0 text19 dist/default/production\servo123.X.production.obj
 __size_of_ESP8266_AT_Test 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
-_ESP8266_ReceiveString 1064 0 CODE 0 text33 dist/default/production\servo123.X.production.obj
-__end_of_STA_MODE 1720 0 CODE 0 text20 dist/default/production\servo123.X.production.obj
-stackhi 5FF 0 ABS 0 - C:\Users\Keng\AppData\Local\Temp\sfdc.obj
-stacklo 364 0 ABS 0 - C:\Users\Keng\AppData\Local\Temp\sfdc.obj
+_ESP8266_ReceiveString FDC 0 CODE 0 text34 dist/default/production\servo123.X.production.obj
+__end_of_STA_MODE 1640 0 CODE 0 text21 dist/default/production\servo123.X.production.obj
+stackhi 5FF 0 ABS 0 - C:\Users\Keng\AppData\Local\Temp\s9g4.obj
+stacklo 364 0 ABS 0 - C:\Users\Keng\AppData\Local\Temp\s9g4.obj
 __Lintcode 8 0 CODE 0 intcode dist/default/production\servo123.X.production.obj
 __Lintret 0 0 ABS 0 intret dist/default/production\servo123.X.production.obj
 strstr@s1 21 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 strstr@s2 23 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 __Lirdata 0 0 CODE 0 irdata dist/default/production\servo123.X.production.obj
 __CFG_LVP$OFF 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
+strcpy@from 14 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 __size_of_oclillator_initial 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __size_of_IIC_Wait_Ack 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __size_of_time_adc 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __Lspace_0 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __Lspace_1 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __Lspace_2 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
-__pbssCOMRAM 3C 0 COMRAM 1 bssCOMRAM dist/default/production\servo123.X.production.obj
+__pbssCOMRAM 48 0 COMRAM 1 bssCOMRAM dist/default/production\servo123.X.production.obj
 __size_of_Delay10TCYx 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __size_of_memset 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __HcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/production\servo123.X.production.obj
 __HcstackBANK1 0 0 ABS 0 cstackBANK1 dist/default/production\servo123.X.production.obj
+__HcstackBANK2 0 0 ABS 0 cstackBANK2 dist/default/production\servo123.X.production.obj
 _PIR1bits F9E 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __size_of_delay_ms 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __size_of_delay_us 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\servo123.X.production.obj
-__end_of_ESP8266_Link_Server D4A 0 CODE 0 text23 dist/default/production\servo123.X.production.obj
-end_of_initialization 1474 0 CODE 0 cinit dist/default/production\servo123.X.production.obj
+__end_of_ESP8266_Link_Server C04 0 CODE 0 text24 dist/default/production\servo123.X.production.obj
+end_of_initialization 133C 0 CODE 0 cinit dist/default/production\servo123.X.production.obj
 ESP8266_Net_Mode_Choose@MODE 2E 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 __Lnvrram 0 0 COMRAM 1 nvrram dist/default/production\servo123.X.production.obj
 __Hintentry 0 0 ABS 0 intentry dist/default/production\servo123.X.production.obj
-_transmit_finger 1682 0 CODE 0 text40 dist/default/production\servo123.X.production.obj
-__end_of_LCDWriteNibble 17A8 0 CODE 0 text17 dist/default/production\servo123.X.production.obj
+_transmit_finger 15A2 0 CODE 0 text41 dist/default/production\servo123.X.production.obj
+__end_of_LCDWriteNibble 16CC 0 CODE 0 text18 dist/default/production\servo123.X.production.obj
 __CFG_STVREN$ON 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 _RCONbits FD0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 ___lwdiv@dividend 12 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
@@ -1242,31 +1269,33 @@ ___lwdiv@dividend 12 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.
 ?___lwmod 19 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 __Hreset_vec 4 0 CODE 0 reset_vec dist/default/production\servo123.X.production.obj
 PWMt0PCA@finger 23 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
+__HbssBANK1 0 0 ABS 0 bssBANK1 dist/default/production\servo123.X.production.obj
 __HbssBANK2 0 0 ABS 0 bssBANK2 dist/default/production\servo123.X.production.obj
 __HbssBANK3 0 0 ABS 0 bssBANK3 dist/default/production\servo123.X.production.obj
-__end_of_IIC_Wait_Ack 1616 0 CODE 0 text44 dist/default/production\servo123.X.production.obj
+__end_of_IIC_Wait_Ack 1536 0 CODE 0 text45 dist/default/production\servo123.X.production.obj
 strchr@chr 14 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 strchr@ptr 12 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 __Lramtop 600 0 RAM 0 ramtop dist/default/production\servo123.X.production.obj
 __size_of_strchr 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
+__size_of_strcpy 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __size_of_strlen 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __size_of_strstr 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __Lrparam 0 0 COMRAM 1 rparam dist/default/production\servo123.X.production.obj
-__pcinit 1430 0 CODE 0 cinit dist/default/production\servo123.X.production.obj
+__pcinit 12EC 0 CODE 0 cinit dist/default/production\servo123.X.production.obj
 __size_of_timer_2_initial 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __size_of_PWMt0PCA 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
-__ptext0 10F4 0 CODE 0 text0 dist/default/production\servo123.X.production.obj
-__ptext1 1974 0 CODE 0 text1 dist/default/production\servo123.X.production.obj
-__ptext2 191A 0 CODE 0 text2 dist/default/production\servo123.X.production.obj
-__ptext3 19B4 0 CODE 0 text3 dist/default/production\servo123.X.production.obj
-__ptext4 1750 0 CODE 0 text4 dist/default/production\servo123.X.production.obj
-__ptext5 184A 0 CODE 0 text5 dist/default/production\servo123.X.production.obj
-__ptext6 19C4 0 CODE 0 text6 dist/default/production\servo123.X.production.obj
-__ptext7 186E 0 CODE 0 text7 dist/default/production\servo123.X.production.obj
-__ptext8 18DA 0 CODE 0 text8 dist/default/production\servo123.X.production.obj
-__ptext9 13DC 0 CODE 0 text9 dist/default/production\servo123.X.production.obj
+__ptext0 8B4 0 CODE 0 text0 dist/default/production\servo123.X.production.obj
+__ptext1 18C4 0 CODE 0 text1 dist/default/production\servo123.X.production.obj
+__ptext2 186A 0 CODE 0 text2 dist/default/production\servo123.X.production.obj
+__ptext3 1670 0 CODE 0 text3 dist/default/production\servo123.X.production.obj
+__ptext4 1904 0 CODE 0 text4 dist/default/production\servo123.X.production.obj
+__ptext5 16CC 0 CODE 0 text5 dist/default/production\servo123.X.production.obj
+__ptext6 179A 0 CODE 0 text6 dist/default/production\servo123.X.production.obj
+__ptext7 1914 0 CODE 0 text7 dist/default/production\servo123.X.production.obj
+__ptext8 17BE 0 CODE 0 text8 dist/default/production\servo123.X.production.obj
+__ptext9 182A 0 CODE 0 text9 dist/default/production\servo123.X.production.obj
 __Lstruct 0 0 COMRAM 1 struct dist/default/production\servo123.X.production.obj
-_initial_UART 184A 0 CODE 0 text5 dist/default/production\servo123.X.production.obj
+_initial_UART 179A 0 CODE 0 text6 dist/default/production\servo123.X.production.obj
 __Ltext10 0 0 ABS 0 text10 dist/default/production\servo123.X.production.obj
 __Ltext11 0 0 ABS 0 text11 dist/default/production\servo123.X.production.obj
 __Ltext12 0 0 ABS 0 text12 dist/default/production\servo123.X.production.obj
@@ -1307,73 +1336,74 @@ __Ltext46 0 0 ABS 0 text46 dist/default/production\servo123.X.production.obj
 __Ltext47 0 0 ABS 0 text47 dist/default/production\servo123.X.production.obj
 __Ltext48 0 0 ABS 0 text48 dist/default/production\servo123.X.production.obj
 __Ltext49 0 0 ABS 0 text49 dist/default/production\servo123.X.production.obj
-_LCD_WriteData 17D4 0 CODE 0 text10 dist/default/production\servo123.X.production.obj
-_LCD_WritetStr 13DC 0 CODE 0 text9 dist/default/production\servo123.X.production.obj
-__ramtop 600 0 RAM 0 ramtop C:\Users\Keng\AppData\Local\Temp\sfdc.obj
-_sprintf 12 0 CODE 0 text25 dist/default/production\servo123.X.production.obj
+__Ltext50 0 0 ABS 0 text50 dist/default/production\servo123.X.production.obj
+_LCD_WriteData 1724 0 CODE 0 text11 dist/default/production\servo123.X.production.obj
+_LCD_WritetStr 11FE 0 CODE 0 text10 dist/default/production\servo123.X.production.obj
+__ramtop 600 0 RAM 0 ramtop C:\Users\Keng\AppData\Local\Temp\s9g4.obj
+_sprintf 12 0 CODE 0 text26 dist/default/production\servo123.X.production.obj
 LCD_GotoXY@pos 1C 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
-__end_of_ESP8266_Cmd F0A 0 CODE 0 text31 dist/default/production\servo123.X.production.obj
-__end_of_ESP8266_Rst 1824 0 CODE 0 text22 dist/default/production\servo123.X.production.obj
+__end_of_ESP8266_Cmd DC4 0 CODE 0 text32 dist/default/production\servo123.X.production.obj
+__end_of_ESP8266_Rst 1774 0 CODE 0 text23 dist/default/production\servo123.X.production.obj
 LCD_WriteCmd@ch 16 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 __Lpowerup E 0 CODE 0 powerup dist/default/production\servo123.X.production.obj
 __Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\servo123.X.production.obj
 __size_of_PCA9685_writeOneByte 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
-sprintf@ap 8B 0 BANK0 1 cstackBANK0 dist/default/production\servo123.X.production.obj
-sprintf@cp 87 0 BANK0 1 cstackBANK0 dist/default/production\servo123.X.production.obj
+sprintf@ap 37 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
+sprintf@cp 33 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 sprintf@sp 1E 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 __size_of_ADtoPWM 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
-_isdigit 18FC 0 CODE 0 text26 dist/default/production\servo123.X.production.obj
-ESP8266_JoinAP@cCmd 100 0 BANK1 1 cstackBANK1 dist/default/production\servo123.X.production.obj
+_isdigit 184C 0 CODE 0 text27 dist/default/production\servo123.X.production.obj
+ESP8266_JoinAP@cCmd 80 0 BANK0 1 cstackBANK0 dist/default/production\servo123.X.production.obj
 _strEsp8266_Fram_Record 29A 0 BANK2 1 bssBANK2 dist/default/production\servo123.X.production.obj
 __Lreset_vec 0 0 CODE 0 reset_vec dist/default/production\servo123.X.production.obj
 _time_adc 8 0 CODE 0 intcode dist/default/production\servo123.X.production.obj
 Delay10TCYx@unit 12 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
-_strncmp 1290 0 CODE 0 text35 dist/default/production\servo123.X.production.obj
+_strncmp 117C 0 CODE 0 text36 dist/default/production\servo123.X.production.obj
 ?_ESP8266_ReceiveString 25 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
-_ESP8266_JoinAP 14D4 0 CODE 0 text24 dist/default/production\servo123.X.production.obj
+_ESP8266_JoinAP 13F4 0 CODE 0 text25 dist/default/production\servo123.X.production.obj
 ___param_bank 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __CFG_WDT$OFF 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __Hbigdata 0 0 BIGRAM 1 bigdata dist/default/production\servo123.X.production.obj
-__end_of__initialization 1474 0 CODE 0 cinit dist/default/production\servo123.X.production.obj
+__end_of__initialization 133C 0 CODE 0 cinit dist/default/production\servo123.X.production.obj
 __size_of_Delay1TCYx 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __CFG_WRT0$OFF 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 strncmp@len 1C 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 __CFG_WRT1$OFF 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __CFG_WRT2$OFF 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
-_delay_ms 1932 0 CODE 0 text42 dist/default/production\servo123.X.production.obj
-_delay_us 195E 0 CODE 0 text48 dist/default/production\servo123.X.production.obj
+_delay_ms 1882 0 CODE 0 text43 dist/default/production\servo123.X.production.obj
+_delay_us 18AE 0 CODE 0 text49 dist/default/production\servo123.X.production.obj
 __CFG_WRT3$OFF 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __CFG_WRTB$OFF 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __Libigdata 0 0 CODE 0 ibigdata dist/default/production\servo123.X.production.obj
 __CFG_WRTC$OFF 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __CFG_WRTD$OFF 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
-__end_of_PCA9685_writeOneByte 16EE 0 CODE 0 text41 dist/default/production\servo123.X.production.obj
-__end_of_time_adc E42 0 CODE 0 intcode_body dist/default/production\servo123.X.production.obj
-_finger_up_0 7485 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
-_finger_up_1 79FF 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
-_finger_up_2 780D 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
-_finger_up_3 76E9 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
-_finger_up_4 75BB 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
+__end_of_PCA9685_writeOneByte 160E 0 CODE 0 text42 dist/default/production\servo123.X.production.obj
+__end_of_time_adc CFC 0 CODE 0 intcode_body dist/default/production\servo123.X.production.obj
+_finger_up_0 7481 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
+_finger_up_1 79FB 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
+_finger_up_2 7809 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
+_finger_up_3 76E5 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
+_finger_up_4 75B7 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
 __Lclrtext 0 0 ABS 0 clrtext dist/default/production\servo123.X.production.obj
 __CFG_OSC$HSPLL 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 _strPc1_1_Fram_Record 267 0 BANK2 1 bssBANK2 dist/default/production\servo123.X.production.obj
-__end_of_delay_ms 1948 0 CODE 0 text42 dist/default/production\servo123.X.production.obj
-__end_of_delay_us 1974 0 CODE 0 text48 dist/default/production\servo123.X.production.obj
+__end_of_delay_ms 1898 0 CODE 0 text43 dist/default/production\servo123.X.production.obj
+__end_of_delay_us 18C4 0 CODE 0 text49 dist/default/production\servo123.X.production.obj
 __CFG_PWRT$OFF 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __size_of_initial_UART 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __pcstackCOMRAM 1 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 _TXSTAbits FAC 0 ABS 0 - dist/default/production\servo123.X.production.obj
-__pmediumconst 7484 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
-_PWMt0PCA A24 0 CODE 0 text39 dist/default/production\servo123.X.production.obj
+__pmediumconst 7480 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
+_PWMt0PCA 9E4 0 CODE 0 text40 dist/default/production\servo123.X.production.obj
 __CFG_BOREN$SBORDIS 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
-sprintf@c 92 0 BANK0 1 cstackBANK0 dist/default/production\servo123.X.production.obj
+sprintf@c 3E 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 sprintf@f 20 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
-__end_of_main 1180 0 CODE 0 text0 dist/default/production\servo123.X.production.obj
+__end_of_main 9E4 0 CODE 0 text0 dist/default/production\servo123.X.production.obj
 __pintcode 8 0 CODE 0 intcode dist/default/production\servo123.X.production.obj
 isdigit@c 14 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
-__end_of_dpowers 7E19 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
+__end_of_dpowers 7E15 0 MEDIUMCONST 0 mediumconst dist/default/production\servo123.X.production.obj
 ?_sprintf 1E 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
-_isdigit$1676 13 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
+_isdigit$1685 13 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 _PORTD F83 0 ABS 0 - dist/default/production\servo123.X.production.obj
 _RCREG FAE 0 ABS 0 - dist/default/production\servo123.X.production.obj
 _SPBRG FAF 0 ABS 0 - dist/default/production\servo123.X.production.obj
@@ -1394,23 +1424,24 @@ __CFG_CP3$OFF 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 ESP8266_Link_Server@cCmd 100 0 BANK1 1 cstackBANK1 dist/default/production\servo123.X.production.obj
 ESP8266_Link_Server@cStr 178 0 BANK1 1 cstackBANK1 dist/default/production\servo123.X.production.obj
 __size_of_transmit_finger 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
-_count 62 0 COMRAM 1 bssCOMRAM dist/default/production\servo123.X.production.obj
-__end_of_PWMt0PCA B48 0 CODE 0 text39 dist/default/production\servo123.X.production.obj
+_count 50 0 COMRAM 1 bssCOMRAM dist/default/production\servo123.X.production.obj
+__end_of_PWMt0PCA B08 0 CODE 0 text40 dist/default/production\servo123.X.production.obj
 __CFG_CPB$OFF 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __CFG_CPD$OFF 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
-_write 61 0 COMRAM 1 bssCOMRAM dist/default/production\servo123.X.production.obj
+_write 4F 0 COMRAM 1 bssCOMRAM dist/default/production\servo123.X.production.obj
 _str1_1esp8266 234 0 BANK2 1 bssBANK2 dist/default/production\servo123.X.production.obj
 _LCD_GotoXY$640 1A 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
-sprintf@width 90 0 BANK0 1 cstackBANK0 dist/default/production\servo123.X.production.obj
-__end_of_initial_UART 186E 0 CODE 0 text5 dist/default/production\servo123.X.production.obj
+sprintf@width 3C 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
+__end_of_initial_UART 17BE 0 CODE 0 text6 dist/default/production\servo123.X.production.obj
 PWMt0PCA@low 21 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
-__end_of_ESP8266_JoinAP 151E 0 CODE 0 text24 dist/default/production\servo123.X.production.obj
+__end_of_ESP8266_JoinAP 143E 0 CODE 0 text25 dist/default/production\servo123.X.production.obj
 ?_strncmp 18 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
-__initialization 1430 0 CODE 0 cinit dist/default/production\servo123.X.production.obj
-_ESP8266_Uart 1312 0 CODE 0 text32 dist/default/production\servo123.X.production.obj
+__initialization 12EC 0 CODE 0 cinit dist/default/production\servo123.X.production.obj
+_ESP8266_Uart 127A 0 CODE 0 text33 dist/default/production\servo123.X.production.obj
+__pbssBANK1 1DD 0 BANK1 1 bssBANK1 dist/default/production\servo123.X.production.obj
 __pbssBANK2 200 0 BANK2 1 bssBANK2 dist/default/production\servo123.X.production.obj
 __pbssBANK3 300 0 BANK3 1 bssBANK3 dist/default/production\servo123.X.production.obj
-__pdataCOMRAM 63 0 COMRAM 1 dataCOMRAM dist/default/production\servo123.X.production.obj
+__pdataCOMRAM 51 0 COMRAM 1 dataCOMRAM dist/default/production\servo123.X.production.obj
 _T2CONbits FCA 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __Hfardata 0 0 FARRAM 0 fardata dist/default/production\servo123.X.production.obj
 ___wmul@product 16 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
@@ -1422,9 +1453,9 @@ __Lifardata 0 0 CODE 0 ifardata dist/default/production\servo123.X.production.ob
 __size_of_LCD_WriteData 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __size_of_LCD_WritetStr 0 0 ABS 0 - dist/default/production\servo123.X.production.obj
 __Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\servo123.X.production.obj
-__end_of_ADtoPWM C4E 0 CODE 0 text38 dist/default/production\servo123.X.production.obj
+__end_of_ADtoPWM F46 0 CODE 0 text39 dist/default/production\servo123.X.production.obj
 __Hintcode E 0 CODE 0 intcode dist/default/production\servo123.X.production.obj
-_timer_intrrupt_initinal 1974 0 CODE 0 text1 dist/default/production\servo123.X.production.obj
+_timer_intrrupt_initinal 18C4 0 CODE 0 text1 dist/default/production\servo123.X.production.obj
 LCDWriteNibble@ch 13 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 LCDWriteNibble@rs 12 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
 ESP8266_Uart@index 16 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X.production.obj
@@ -1453,12 +1484,12 @@ ESP8266_Uart@index 16 0 COMRAM 1 cstackCOMRAM dist/default/production\servo123.X
 # All other numeric quantities are in decimal.
 %SEGMENTS
 idloc 0 200000 200000 8 1
-cstackCOMRAM 1 1 1 6B 1
-cstackBANK0 1 80 80 15 1
-cstackBANK1 1 100 100 DD 1
+cstackCOMRAM 1 1 1 59 1
+cstackBANK0 1 80 80 78 1
+cstackBANK1 1 100 100 FB 1
 reset_vec 0 0 0 4 1
-bssBANK2 1 200 200 CE 1
+bssBANK2 1 200 200 E9 1
 bssBANK3 1 300 300 64 1
-intcode 0 8 8 19BE 1
-mediumconst 0 7484 7484 B7C 1
+intcode 0 8 8 190E 1
+mediumconst 0 7480 7480 B80 1
 config 0 300000 300000 E 1

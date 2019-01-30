@@ -805,7 +805,7 @@ bssBANK2 200 297 BANK2 200 1
 %locals
 dist/default/production\client.X.production.obj
 C:\Program Files (x86)\Microchip\xc8\v1.41\include\pic18f4520.h
-C:\Users\Keng\AppData\Local\Temp\s8hc.
+C:\Users\Keng\AppData\Local\Temp\s3ug.
 2312 2978 0 CODE 0
 2314 2978 0 CODE 0
 2317 2978 0 CODE 0
@@ -848,7 +848,7 @@ main.c
 154 1EBC 0 CODE 0
 155 1EC0 0 CODE 0
 156 1EC4 0 CODE 0
-157 1EC8 0 CODE 0
+157 1EDE 0 CODE 0
 158 1EE2 0 CODE 0
 159 1EE6 0 CODE 0
 160 1EEA 0 CODE 0

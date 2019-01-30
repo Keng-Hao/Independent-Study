@@ -152,9 +152,9 @@ void main(void)
     oclillator_initial();     
     GPIO_initial();
     initial_UART();
-    adc_initial();
     ESP8266_Server();    
     while( ! (u8)strstr ( strEsp8266_Fram_Record .Data_RX_BUF, "0,CONNECT" ));
+    adc_initial();
     timer_0_initial();
     timer_intrrupt_initinal();
     TRISDbits.RD1=1;

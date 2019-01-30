@@ -77,13 +77,13 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _GPIO_initial `(v ~T0 @X0 0 ef ]
 "21 harwave\UART.h
 [v _initial_UART `(v ~T0 @X0 0 ef ]
-"41 harwave\initial.h
-[v _adc_initial `(v ~T0 @X0 0 ef ]
-"34 harwave\UART.h
+"34
 [v _ESP8266_Server `(v ~T0 @X0 0 ef ]
 "51 C:\Program Files (x86)\Microchip\xc8\v1.41\include\string.h
 [v _strstr `(*uc ~T0 @X0 0 ef2`*Cuc`*Cuc ]
-"39 harwave\initial.h
+"41 harwave\initial.h
+[v _adc_initial `(v ~T0 @X0 0 ef ]
+"39
 [v _timer_0_initial `(v ~T0 @X0 0 ef ]
 "40
 [v _timer_intrrupt_initinal `(v ~T0 @X0 0 ef ]
@@ -3896,19 +3896,19 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;main.c: 154: initial_UART();
 "154
 [e ( _initial_UART ..  ]
-[; ;main.c: 155: adc_initial();
+[; ;main.c: 155: ESP8266_Server();
 "155
-[e ( _adc_initial ..  ]
-[; ;main.c: 156: ESP8266_Server();
-"156
 [e ( _ESP8266_Server ..  ]
-[; ;main.c: 157: while( ! (u8)strstr ( strEsp8266_Fram_Record .Data_RX_BUF, "0,CONNECT" ));
-"157
+[; ;main.c: 156: while( ! (u8)strstr ( strEsp8266_Fram_Record .Data_RX_BUF, "0,CONNECT" ));
+"156
 [e $U 330  ]
 [e :U 331 ]
 [e :U 330 ]
 [e $ ! != -> -> ( _strstr (2 , -> &U . _strEsp8266_Fram_Record 0 `*Cuc :s 1C `uc `i -> -> -> 0 `i `uc `i 331  ]
 [e :U 332 ]
+[; ;main.c: 157: adc_initial();
+"157
+[e ( _adc_initial ..  ]
 [; ;main.c: 158: timer_0_initial();
 "158
 [e ( _timer_0_initial ..  ]

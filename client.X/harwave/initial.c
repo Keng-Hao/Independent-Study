@@ -27,7 +27,7 @@ void timer_0_initial()             //0.1 s in to interrupt percedure
     T0CONbits.T08BIT=1;       // 1 is 8 bits    0 is 16bits
     T0CONbits.T0CS=0;         // choose on timer
     T0CONbits.PSA=0;          // Timer0 prescaler is assigned
-    T0CONbits.T0PS2=1;        // prescaler 1:16
+    T0CONbits.T0PS2=1;        // prescaler 1:64
     T0CONbits.T0PS1=0;
     T0CONbits.T0PS0=1;
     T0CONbits.TMR0ON=1;       // turn on the timer0

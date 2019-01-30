@@ -3,7 +3,7 @@
 [d edition pro ]
 [d chip 18F4520 ]
 [d frameptr 4065 ]
-"37 C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
+"43 C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/flex.c
 [e E3769 finger `uc
 thumb 0
 index 1
@@ -57,6 +57,8 @@ B115200 1
 [v ___flmul __flmul `(d  1 e 3 0 ]
 "4 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strchr.c
 [v _strchr strchr `(*.39uc  1 e 2 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strcpy.c
+[v _strcpy strcpy `(*.39uc  1 e 2 0 ]
 "4 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strlen.c
 [v _strlen strlen `(ui  1 e 2 0 ]
 "4 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strncmp.c
@@ -531,10 +533,10 @@ B115200 1
 [u S861 . 2 `ui 1 InfAll 2 0 `S858 1 InfBit 1 0 ]
 [s S864 STRUCT_USARTx_Fram 52 `[50]uc 1 Data_RX_BUF 50 0 `S861 1 . 2 50 ]
 [v _strEsp8266_Fram_Record strEsp8266_Fram_Record `S864  1 e 52 0 ]
-"7 C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave\Table.h
-[v _finger_up_1 finger_up_1 `C[118]ui  1 e 236 0 ]
-"12
-[v _finger_under_1 finger_under_1 `C[96]ui  1 e 192 0 ]
+"10 C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave\Table.h
+[v _finger_up_4 finger_up_4 `C[151]ui  1 e 302 0 ]
+"15
+[v _finger_under_4 finger_under_4 `C[120]ui  1 e 240 0 ]
 "124 C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\main.c
 [v _write write `uc  1 e 1 0 ]
 "126
@@ -545,8 +547,12 @@ B115200 1
 "153
 [v _main main `(v  1 e 1 0 ]
 {
+"170
+[v main@t t `[20]uc  1 a 20 0 ]
+"171
+[v main@print print `[5]uc  1 a 5 20 ]
 "169
-[v main@temp temp `*.39uc  1 a 2 57 ]
+[v main@temp temp `*.39uc  1 a 2 25 ]
 "204
 } 0
 "36 C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
@@ -559,7 +565,17 @@ B115200 1
 {
 "52
 } 0
-"13
+"8 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\strcpy.c
+[v _strcpy strcpy `(*.39uc  1 e 2 0 ]
+{
+"15
+[v strcpy@cp cp `*.39uc  1 a 2 21 ]
+"8
+[v strcpy@to to `*.39uc  1 p 2 17 ]
+[v strcpy@from from `*.39Cuc  1 p 2 19 ]
+"24
+} 0
+"13 C:\Users\Keng\Desktop\college\Independent-Study\servo123.X\harwave/initial.c
 [v _oclillator_initial oclillator_initial `(v  1 e 1 0 ]
 {
 "18
@@ -601,7 +617,7 @@ B115200 1
 "121
 [v LCD_WritetStr@i i `uc  1 a 1 26 ]
 "119
-[v LCD_WritetStr@str str `*.25Cuc  1 p 2 22 ]
+[v LCD_WritetStr@str str `*.35Cuc  1 p 2 22 ]
 "130
 } 0
 "105
@@ -705,9 +721,9 @@ B115200 1
 [v ESP8266_Link_Server@cStr cStr `[100]uc  1 a 100 120 ]
 "185
 [v ESP8266_Link_Server@enumE enumE `E3769  1 a 1 wreg ]
-[v ESP8266_Link_Server@ip ip `*.25uc  1 p 2 45 ]
-[v ESP8266_Link_Server@ComNum ComNum `*.25uc  1 p 2 47 ]
-[v ESP8266_Link_Server@id id `i  1 p 2 49 ]
+[v ESP8266_Link_Server@ip ip `*.25uc  1 p 2 64 ]
+[v ESP8266_Link_Server@ComNum ComNum `*.25uc  1 p 2 66 ]
+[v ESP8266_Link_Server@id id `i  1 p 2 68 ]
 "186
 [v ESP8266_Link_Server@F4048 F4048 `[100]uc  1 s 100 F4048 ]
 [v ESP8266_Link_Server@enumE enumE `E3769  1 a 1 220 ]
@@ -719,31 +735,31 @@ B115200 1
 "169
 [v ESP8266_JoinAP@cCmd cCmd `[120]uc  1 a 120 0 ]
 "167
-[v ESP8266_JoinAP@pSSID pSSID `*.25uc  1 p 2 45 ]
-[v ESP8266_JoinAP@pPassWord pPassWord `*.25uc  1 p 2 47 ]
+[v ESP8266_JoinAP@pSSID pSSID `*.25uc  1 p 2 64 ]
+[v ESP8266_JoinAP@pPassWord pPassWord `*.25uc  1 p 2 66 ]
 "175
 } 0
 "492 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
 [v _sprintf sprintf `(i  1 e 2 0 ]
 {
 "1500
-[v sprintf@idx idx `uc  1 a 1 0 ]
+[v sprintf@idx idx `uc  1 a 1 43 ]
 "508
-[v sprintf@flag flag `us  1 a 2 19 ]
+[v sprintf@flag flag `us  1 a 2 62 ]
 "501
-[v sprintf@width width `i  1 a 2 16 ]
+[v sprintf@width width `i  1 a 2 59 ]
 "528
-[v sprintf@val val `ui  1 a 2 13 ]
+[v sprintf@val val `ui  1 a 2 56 ]
 "494
-[v sprintf@ap ap `[1]*.39v  1 a 2 11 ]
+[v sprintf@ap ap `[1]*.39v  1 a 2 54 ]
 "529
-[v sprintf@len len `ui  1 a 2 9 ]
+[v sprintf@len len `ui  1 a 2 52 ]
 "530
-[v sprintf@cp cp `*.35Cuc  1 a 2 7 ]
+[v sprintf@cp cp `*.35Cuc  1 a 2 50 ]
 "499
-[v sprintf@c c `c  1 a 1 18 ]
+[v sprintf@c c `c  1 a 1 61 ]
 "506
-[v sprintf@prec prec `c  1 a 1 15 ]
+[v sprintf@prec prec `c  1 a 1 58 ]
 "492
 [v sprintf@sp sp `*.39uc  1 p 2 29 ]
 [v sprintf@f f `*.25Cuc  1 p 2 31 ]
@@ -855,14 +871,8 @@ B115200 1
 [v _ADtoPWM ADtoPWM `(v  1 e 1 0 ]
 {
 "17
-[v ADtoPWM@w1 w1 `ui  1 a 2 55 ]
-[v ADtoPWM@u1 u1 `ui  1 a 2 53 ]
-[v ADtoPWM@w4 w4 `ui  1 a 2 51 ]
-[v ADtoPWM@w3 w3 `ui  1 a 2 49 ]
-[v ADtoPWM@w2 w2 `ui  1 a 2 47 ]
-[v ADtoPWM@u4 u4 `ui  1 a 2 45 ]
-[v ADtoPWM@u3 u3 `ui  1 a 2 43 ]
-[v ADtoPWM@u2 u2 `ui  1 a 2 41 ]
+[v ADtoPWM@w4 w4 `ui  1 a 2 43 ]
+[v ADtoPWM@u4 u4 `ui  1 a 2 41 ]
 "16
 [v ADtoPWM@AD AD `*.39uc  1 p 2 35 ]
 "45

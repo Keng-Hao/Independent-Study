@@ -176,15 +176,15 @@ void main()
     {
         temp=ESP8266_ReceiveString();
         
-//        strcpy(t,temp);
-//        delay_ms(10);
-//        LCD_GotoXY(0,0);
-//        sprintf(print,"%d",(int)*(temp+8));
-//        LCD_WritetStr(print);
-//        LCD_GotoXY(5,0);
-//        sprintf(print,"%d",(int)*(temp+9));
-//        LCD_WritetStr(print);
-//        for( int j=0 ; t[j] != '\0'; j++){
+        strcpy(t,temp);
+        delay_ms(10);
+        LCD_GotoXY(0,0);
+        sprintf(print,"%d",(int)*(temp+8));
+        LCD_WritetStr(print);
+        LCD_GotoXY(4,0);
+        sprintf(print,"%d",(int)*(temp+9));
+        LCD_WritetStr(print);
+//        for( int j=2 ; t[j] != '\0'; j++){
 //           LCD_GotoXY(j%4*4,j/4);
 //           sprintf(print,"%d",(int)temp[j]);
 //           LCD_WritetStr(print);

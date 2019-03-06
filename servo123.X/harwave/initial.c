@@ -40,7 +40,7 @@ void timer_intrrupt_initinal()
     INTCONbits.PEIE=1;                  // Global Interrupt Enable bit
     INTCONbits.TMR0IE=0;                // Enables the TMR0 overflow interrupt   
     INTCONbits.TMR0IF=0;                // Flag of Timer0
-    PIE1bits.TMR2IE=1;                  // ENABLE?TMR2 interrupt bit
+    PIE1bits.TMR2IE=0;                  // ENABLE?TMR2 interrupt bit
     PIR1bits.TMR2IF=0;                  // Flag if Timer2
 }
 void timer_2_initial()                    //1m into interrupt
@@ -48,5 +48,5 @@ void timer_2_initial()                    //1m into interrupt
     PR2 = 249;
     T2CONbits.T2OUTPS=0b1001;            // 1:10 postscaler
     T2CONbits.T2CKPS=0b01;             // 1:4 prescaler
-    T2CONbits.TMR2ON=1;                 // turn off timer2
+    T2CONbits.TMR2ON=0;                 // turn off timer2
 }

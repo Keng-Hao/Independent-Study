@@ -152,20 +152,19 @@ void finger_reset(){
 }
 void main()
 {
-    oclillator_initial();     
+    oclillator_initial();       
     GPIO_initial();
     PCA9685_init();
     timer_2_initial() ;
     timer_intrrupt_initinal();
-    LCD_Initialize();    
+//    LCD_Initialize();    
     initial_UART();
     ESP8266_client();
-    LCD_Clear(); 
-    LCD_GotoXY(0,0);
-    LCD_WritetStr("Hello");
-    delay_ms ( 3000 );
-    LCD_Clear(); 
-    finger_reset();
+//    LCD_Clear(); 
+//    LCD_GotoXY(0,0);
+//    LCD_WritetStr("Hello");
+//    delay_ms ( 3000 );
+//    LCD_Clear(); 
     char* temp;
     char t[20];
     char print[5];
@@ -176,20 +175,20 @@ void main()
     {
         temp=ESP8266_ReceiveString();
         
-        strcpy(t,temp);
-        delay_ms(10);
-        LCD_GotoXY(0,0);
-        sprintf(print,"%d",(int)*(temp+8));
-        LCD_WritetStr(print);
-        LCD_GotoXY(4,0);
-        sprintf(print,"%d",(int)*(temp+9));
-        LCD_WritetStr(print);
+//        strcpy(t,temp);
+//        delay_ms(10);
+//        LCD_GotoXY(0,0);
+//        sprintf(print,"%d",(int)*(temp+8));
+//        LCD_WritetStr(print);
+//        LCD_GotoXY(4,0);
+//        sprintf(print,"%d",(int)*(temp+9));
+//        LCD_WritetStr(print);
 //        for( int j=2 ; t[j] != '\0'; j++){
 //           LCD_GotoXY(j%4*4,j/4);
 //           sprintf(print,"%d",(int)temp[j]);
 //           LCD_WritetStr(print);
 //            }
-        
+//        
 //        LCD_Clear();
 //        LCD_GotoXY(0,0);
 //        sprintf(print,"%d",strEsp8266_Fram_Record .InfBit .FramLength);

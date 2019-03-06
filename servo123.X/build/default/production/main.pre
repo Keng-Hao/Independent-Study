@@ -5006,15 +5006,11 @@ GPIO_initial();
 PCA9685_init();
 timer_2_initial() ;
 timer_intrrupt_initinal();
-LCD_Initialize();
+
 initial_UART();
 ESP8266_client();
-LCD_WriteCmd(0x01);
-LCD_GotoXY(0,0);
-LCD_WritetStr("Hello");
-delay_ms ( 3000 );
-LCD_WriteCmd(0x01);
-finger_reset();
+
+# 168
 char* temp;
 char t[20];
 char print[5];
@@ -5025,16 +5021,7 @@ while(1)
 {
 temp=ESP8266_ReceiveString();
 
-strcpy(t,temp);
-delay_ms(10);
-LCD_GotoXY(0,0);
-sprintf(print,"%d",(int)*(temp+8));
-LCD_WritetStr(print);
-LCD_GotoXY(4,0);
-sprintf(print,"%d",(int)*(temp+9));
-LCD_WritetStr(print);
-
-# 202
+# 201
 ADtoPWM(temp);
 }
 }

@@ -13,7 +13,6 @@
       <itemPath>harwave/initial.h</itemPath>
       <itemPath>harwave/lcd.h</itemPath>
       <itemPath>harwave/mydelay.h</itemPath>
-      <itemPath>harwave/replace.h</itemPath>
       <itemPath>harwave/softIIC.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
@@ -30,7 +29,6 @@
         <itemPath>harwave/lcd.c</itemPath>
         <itemPath>harwave/mydelay.c</itemPath>
         <itemPath>harwave/PCA9685.c</itemPath>
-        <itemPath>harwave/replace.c</itemPath>
         <itemPath>harwave/softIIC.c</itemPath>
         <itemPath>harwave/UART.c</itemPath>
       </logicalFolder>
@@ -172,7 +170,7 @@
                   value="${memories.instruction.ram.ranges}"/>
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="0-7fff"/>
-        <property key="poweroptions.powerenable" value="false"/>
+        <property key="poweroptions.powerenable" value="true"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.preservedataflash" value="false"/>

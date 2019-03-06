@@ -34,28 +34,14 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _timer_2_initial `(i ~T0 @X0 0 ef ]
 "40 harwave\initial.h
 [v _timer_intrrupt_initinal `(v ~T0 @X0 0 ef ]
-"57 harwave\lcd.h
-[v _LCD_Initialize `(v ~T0 @X0 0 ef ]
 "21 harwave\UART.h
 [v _initial_UART `(v ~T0 @X0 0 ef ]
 "36
 [v _ESP8266_client `(v ~T0 @X0 0 ef ]
-"59 harwave\lcd.h
-[v _LCD_WriteCmd `(v ~T0 @X0 0 ef1`uc ]
-"60
-[v _LCD_GotoXY `(v ~T0 @X0 0 ef2`uc`uc ]
-"62
-[v _LCD_WritetStr `(v ~T0 @X0 0 ef1`*Cuc ]
-"18 harwave\mydelay.h
-[v _delay_ms `(v ~T0 @X0 0 ef1`i ]
 "16 C:\Program Files (x86)\Microchip\xc8\v1.41\include\string.h
 [v _memset `(*v ~T0 @X0 0 ef3`*v`i`ui ]
 "40 harwave\UART.h
 [v _ESP8266_ReceiveString `(*uc ~T0 @X0 0 ef ]
-"35 C:\Program Files (x86)\Microchip\xc8\v1.41\include\string.h
-[v _strcpy `(*uc ~T0 @X0 0 ef2`*uc`*Cuc ]
-"194 C:\Program Files (x86)\Microchip\xc8\v1.41\include\stdio.h
-[v _sprintf `(i ~T0 @X0 0 e1v`*uc`*Cuc ]
 "20 harwave\flex.h
 [v _ADtoPWM `(v ~T0 @X0 0 ef1`*uc ]
 [; ;htc.h: 26: extern const char __xc8_OPTIM_SPEED;
@@ -4859,96 +4845,47 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;main.c: 159: timer_intrrupt_initinal();
 "159
 [e ( _timer_intrrupt_initinal ..  ]
-[; ;main.c: 160: LCD_Initialize();
-"160
-[e ( _LCD_Initialize ..  ]
 [; ;main.c: 161: initial_UART();
 "161
 [e ( _initial_UART ..  ]
 [; ;main.c: 162: ESP8266_client();
 "162
 [e ( _ESP8266_client ..  ]
-[; ;main.c: 163: LCD_WriteCmd(0x01);
-"163
-[e ( _LCD_WriteCmd (1 -> -> 1 `i `uc ]
-[; ;main.c: 164: LCD_GotoXY(0,0);
-"164
-[e ( _LCD_GotoXY (2 , -> -> 0 `i `uc -> -> 0 `i `uc ]
-[; ;main.c: 165: LCD_WritetStr("Hello");
-"165
-[e ( _LCD_WritetStr (1 :s 1C ]
-[; ;main.c: 166: delay_ms ( 3000 );
-"166
-[e ( _delay_ms (1 -> 3000 `i ]
-[; ;main.c: 167: LCD_WriteCmd(0x01);
-"167
-[e ( _LCD_WriteCmd (1 -> -> 1 `i `uc ]
-[; ;main.c: 168: finger_reset();
 "168
-[e ( _finger_reset ..  ]
-"169
 [v _temp `*uc ~T0 @X0 1 a ]
-"170
+"169
 [v _t `uc ~T0 @X0 -> 20 `i a ]
-"171
+"170
 [v _print `uc ~T0 @X0 -> 5 `i a ]
-[; ;main.c: 169: char* temp;
-[; ;main.c: 170: char t[20];
-[; ;main.c: 171: char print[5];
-[; ;main.c: 172: write=0;
-"172
+[; ;main.c: 168: char* temp;
+[; ;main.c: 169: char t[20];
+[; ;main.c: 170: char print[5];
+[; ;main.c: 171: write=0;
+"171
 [e = _write -> -> 0 `i `uc ]
-[; ;main.c: 174: memset(&(strEsp8266_Fram_Record.Data_RX_BUF[0]), '\0', 50);
-"174
+[; ;main.c: 173: memset(&(strEsp8266_Fram_Record.Data_RX_BUF[0]), '\0', 50);
+"173
 [e ( _memset (3 , , -> &U *U + &U . _strEsp8266_Fram_Record 0 * -> -> -> 0 `i `ui `ux -> -> # *U &U . _strEsp8266_Fram_Record 0 `ui `ux `*v -> -> 0 `ui `i -> -> 50 `i `ui ]
-[; ;main.c: 175: while(1)
-"175
+[; ;main.c: 174: while(1)
+"174
 [e :U 330 ]
-[; ;main.c: 176: {
-"176
+[; ;main.c: 175: {
+"175
 {
-[; ;main.c: 177: temp=ESP8266_ReceiveString();
-"177
+[; ;main.c: 176: temp=ESP8266_ReceiveString();
+"176
 [e = _temp ( _ESP8266_ReceiveString ..  ]
-[; ;main.c: 179: strcpy(t,temp);
-"179
-[e ( _strcpy (2 , &U _t -> _temp `*Cuc ]
-[; ;main.c: 180: delay_ms(10);
-"180
-[e ( _delay_ms (1 -> 10 `i ]
-[; ;main.c: 181: LCD_GotoXY(0,0);
-"181
-[e ( _LCD_GotoXY (2 , -> -> 0 `i `uc -> -> 0 `i `uc ]
-[; ;main.c: 182: sprintf(print,"%d",(int)*(temp+8));
-"182
-[e ( _sprintf (1 , (. , &U _print :s 2C -> *U + _temp * -> -> 8 `i `x -> -> # *U _temp `i `x `i ]
-[; ;main.c: 183: LCD_WritetStr(print);
-"183
-[e ( _LCD_WritetStr (1 -> &U _print `*Cuc ]
-[; ;main.c: 184: LCD_GotoXY(4,0);
-"184
-[e ( _LCD_GotoXY (2 , -> -> 4 `i `uc -> -> 0 `i `uc ]
-[; ;main.c: 185: sprintf(print,"%d",(int)*(temp+9));
-"185
-[e ( _sprintf (1 , (. , &U _print :s 3C -> *U + _temp * -> -> 9 `i `x -> -> # *U _temp `i `x `i ]
-[; ;main.c: 186: LCD_WritetStr(print);
-"186
-[e ( _LCD_WritetStr (1 -> &U _print `*Cuc ]
-[; ;main.c: 202: ADtoPWM(temp);
-"202
+[; ;main.c: 201: ADtoPWM(temp);
+"201
 [e ( _ADtoPWM (1 _temp ]
-"203
+"202
 }
 [e :U 329 ]
-"175
+"174
 [e $U 330  ]
 [e :U 331 ]
+[; ;main.c: 202: }
 [; ;main.c: 203: }
-[; ;main.c: 204: }
-"204
+"203
 [e :UE 328 ]
 }
-[p f _sprintf 8388736 ]
-[a 1C 72 101 108 108 111 0 ]
-[a 2C 37 100 0 ]
-[a 3C 37 100 0 ]

@@ -152,8 +152,6 @@ Version 3.2 HI-TECH Software Intermediate Code
 "212
 [c E3777 0 1 .. ]
 [n E3777 Baudrate B9600 B115200  ]
-"256
-[v _IP `ui ~T0 @X0 0 e ]
 [; ;htc.h: 26: extern const char __xc8_OPTIM_SPEED;
 [; ;htc.h: 28: extern double __fpnormalize(double);
 [; ;xc8debug.h: 14: extern void __builtin_software_breakpoint(void);
@@ -4308,71 +4306,54 @@ Version 3.2 HI-TECH Software Intermediate Code
 "255
 [e :UE 394 ]
 }
-[; ;UART.c: 256: extern u16 IP;
-"257
+"256
 [v _ESP8266_ReceiveString `(*uc ~T0 @X0 1 ef ]
-"258
+"257
 {
-[; ;UART.c: 257: u8 * ESP8266_ReceiveString ( )
-[; ;UART.c: 258: {
+[; ;UART.c: 256: u8 * ESP8266_ReceiveString ( )
+[; ;UART.c: 257: {
 [e :U _ESP8266_ReceiveString ]
 [f ]
-"259
+"258
 [v _pRecStr `*uc ~T0 @X0 1 a ]
-[; ;UART.c: 259: char * pRecStr = 0;
+[; ;UART.c: 258: char * pRecStr = 0;
 [e = _pRecStr -> -> 0 `i `*uc ]
-[; ;UART.c: 260: strEsp8266_Fram_Record .InfBit .FramLength = 0;
-"260
+[; ;UART.c: 259: strEsp8266_Fram_Record .InfBit .FramLength = 0;
+"259
 [e = . . . _strEsp8266_Fram_Record 1 1 0 -> -> 0 `i `uc ]
-[; ;UART.c: 261: while( ! (u8)strstr ( strEsp8266_Fram_Record .Data_RX_BUF, "!" )){
-"261
+[; ;UART.c: 260: while( ! (u8)strstr ( strEsp8266_Fram_Record .Data_RX_BUF, "!" ));
+"260
 [e $U 408  ]
 [e :U 409 ]
-{
-[; ;UART.c: 262: if(IP==180000){
-"262
-[e $ ! == -> _IP `l -> 180000 `l 411  ]
-{
-[; ;UART.c: 265: IP=0;
-"265
-[e = _IP -> -> 0 `i `ui ]
-"266
-}
-[e :U 411 ]
-"267
-}
 [e :U 408 ]
-"261
 [e $ ! != -> -> ( _strstr (2 , -> &U . _strEsp8266_Fram_Record 0 `*Cuc :s 59C `uc `i -> -> -> 0 `i `uc `i 409  ]
 [e :U 410 ]
-[; ;UART.c: 266: }
-[; ;UART.c: 267: }
-[; ;UART.c: 268: strEsp8266_Fram_Record .InfBit .FramLength = 0;
-"268
+[; ;UART.c: 261: strEsp8266_Fram_Record .InfBit .FramLength = 0;
+"261
 [e = . . . _strEsp8266_Fram_Record 1 1 0 -> -> 0 `i `uc ]
-[; ;UART.c: 269: strEsp8266_Fram_Record .InfBit .FramFinishFlag = 0;
-"269
+[; ;UART.c: 262: strEsp8266_Fram_Record .InfBit .FramFinishFlag = 0;
+"262
 [e = . . . _strEsp8266_Fram_Record 1 1 1 -> -> 0 `i `uc ]
-[; ;UART.c: 270: while ( ! strstr ( strEsp8266_Fram_Record .Data_RX_BUF, "\0" ) );
-"270
-[e $U 412  ]
-[e :U 413 ]
+[; ;UART.c: 263: while ( ! strstr ( strEsp8266_Fram_Record .Data_RX_BUF, "\0" ) );
+"263
+[e $U 411  ]
 [e :U 412 ]
-[e $ ! != ( _strstr (2 , -> &U . _strEsp8266_Fram_Record 0 `*Cuc :s 60C -> -> 0 `i `*uc 413  ]
-[e :U 414 ]
-[; ;UART.c: 271: if ( strstr ( strEsp8266_Fram_Record .Data_RX_BUF, "\0" ) )
-"271
-[e $ ! != ( _strstr (2 , -> &U . _strEsp8266_Fram_Record 0 `*Cuc :s 61C -> -> 0 `i `*uc 415  ]
-[; ;UART.c: 272: pRecStr = strEsp8266_Fram_Record .Data_RX_BUF;
-"272
+[e :U 411 ]
+[e $ ! != ( _strstr (2 , -> &U . _strEsp8266_Fram_Record 0 `*Cuc :s 60C -> -> 0 `i `*uc 412  ]
+[e :U 413 ]
+[; ;UART.c: 264: if ( strstr ( strEsp8266_Fram_Record .Data_RX_BUF, "\0" ) )
+"264
+[e $ ! != ( _strstr (2 , -> &U . _strEsp8266_Fram_Record 0 `*Cuc :s 61C -> -> 0 `i `*uc 414  ]
+[; ;UART.c: 265: pRecStr = strEsp8266_Fram_Record .Data_RX_BUF;
+"265
 [e = _pRecStr &U . _strEsp8266_Fram_Record 0 ]
-[e :U 415 ]
-[; ;UART.c: 275: return pRecStr;
-"275
+[e :U 414 ]
+[; ;UART.c: 266: return pRecStr;
+"266
 [e ) _pRecStr ]
 [e $UE 407  ]
-[; ;UART.c: 277: }
-"277
+[; ;UART.c: 268: }
+"268
 [e :UE 407 ]
 }
 [p f _sprintf 16762797 ]

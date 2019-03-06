@@ -4686,7 +4686,7 @@ INTCONbits.GIE=1;
 INTCONbits.PEIE=1;
 INTCONbits.TMR0IE=0;
 INTCONbits.TMR0IF=0;
-PIE1bits.TMR2IE=1;
+PIE1bits.TMR2IE=0;
 PIR1bits.TMR2IF=0;
 }
 void timer_2_initial()
@@ -4694,5 +4694,5 @@ void timer_2_initial()
 PR2 = 249;
 T2CONbits.T2OUTPS=0b1001;
 T2CONbits.T2CKPS=0b01;
-T2CONbits.TMR2ON=1;
+T2CONbits.TMR2ON=0;
 }

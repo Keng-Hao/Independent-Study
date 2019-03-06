@@ -157,14 +157,14 @@ void main(void)
     adc_initial();
     timer_0_initial();
     timer_intrrupt_initinal();
-    TRISDbits.RD1=1;
-    while(!PORTDbits.RD1);
+//    TRISDbits.RD1=1;
+//    while(!PORTDbits.RD1);
     u16 AD_total;
     u8 temp[11];
     u8 tem[11];
     ADCON0bits.CHS=0;
-    TRISCbits.TRISC5=0;
-    LATCbits.LATC5=1;
+//    TRISCbits.TRISC5=0;
+//    LATCbits.LATC5=1;
     write=0;
 #ifdef DEBUG
     LCD_Initialize();  

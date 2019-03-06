@@ -1,7 +1,7 @@
 Version 3.2 HI-TECH Software Intermediate Code
 "16 harwave/PCA9685.h
 [v _PCA9685_writeOneByte `(v ~T0 @X0 0 ef2`uc`uc ]
-"43 harwave/flex.c
+"37 harwave/flex.c
 [c E3769 0 1 2 3 4 .. ]
 [n E3769 finger thumb index middle ring pink  ]
 "21 harwave/flex.h
@@ -4497,155 +4497,206 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _w3 `ui ~T0 @X0 1 a ]
 [v _w4 `ui ~T0 @X0 1 a ]
 [; ;flex.c: 17: u16 u0,u1,u2,u3,u4,w0,w1,w2,w3,w4;
+[; ;flex.c: 19: if(*(AD+3)>=160)
+"19
+[e $ ! >= -> *U + _AD * -> -> 3 `i `x -> -> # *U _AD `i `x `i -> 160 `i 313  ]
+[; ;flex.c: 20: w1=finger_under_1[*(AD+3)-160];
+"20
+[e = _w1 *U + &U _finger_under_1 * -> -> - -> *U + _AD * -> -> 3 `i `x -> -> # *U _AD `i `x `i -> 160 `i `ui `ux -> -> # *U &U _finger_under_1 `ui `ux ]
+[e :U 313 ]
+[; ;flex.c: 21: if(*(AD+5)>=143)
+"21
+[e $ ! >= -> *U + _AD * -> -> 5 `i `x -> -> # *U _AD `i `x `i -> 143 `i 314  ]
+[; ;flex.c: 22: w2=finger_under_2[*(AD+5)-143];
+"22
+[e = _w2 *U + &U _finger_under_2 * -> -> - -> *U + _AD * -> -> 5 `i `x -> -> # *U _AD `i `x `i -> 143 `i `ui `ux -> -> # *U &U _finger_under_2 `ui `ux ]
+[e :U 314 ]
+[; ;flex.c: 23: if(*(AD+7)>=177)
+"23
+[e $ ! >= -> *U + _AD * -> -> 7 `i `x -> -> # *U _AD `i `x `i -> 177 `i 315  ]
+[; ;flex.c: 24: w3=finger_under_3[*(AD+7)-177];
+"24
+[e = _w3 *U + &U _finger_under_3 * -> -> - -> *U + _AD * -> -> 7 `i `x -> -> # *U _AD `i `x `i -> 177 `i `ui `ux -> -> # *U &U _finger_under_3 `ui `ux ]
+[e :U 315 ]
 [; ;flex.c: 25: if(*(AD+9)>=136)
 "25
-[e $ ! >= -> *U + _AD * -> -> 9 `i `x -> -> # *U _AD `i `x `i -> 136 `i 313  ]
+[e $ ! >= -> *U + _AD * -> -> 9 `i `x -> -> # *U _AD `i `x `i -> 136 `i 316  ]
 [; ;flex.c: 26: w4=finger_under_4[*(AD+9)-136];
 "26
 [e = _w4 *U + &U _finger_under_4 * -> -> - -> *U + _AD * -> -> 9 `i `x -> -> # *U _AD `i `x `i -> 136 `i `ui `ux -> -> # *U &U _finger_under_4 `ui `ux ]
-[e :U 313 ]
+[e :U 316 ]
+[; ;flex.c: 28: if(*(AD+2)>=138)
+"28
+[e $ ! >= -> *U + _AD * -> -> 2 `i `x -> -> # *U _AD `i `x `i -> 138 `i 317  ]
+[; ;flex.c: 29: u1=finger_up_1[*(AD+2)-138];
+"29
+[e = _u1 *U + &U _finger_up_1 * -> -> - -> *U + _AD * -> -> 2 `i `x -> -> # *U _AD `i `x `i -> 138 `i `ui `ux -> -> # *U &U _finger_up_1 `ui `ux ]
+[e :U 317 ]
+[; ;flex.c: 30: if(*(AD+4)>=127)
+"30
+[e $ ! >= -> *U + _AD * -> -> 4 `i `x -> -> # *U _AD `i `x `i -> 127 `i 318  ]
+[; ;flex.c: 31: u2=finger_up_2[*(AD+4)-127];
+"31
+[e = _u2 *U + &U _finger_up_2 * -> -> - -> *U + _AD * -> -> 4 `i `x -> -> # *U _AD `i `x `i -> 127 `i `ui `ux -> -> # *U &U _finger_up_2 `ui `ux ]
+[e :U 318 ]
+[; ;flex.c: 32: if(*(AD+6)>=110)
+"32
+[e $ ! >= -> *U + _AD * -> -> 6 `i `x -> -> # *U _AD `i `x `i -> 110 `i 319  ]
+[; ;flex.c: 33: u3=finger_up_3[*(AD+6)-110];
+"33
+[e = _u3 *U + &U _finger_up_3 * -> -> - -> *U + _AD * -> -> 6 `i `x -> -> # *U _AD `i `x `i -> 110 `i `ui `ux -> -> # *U &U _finger_up_3 `ui `ux ]
+[e :U 319 ]
 [; ;flex.c: 34: if(*(AD+8)>=105)
 "34
-[e $ ! >= -> *U + _AD * -> -> 8 `i `x -> -> # *U _AD `i `x `i -> 105 `i 314  ]
+[e $ ! >= -> *U + _AD * -> -> 8 `i `x -> -> # *U _AD `i `x `i -> 105 `i 320  ]
 [; ;flex.c: 35: u4=finger_up_4[*(AD+8)-105];
 "35
 [e = _u4 *U + &U _finger_up_4 * -> -> - -> *U + _AD * -> -> 8 `i `x -> -> # *U _AD `i `x `i -> 105 `i `ui `ux -> -> # *U &U _finger_up_4 `ui `ux ]
-[e :U 314 ]
-[; ;flex.c: 43: PWMt0PCA(u4,w4,pink);
-"43
+[e :U 320 ]
+[; ;flex.c: 37: PWMt0PCA(u1,w1,index);
+"37
+[e ( _PWMt0PCA (3 , , _u1 _w1 . `E3769 1 ]
+[; ;flex.c: 38: PWMt0PCA(u2,w2,middle);
+"38
+[e ( _PWMt0PCA (3 , , _u2 _w2 . `E3769 2 ]
+[; ;flex.c: 39: PWMt0PCA(u3,w3,ring);
+"39
+[e ( _PWMt0PCA (3 , , _u3 _w3 . `E3769 3 ]
+[; ;flex.c: 40: PWMt0PCA(u4,w4,pink);
+"40
 [e ( _PWMt0PCA (3 , , _u4 _w4 . `E3769 4 ]
-[; ;flex.c: 45: }
-"45
+[; ;flex.c: 41: }
+"41
 [e :UE 312 ]
 }
-"47
+"43
 [v _PWMt0PCA `(v ~T0 @X0 1 ef3`ui`ui`E3769 ]
 {
-[; ;flex.c: 47: void PWMt0PCA(u16 up,u16 low,enum finger finger){
+[; ;flex.c: 43: void PWMt0PCA(u16 up,u16 low,enum finger finger){
 [e :U _PWMt0PCA ]
 [v _up `ui ~T0 @X0 1 r1 ]
 [v _low `ui ~T0 @X0 1 r2 ]
 [v _finger `E3769 ~T0 @X0 1 r3 ]
 [f ]
-[; ;flex.c: 48: switch (finger){
-"48
-[e $U 317  ]
-{
-[; ;flex.c: 49: case thumb:
-"49
-[e :U 318 ]
-[; ;flex.c: 50: if( up > 0 )
-"50
-[e $ ! > _up -> -> 0 `i `ui 319  ]
-[; ;flex.c: 51: transmit_finger(up ,0x06 );
-"51
-[e ( _transmit_finger (2 , _up -> -> 6 `i `uc ]
-[e $U 320  ]
-"52
-[e :U 319 ]
-[; ;flex.c: 52: else
-[; ;flex.c: 53: transmit_finger( up+low , 0x06 );
-"53
-[e ( _transmit_finger (2 , + _up _low -> -> 6 `i `uc ]
-[e :U 320 ]
-[; ;flex.c: 54: break;
-"54
-[e $U 316  ]
-[; ;flex.c: 55: case index:
-"55
-[e :U 321 ]
-[; ;flex.c: 56: if( up <= 1651 )
-"56
-[e $ ! <= _up -> -> 1651 `i `ui 322  ]
-[; ;flex.c: 57: transmit_finger(up ,0x0A );
-"57
-[e ( _transmit_finger (2 , _up -> -> 10 `i `uc ]
+[; ;flex.c: 44: switch (finger){
+"44
 [e $U 323  ]
-"58
-[e :U 322 ]
-[; ;flex.c: 58: else
-[; ;flex.c: 59: transmit_finger( up+low , 0x0A );
-"59
-[e ( _transmit_finger (2 , + _up _low -> -> 10 `i `uc ]
-[e :U 323 ]
-[; ;flex.c: 60: break;
-"60
-[e $U 316  ]
-[; ;flex.c: 61: case middle:
-"61
+{
+[; ;flex.c: 45: case thumb:
+"45
 [e :U 324 ]
-[; ;flex.c: 62: if( up <= 2000 )
-"62
-[e $ ! <= _up -> -> 2000 `i `ui 325  ]
-[; ;flex.c: 63: transmit_finger(up ,0x0E );
-"63
-[e ( _transmit_finger (2 , _up -> -> 14 `i `uc ]
+[; ;flex.c: 46: if( up > 0 )
+"46
+[e $ ! > _up -> -> 0 `i `ui 325  ]
+[; ;flex.c: 47: transmit_finger(up ,0x06 );
+"47
+[e ( _transmit_finger (2 , _up -> -> 6 `i `uc ]
 [e $U 326  ]
-"64
-[e :U 325 ]
-[; ;flex.c: 64: else
-[; ;flex.c: 65: transmit_finger( up+low , 0x0E );
-"65
-[e ( _transmit_finger (2 , + _up _low -> -> 14 `i `uc ]
-[e :U 326 ]
-[; ;flex.c: 66: break;
-"66
-[e $U 316  ]
-[; ;flex.c: 67: case ring:
-"67
-[e :U 327 ]
-[; ;flex.c: 68: if( up <= 1722 )
-"68
-[e $ ! <= _up -> -> 1722 `i `ui 328  ]
-[; ;flex.c: 69: transmit_finger(up ,0x12 );
-"69
-[e ( _transmit_finger (2 , _up -> -> 18 `i `uc ]
-[e $U 329  ]
-"70
-[e :U 328 ]
-[; ;flex.c: 70: else
-[; ;flex.c: 71: transmit_finger( up+low , 0x12 );
-"71
-[e ( _transmit_finger (2 , + _up _low -> -> 18 `i `uc ]
-[e :U 329 ]
-[; ;flex.c: 72: break;
-"72
-[e $U 316  ]
-[; ;flex.c: 73: case pink:
-"73
-[e :U 330 ]
-[; ;flex.c: 74: if( up <= 1580 )
-"74
-[e $ ! <= _up -> -> 1580 `i `ui 331  ]
-[; ;flex.c: 75: transmit_finger(up ,0x16 );
-"75
-[e ( _transmit_finger (2 , _up -> -> 22 `i `uc ]
-[e $U 332  ]
-"76
-[e :U 331 ]
-[; ;flex.c: 76: else
-[; ;flex.c: 77: transmit_finger( up+low , 0x16 );
-"77
-[e ( _transmit_finger (2 , + _up _low -> -> 22 `i `uc ]
-[e :U 332 ]
-[; ;flex.c: 78: break;
-"78
-[e $U 316  ]
-"79
-}
-[; ;flex.c: 79: }
-[e $U 316  ]
 "48
-[e :U 317 ]
-[e [\ _finger , $ . `E3769 0 318
- , $ . `E3769 1 321
- , $ . `E3769 2 324
- , $ . `E3769 3 327
- , $ . `E3769 4 330
- 316 ]
-"79
-[e :U 316 ]
-[; ;flex.c: 80: }
-"80
-[e :UE 315 ]
+[e :U 325 ]
+[; ;flex.c: 48: else
+[; ;flex.c: 49: transmit_finger( up+low , 0x06 );
+"49
+[e ( _transmit_finger (2 , + _up _low -> -> 6 `i `uc ]
+[e :U 326 ]
+[; ;flex.c: 50: break;
+"50
+[e $U 322  ]
+[; ;flex.c: 51: case index:
+"51
+[e :U 327 ]
+[; ;flex.c: 52: if( up <= 1651 )
+"52
+[e $ ! <= _up -> -> 1651 `i `ui 328  ]
+[; ;flex.c: 53: transmit_finger(up ,0x0A );
+"53
+[e ( _transmit_finger (2 , _up -> -> 10 `i `uc ]
+[e $U 329  ]
+"54
+[e :U 328 ]
+[; ;flex.c: 54: else
+[; ;flex.c: 55: transmit_finger( up+low , 0x0A );
+"55
+[e ( _transmit_finger (2 , + _up _low -> -> 10 `i `uc ]
+[e :U 329 ]
+[; ;flex.c: 56: break;
+"56
+[e $U 322  ]
+[; ;flex.c: 57: case middle:
+"57
+[e :U 330 ]
+[; ;flex.c: 58: if( up <= 2000 )
+"58
+[e $ ! <= _up -> -> 2000 `i `ui 331  ]
+[; ;flex.c: 59: transmit_finger(up ,0x0E );
+"59
+[e ( _transmit_finger (2 , _up -> -> 14 `i `uc ]
+[e $U 332  ]
+"60
+[e :U 331 ]
+[; ;flex.c: 60: else
+[; ;flex.c: 61: transmit_finger( up+low , 0x0E );
+"61
+[e ( _transmit_finger (2 , + _up _low -> -> 14 `i `uc ]
+[e :U 332 ]
+[; ;flex.c: 62: break;
+"62
+[e $U 322  ]
+[; ;flex.c: 63: case ring:
+"63
+[e :U 333 ]
+[; ;flex.c: 64: if( up <= 1722 )
+"64
+[e $ ! <= _up -> -> 1722 `i `ui 334  ]
+[; ;flex.c: 65: transmit_finger(up ,0x12 );
+"65
+[e ( _transmit_finger (2 , _up -> -> 18 `i `uc ]
+[e $U 335  ]
+"66
+[e :U 334 ]
+[; ;flex.c: 66: else
+[; ;flex.c: 67: transmit_finger( up+low , 0x12 );
+"67
+[e ( _transmit_finger (2 , + _up _low -> -> 18 `i `uc ]
+[e :U 335 ]
+[; ;flex.c: 68: break;
+"68
+[e $U 322  ]
+[; ;flex.c: 69: case pink:
+"69
+[e :U 336 ]
+[; ;flex.c: 70: if( up <= 1580 )
+"70
+[e $ ! <= _up -> -> 1580 `i `ui 337  ]
+[; ;flex.c: 71: transmit_finger(up ,0x16 );
+"71
+[e ( _transmit_finger (2 , _up -> -> 22 `i `uc ]
+[e $U 338  ]
+"72
+[e :U 337 ]
+[; ;flex.c: 72: else
+[; ;flex.c: 73: transmit_finger( up+low , 0x16 );
+"73
+[e ( _transmit_finger (2 , + _up _low -> -> 22 `i `uc ]
+[e :U 338 ]
+[; ;flex.c: 74: break;
+"74
+[e $U 322  ]
+"75
+}
+[; ;flex.c: 75: }
+[e $U 322  ]
+"44
+[e :U 323 ]
+[e [\ _finger , $ . `E3769 0 324
+ , $ . `E3769 1 327
+ , $ . `E3769 2 330
+ , $ . `E3769 3 333
+ , $ . `E3769 4 336
+ 322 ]
+"75
+[e :U 322 ]
+[; ;flex.c: 76: }
+"76
+[e :UE 321 ]
 }

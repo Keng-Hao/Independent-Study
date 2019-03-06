@@ -4977,25 +4977,16 @@ while(!ESP8266_Cmd ( (void *)"AT+CIPMODE=1\r\n", (void *)"OK", 0 , 500 ));
 while(!ESP8266_Cmd ( (void *)"AT+CIPMUX=0\r\n", (void *)"OK", 0 , 500 ));
 while(!ESP8266_Link_Server(TCP,(void*)"192.168.4.1",(void*)"5000",7));
 }
-extern u16 IP;
 u8 * ESP8266_ReceiveString ( )
 {
 char * pRecStr = 0;
 strEsp8266_Fram_Record .InfBit .FramLength = 0;
-while( ! (u8)strstr ( strEsp8266_Fram_Record .Data_RX_BUF, "!" )){
-if(IP==180000){
-
-
-IP=0;
-}
-}
+while( ! (u8)strstr ( strEsp8266_Fram_Record .Data_RX_BUF, "!" ));
 strEsp8266_Fram_Record .InfBit .FramLength = 0;
 strEsp8266_Fram_Record .InfBit .FramFinishFlag = 0;
 while ( ! strstr ( strEsp8266_Fram_Record .Data_RX_BUF, "\0" ) );
 if ( strstr ( strEsp8266_Fram_Record .Data_RX_BUF, "\0" ) )
 pRecStr = strEsp8266_Fram_Record .Data_RX_BUF;
-
-
 return pRecStr;
 
 }

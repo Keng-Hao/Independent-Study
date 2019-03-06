@@ -3668,9 +3668,9 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;initial.c: 42: INTCONbits.TMR0IF=0;
 "42
 [e = . . _INTCONbits 0 2 -> -> 0 `i `uc ]
-[; ;initial.c: 43: PIE1bits.TMR2IE=1;
+[; ;initial.c: 43: PIE1bits.TMR2IE=0;
 "43
-[e = . . _PIE1bits 0 1 -> -> 1 `i `uc ]
+[e = . . _PIE1bits 0 1 -> -> 0 `i `uc ]
 [; ;initial.c: 44: PIR1bits.TMR2IF=0;
 "44
 [e = . . _PIR1bits 0 1 -> -> 0 `i `uc ]
@@ -3695,9 +3695,9 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;initial.c: 50: T2CONbits.T2CKPS=0b01;
 "50
 [e = . . _T2CONbits 0 0 -> -> 1 `i `uc ]
-[; ;initial.c: 51: T2CONbits.TMR2ON=1;
+[; ;initial.c: 51: T2CONbits.TMR2ON=0;
 "51
-[e = . . _T2CONbits 0 1 -> -> 1 `i `uc ]
+[e = . . _T2CONbits 0 1 -> -> 0 `i `uc ]
 [; ;initial.c: 52: }
 "52
 [e :UE 316 ]

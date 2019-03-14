@@ -4,14 +4,12 @@
 #include <string.h>
 #include "defines.h"
 #include "mydelay.h"
-extern char test[30];
-extern int test_index;
 struct  STRUCT_USARTx_Fram                                  //??wifi??????????
 {
     char  Data_RX_BUF [RX_BUF_MAX_LEN];         //RX_BUF_MAX_LEN
 
   union {
-    u16 InfAll;
+    u8 InfAll;
     struct {
           u8 FramLength       :7;                                    // 6:0 
           u8 FramFinishFlag   :1;                                   // 7 
@@ -21,18 +19,6 @@ struct  STRUCT_USARTx_Fram                                  //??wifi??????????
 } strPc_Fram_Record, strEsp8266_Fram_Record;
 
 
-struct  STRUCT_USART1_1_Fram                                   //??wifi??????????
-{
-    char  Data_RX_BUF [RX_BUF_MAX_LEN];            //RX_BUF_MAX_LEN
-
-  union {
-    u8 InfAll;
-    struct {
-          u8 FramLength       :7 ;                                   // 6:0 
-          u8 FramFinishFlag   :1 ;                                   // 7 
-      } InfBit;
-  }; 
-} strPc1_1_Fram_Record, str1_1esp8266;
 void initial_UART(){                                             //9600 baud rate ???
     TXSTAbits.SYNC=0;      //Asynchronous mode
     TXSTAbits.TX9=0;       //8-bit transmission
@@ -85,7 +71,6 @@ void ESP8266_Uart(char* cmd){                                   //transmit cmd
 #endif
 u8 ESP8266_Cmd ( char* cmd , char* reply1 , char* reply2 ,u16 waittime )              // ESP8266 command instruction
     {    
-        test_index=0;
         strEsp8266_Fram_Record .InfBit .FramLength = 0;               //???????????
 #ifdef teacher
         writeUARTString (cmd);
@@ -257,7 +242,11 @@ void STA_MODE(){
 {
     char * pRecStr = 0;
     strEsp8266_Fram_Record .InfBit .FramLength = 0;
-    while( ! (u8)strstr ( strEsp8266_Fram_Record .Data_RX_BUF, "!" ));
+    while( ! (u8)strstr ( strEsp8266_Fram_Record .Data_RX_BUF, "!" )){
+        if(strEsp8266_Fram_Record .InfBit .FramLength >= RX_BUF_MAX_LEN){
+            strEsp8266_Fram_Record .InfBit .FramLength=0;
+        }
+    }
     strEsp8266_Fram_Record .InfBit .FramLength = 0;
     strEsp8266_Fram_Record .InfBit .FramFinishFlag = 0;
     while ( ! strstr ( strEsp8266_Fram_Record .Data_RX_BUF, "\0" )  );

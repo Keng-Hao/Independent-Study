@@ -4,7 +4,7 @@
 
 #include <xc.h> // include processor files - each processor file is guarded.  
 #include "defines.h"
-#define RX_BUF_MAX_LEN 50
+#define RX_BUF_MAX_LEN  100
 typedef enum TT  {
     TCP,
     UDP    

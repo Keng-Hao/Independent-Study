@@ -14,8 +14,5 @@
 
 void PCA9685_init(void);
 void PCA9685_writeOneByte(u8 addr,u8 data);
-u8 PCA9685_readOneByte(u16 addr);
-void PCA9685_Read(u16 ReadAddr,u8 *pBuffer,u16 NumToRead);
-void PCA9685_Write(u16 WriteAddr,u8 *pBuffer,u16 NumToWrite);
 #endif	/* XC_HEADER_TEMPLATE_H */
 

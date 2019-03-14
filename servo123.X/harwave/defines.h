@@ -6,8 +6,8 @@
 typedef unsigned int u16;
 typedef unsigned char u8;
 typedef unsigned char bool;
-#define true 1
-#define false 0
+#define true (bool)1
+#define false (bool)0
 
 #endif	/* XC_HEADER_TEMPLATE_H */
 

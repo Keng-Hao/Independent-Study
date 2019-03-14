@@ -23,7 +23,6 @@
                    displayName="Source Files"
                    projectFiles="true">
       <logicalFolder name="harwave" displayName="harwave" projectFiles="true">
-        <itemPath>harwave/delay.c</itemPath>
         <itemPath>harwave/flex.c</itemPath>
         <itemPath>harwave/initial.c</itemPath>
         <itemPath>harwave/lcd.c</itemPath>
@@ -170,7 +169,7 @@
                   value="${memories.instruction.ram.ranges}"/>
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="0-7fff"/>
-        <property key="poweroptions.powerenable" value="true"/>
+        <property key="poweroptions.powerenable" value="false"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.preservedataflash" value="false"/>

@@ -9,8 +9,6 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _IIC_Stop `(v ~T0 @X0 0 ef ]
 "18 harwave/mydelay.h
 [v _delay_ms `(v ~T0 @X0 0 ef1`i ]
-"22 harwave/softIIC.h
-[v _IIC_Read_Byte `(uc ~T0 @X0 0 ef1`uc ]
 [; ;htc.h: 26: extern const char __xc8_OPTIM_SPEED;
 [; ;htc.h: 28: extern double __fpnormalize(double);
 [; ;xc8debug.h: 14: extern void __builtin_software_breakpoint(void);
@@ -3408,9 +3406,6 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;defines.h: 8: typedef unsigned char bool;
 [; ;PCA9685.h: 15: void PCA9685_init(void);
 [; ;PCA9685.h: 16: void PCA9685_writeOneByte(u8 addr,u8 data);
-[; ;PCA9685.h: 17: u8 PCA9685_readOneByte(u16 addr);
-[; ;PCA9685.h: 18: void PCA9685_Read(u16 ReadAddr,u8 *pBuffer,u16 NumToRead);
-[; ;PCA9685.h: 19: void PCA9685_Write(u16 WriteAddr,u8 *pBuffer,u16 NumToWrite);
 [; ;softIIC.h: 18: void IIC_Init(void);
 [; ;softIIC.h: 19: void IIC_Start(void);
 [; ;softIIC.h: 20: void IIC_Stop(void);
@@ -3425,13 +3420,91 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;mydelay.h: 23: void delay_us(int us);
 [; ;mydelay.h: 24: void delayFor18Tcy(void);
 "6 harwave/Table.h
-[v _finger_up_0 `Cui ~T0 @X0 -> 155 `i e ]
+[v _finger_up_0 `Cui ~T0 @X0 -> 79 `i e ]
 [i _finger_up_0
 :U ..
 -> -> 737 `i `ui
+-> -> 747 `i `ui
+-> -> 757 `i `ui
+-> -> 768 `i `ui
+-> -> 778 `i `ui
+-> -> 789 `i `ui
+-> -> 799 `i `ui
+-> -> 810 `i `ui
+-> -> 820 `i `ui
+-> -> 830 `i `ui
+-> -> 841 `i `ui
+-> -> 851 `i `ui
+-> -> 862 `i `ui
+-> -> 872 `i `ui
+-> -> 883 `i `ui
+-> -> 893 `i `ui
+-> -> 903 `i `ui
+-> -> 914 `i `ui
+-> -> 924 `i `ui
+-> -> 935 `i `ui
+-> -> 945 `i `ui
+-> -> 956 `i `ui
+-> -> 966 `i `ui
+-> -> 977 `i `ui
+-> -> 987 `i `ui
+-> -> 997 `i `ui
+-> -> 1008 `i `ui
+-> -> 1018 `i `ui
+-> -> 1029 `i `ui
+-> -> 1039 `i `ui
+-> -> 1050 `i `ui
+-> -> 1060 `i `ui
+-> -> 1070 `i `ui
+-> -> 1081 `i `ui
+-> -> 1091 `i `ui
+-> -> 1102 `i `ui
+-> -> 1112 `i `ui
+-> -> 1123 `i `ui
+-> -> 1133 `i `ui
+-> -> 1144 `i `ui
+-> -> 1154 `i `ui
+-> -> 1164 `i `ui
+-> -> 1175 `i `ui
+-> -> 1185 `i `ui
+-> -> 1196 `i `ui
+-> -> 1206 `i `ui
+-> -> 1217 `i `ui
+-> -> 1227 `i `ui
+-> -> 1237 `i `ui
+-> -> 1248 `i `ui
+-> -> 1258 `i `ui
+-> -> 1269 `i `ui
+-> -> 1279 `i `ui
+-> -> 1290 `i `ui
+-> -> 1300 `i `ui
+-> -> 1310 `i `ui
+-> -> 1321 `i `ui
+-> -> 1331 `i `ui
+-> -> 1342 `i `ui
+-> -> 1352 `i `ui
+-> -> 1363 `i `ui
+-> -> 1373 `i `ui
+-> -> 1384 `i `ui
+-> -> 1394 `i `ui
+-> -> 1404 `i `ui
+-> -> 1415 `i `ui
+-> -> 1425 `i `ui
+-> -> 1436 `i `ui
+-> -> 1446 `i `ui
+-> -> 1457 `i `ui
+-> -> 1467 `i `ui
+-> -> 1477 `i `ui
+-> -> 1488 `i `ui
+-> -> 1498 `i `ui
+-> -> 1509 `i `ui
+-> -> 1519 `i `ui
+-> -> 1530 `i `ui
+-> -> 1540 `i `ui
+-> -> 1551 `i `ui
 ..
 ]
-[; ;Table.h: 6: const u16 finger_up_0[155]={737};
+[; ;Table.h: 6: const u16 finger_up_0[79]={737,747,757,768,778,789,799,810,820,830,841,851,862,872,883,893,903,914,924,935,945,956,966,977,987,997,1008,1018,1029,1039,1050,1060,1070,1081,1091,1102,1112,1123,1133,1144,1154,1164,1175,1185,1196,1206,1217,1227,1237,1248
 "7
 [v _finger_up_1 `Cui ~T0 @X0 -> 118 `i e ]
 [i _finger_up_1
@@ -4005,13 +4078,68 @@ Version 3.2 HI-TECH Software Intermediate Code
 ]
 [; ;Table.h: 10: const u16 finger_up_4[151]={737,743,749,755,761,767,773,779,785,791,797,803,809,815,821,827,833,839,845,851,857,863,869,875,881,887,893,899,905,911,917,923,929,935,941,947,953,959,966,972,978,984,990,996,1002,1008,1014,1020,1026,1032,1038,1044,1050,1
 "11
-[v _finger_under_0 `Cui ~T0 @X0 -> 108 `i e ]
+[v _finger_under_0 `Cui ~T0 @X0 -> 56 `i e ]
 [i _finger_under_0
 :U ..
 -> -> 0 `i `ui
+-> -> 13 `i `ui
+-> -> 26 `i `ui
+-> -> 39 `i `ui
+-> -> 52 `i `ui
+-> -> 65 `i `ui
+-> -> 78 `i `ui
+-> -> 91 `i `ui
+-> -> 105 `i `ui
+-> -> 118 `i `ui
+-> -> 131 `i `ui
+-> -> 144 `i `ui
+-> -> 157 `i `ui
+-> -> 170 `i `ui
+-> -> 183 `i `ui
+-> -> 196 `i `ui
+-> -> 210 `i `ui
+-> -> 223 `i `ui
+-> -> 236 `i `ui
+-> -> 249 `i `ui
+-> -> 262 `i `ui
+-> -> 275 `i `ui
+-> -> 288 `i `ui
+-> -> 301 `i `ui
+-> -> 315 `i `ui
+-> -> 328 `i `ui
+-> -> 341 `i `ui
+-> -> 354 `i `ui
+-> -> 367 `i `ui
+-> -> 380 `i `ui
+-> -> 393 `i `ui
+-> -> 406 `i `ui
+-> -> 420 `i `ui
+-> -> 433 `i `ui
+-> -> 446 `i `ui
+-> -> 459 `i `ui
+-> -> 472 `i `ui
+-> -> 485 `i `ui
+-> -> 498 `i `ui
+-> -> 511 `i `ui
+-> -> 525 `i `ui
+-> -> 538 `i `ui
+-> -> 551 `i `ui
+-> -> 564 `i `ui
+-> -> 577 `i `ui
+-> -> 590 `i `ui
+-> -> 603 `i `ui
+-> -> 616 `i `ui
+-> -> 630 `i `ui
+-> -> 643 `i `ui
+-> -> 656 `i `ui
+-> -> 669 `i `ui
+-> -> 682 `i `ui
+-> -> 695 `i `ui
+-> -> 708 `i `ui
+-> -> 722 `i `ui
 ..
 ]
-[; ;Table.h: 11: const u16 finger_under_0[108]={0};
+[; ;Table.h: 11: const u16 finger_under_0[56]={0,13,26,39,52,65,78,91,105,118,131,144,157,170,183,196,210,223,236,249,262,275,288,301,315,328,341,354,367,380,393,406,420,433,446,459,472,485,498,511,525,538,551,564,577,590,603,616,630,643,656,669,682,695,708,722};
 "12
 [v _finger_under_1 `Cui ~T0 @X0 -> 96 `i e ]
 [i _finger_under_1
@@ -4501,134 +4629,4 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;PCA9685.c: 17: }
 "17
 [e :UE 311 ]
-}
-"18
-[v _PCA9685_readOneByte `(uc ~T0 @X0 1 ef1`ui ]
-"19
-{
-[; ;PCA9685.c: 18: u8 PCA9685_readOneByte(u16 addr)
-[; ;PCA9685.c: 19: {
-[e :U _PCA9685_readOneByte ]
-"18
-[v _addr `ui ~T0 @X0 1 r1 ]
-"19
-[f ]
-"20
-[v _data `uc ~T0 @X0 1 a ]
-[; ;PCA9685.c: 20: unsigned char data = 0;
-[e = _data -> -> 0 `i `uc ]
-[; ;PCA9685.c: 21: IIC_Start();
-"21
-[e ( _IIC_Start ..  ]
-[; ;PCA9685.c: 22: IIC_Send_Byte(0x80);
-"22
-[e ( _IIC_Send_Byte (1 -> -> 128 `i `uc ]
-[; ;PCA9685.c: 25: IIC_Wait_Ack();
-"25
-[e ( _IIC_Wait_Ack ..  ]
-[; ;PCA9685.c: 26: IIC_Send_Byte(addr&0xff);
-"26
-[e ( _IIC_Send_Byte (1 -> & _addr -> -> 255 `i `ui `uc ]
-[; ;PCA9685.c: 27: IIC_Wait_Ack();
-"27
-[e ( _IIC_Wait_Ack ..  ]
-[; ;PCA9685.c: 28: IIC_Start();
-"28
-[e ( _IIC_Start ..  ]
-[; ;PCA9685.c: 29: IIC_Send_Byte(0x80+1);
-"29
-[e ( _IIC_Send_Byte (1 -> + -> 128 `i -> 1 `i `uc ]
-[; ;PCA9685.c: 30: IIC_Wait_Ack();
-"30
-[e ( _IIC_Wait_Ack ..  ]
-[; ;PCA9685.c: 31: data = IIC_Read_Byte(0);
-"31
-[e = _data ( _IIC_Read_Byte (1 -> -> 0 `i `uc ]
-[; ;PCA9685.c: 32: IIC_Stop();
-"32
-[e ( _IIC_Stop ..  ]
-[; ;PCA9685.c: 33: return data;
-"33
-[e ) _data ]
-[e $UE 312  ]
-[; ;PCA9685.c: 34: }
-"34
-[e :UE 312 ]
-}
-"35
-[v _PCA9685_Read `(v ~T0 @X0 1 ef3`ui`*uc`ui ]
-"36
-{
-[; ;PCA9685.c: 35: void PCA9685_Read(u16 ReadAddr,u8 *pBuffer,u16 NumToRead)
-[; ;PCA9685.c: 36: {
-[e :U _PCA9685_Read ]
-"35
-[v _ReadAddr `ui ~T0 @X0 1 r1 ]
-[v _pBuffer `*uc ~T0 @X0 1 r2 ]
-[v _NumToRead `ui ~T0 @X0 1 r3 ]
-"36
-[f ]
-[; ;PCA9685.c: 37: while(NumToRead)
-"37
-[e $U 314  ]
-[e :U 315 ]
-[; ;PCA9685.c: 38: {
-"38
-{
-[; ;PCA9685.c: 39: *pBuffer++=PCA9685_readOneByte(ReadAddr++);
-"39
-[e = *U ++ _pBuffer * -> -> 1 `i `x -> -> # *U _pBuffer `i `x ( _PCA9685_readOneByte (1 ++ _ReadAddr -> -> 1 `i `ui ]
-[; ;PCA9685.c: 40: NumToRead--;
-"40
-[e -- _NumToRead -> -> 1 `i `ui ]
-"41
-}
-[e :U 314 ]
-"37
-[e $ != _NumToRead -> -> 0 `i `ui 315  ]
-[e :U 316 ]
-[; ;PCA9685.c: 41: }
-[; ;PCA9685.c: 42: }
-"42
-[e :UE 313 ]
-}
-"43
-[v _PCA9685_Write `(v ~T0 @X0 1 ef3`ui`*uc`ui ]
-"44
-{
-[; ;PCA9685.c: 43: void PCA9685_Write(u16 WriteAddr,u8 *pBuffer,u16 NumToWrite)
-[; ;PCA9685.c: 44: {
-[e :U _PCA9685_Write ]
-"43
-[v _WriteAddr `ui ~T0 @X0 1 r1 ]
-[v _pBuffer `*uc ~T0 @X0 1 r2 ]
-[v _NumToWrite `ui ~T0 @X0 1 r3 ]
-"44
-[f ]
-[; ;PCA9685.c: 45: while(NumToWrite--)
-"45
-[e $U 318  ]
-[e :U 319 ]
-[; ;PCA9685.c: 46: {
-"46
-{
-[; ;PCA9685.c: 47: PCA9685_writeOneByte(WriteAddr,*pBuffer);
-"47
-[e ( _PCA9685_writeOneByte (2 , -> _WriteAddr `uc *U _pBuffer ]
-[; ;PCA9685.c: 48: WriteAddr++;
-"48
-[e ++ _WriteAddr -> -> 1 `i `ui ]
-[; ;PCA9685.c: 49: pBuffer++;
-"49
-[e ++ _pBuffer * -> -> 1 `i `x -> -> # *U _pBuffer `i `x ]
-"50
-}
-[e :U 318 ]
-"45
-[e $ != -- _NumToWrite -> -> 1 `i `ui -> -> 0 `i `ui 319  ]
-[e :U 320 ]
-[; ;PCA9685.c: 50: }
-[; ;PCA9685.c: 51: }
-"51
-[e :UE 317 ]
 }

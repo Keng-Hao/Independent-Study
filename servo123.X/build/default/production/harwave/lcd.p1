@@ -3738,7 +3738,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;lcd.c: 153: TRISD &=~(1<<7);
 "153
 [e =& _TRISD -> ~ << -> 1 `i -> 7 `i `uc ]
-[; ;lcd.c: 154: return 1;
+[; ;lcd.c: 154: return (bool)1;
 "154
 [e ) -> -> 1 `i `uc ]
 [e $UE 336  ]
@@ -3767,7 +3767,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;lcd.c: 162: TRISD &=~(1<<7);
 "162
 [e =& _TRISD -> ~ << -> 1 `i -> 7 `i `uc ]
-[; ;lcd.c: 163: return 0;
+[; ;lcd.c: 163: return (bool)0;
 "163
 [e ) -> -> 0 `i `uc ]
 [e $UE 336  ]
@@ -3787,8 +3787,8 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;lcd.c: 189: {
 [e :U _LCD_CreateFont ]
 [f ]
-[v F3803 `uc ~T0 @X0 -> 8 `i s ]
-[i F3803
+[v F3805 `uc ~T0 @X0 -> 8 `i s ]
+[i F3805
 :U ..
 "190
 -> -> 31 `i `uc
@@ -3803,7 +3803,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 ]
 [v _byte `uc ~T0 @X0 -> 8 `i a ]
 [; ;lcd.c: 190: char byte[8]={0x1f,0x11,0x11,0x1f,0x11,0x11,0x1f,0x00};
-[e = _byte F3803 ]
+[e = _byte F3805 ]
 "191
 [v _i `i ~T0 @X0 1 a ]
 [; ;lcd.c: 191: int i =0;

@@ -10,7 +10,6 @@
 #include<string.h>
 #include <pic18f4520.h>
 #include "replace.h"
-#include "lcd.h"
 #include "mydelay.h"
 #include "defines.h"
 #include "softIIC.h"
@@ -18,7 +17,9 @@
 #include "flex.h"
 #include "Table.h"
 #include "UART.h"
-#include <string.h>
+#ifdef DEBUG
+#include "lcd.h"
+#endif
 //#pragma config statements should precede project file includes.
 // Use project enums instead of #define for ON and OFF.
 
@@ -91,12 +92,13 @@
 
 // CONFIG7H
 #pragma config EBTRB = OFF      // Boot Block Table Read Protection bit (Boot block (000000-0007FFh) not protected from table reads executed in other blocks)
+u8 determine_servo_done ;
 extern struct  STRUCT_USARTx_Fram                                  //??wifi??????????
 {
     char  Data_RX_BUF [RX_BUF_MAX_LEN];         //RX_BUF_MAX_LEN
 
   union {
-    u16 InfAll;
+    u8 InfAll;
     struct {
           u8 FramLength       :7;                                    // 6:0 
           u8 FramFinishFlag   :1;                                   // 7 
@@ -106,28 +108,10 @@ extern struct  STRUCT_USARTx_Fram                                  //??wifi?????
 } strPc_Fram_Record, strEsp8266_Fram_Record;
 
 
-extern struct  STRUCT_USART1_1_Fram                                   //??wifi??????????
-{
-    char  Data_RX_BUF [RX_BUF_MAX_LEN];            //RX_BUF_MAX_LEN
-
-  union {
-    u8 InfAll;
-    struct {
-          u8 FramLength       :7 ;                                   // 6:0 
-          u8 FramFinishFlag   :1 ;                                   // 7 
-      } InfBit;
-  }; 
-} strPc1_1_Fram_Record, str1_1esp8266;
 
 
-
-u8 count,write;
-char test[30];
-int test_index;
-u8 work_flag=0;
-u16 s,IP;
-void interrupt time_adc (void){
-    if(PIR1bits.RCIF ){
+void interrupt uart (void){
+    if(PIR1bits.RCIF){
         char ch;
         ch  = RCREG;
         if( strEsp8266_Fram_Record .InfBit .FramLength < ( RX_BUF_MAX_LEN - 1 ) ) {  //??1???????
@@ -140,64 +124,58 @@ void interrupt time_adc (void){
         }
         PIR1bits.RCIF=0;
     }
-    
     if(PIR1bits.TMR2IF){
-        s++;
-        IP++; 
         PIR1bits.TMR2IF=0;
     }
-}
-void finger_reset(){
-    
 }
 void main()
 {
     oclillator_initial();       
     GPIO_initial();
     PCA9685_init();
-    timer_2_initial() ;
+    determine_servo_done=1;
     timer_intrrupt_initinal();
-//    LCD_Initialize();    
     initial_UART();
     ESP8266_client();
-//    LCD_Clear(); 
-//    LCD_GotoXY(0,0);
-//    LCD_WritetStr("Hello");
-//    delay_ms ( 3000 );
-//    LCD_Clear(); 
-    char* temp;
+#ifdef DEBUG
+    LCD_Initialize();  
+    LCD_Clear(); 
+    LCD_GotoXY(0,0);
+    LCD_WritetStr("Hello");
+    delay_ms ( 3000 );
+    LCD_Clear(); 
     char t[20];
     char print[5];
-    write=0; 
-//    while( ! (u8)strstr ( strEsp8266_Fram_Record .Data_RX_BUF, "0,CONNECT" ));
+#endif
+    char* temp;
+
     memset(&(strEsp8266_Fram_Record.Data_RX_BUF[0]), '\0', RX_BUF_MAX_LEN);
     while(1)
     {
         temp=ESP8266_ReceiveString();
+#ifdef DEBUG
+        strcpy(t,temp);
+        delay_ms(10);
+        LCD_GotoXY(0,0);
+        sprintf(print,"%d",(int)*(temp));
+        LCD_WritetStr(print);
+        LCD_GotoXY(4,0);
+        sprintf(print,"%d",(int)*(temp+1));
+        LCD_WritetStr(print);
+        for( int j=2 ; t[j] != '\0'; j++){
+           LCD_GotoXY(j%4*4,j/4);
+           sprintf(print,"%d",(int)temp[j]);
+           LCD_WritetStr(print);
+            }
         
-//        strcpy(t,temp);
-//        delay_ms(10);
-//        LCD_GotoXY(0,0);
-//        sprintf(print,"%d",(int)*(temp+8));
-//        LCD_WritetStr(print);
-//        LCD_GotoXY(4,0);
-//        sprintf(print,"%d",(int)*(temp+9));
-//        LCD_WritetStr(print);
-//        for( int j=2 ; t[j] != '\0'; j++){
-//           LCD_GotoXY(j%4*4,j/4);
-//           sprintf(print,"%d",(int)temp[j]);
-//           LCD_WritetStr(print);
-//            }
-//        
-//        LCD_Clear();
-//        LCD_GotoXY(0,0);
-//        sprintf(print,"%d",strEsp8266_Fram_Record .InfBit .FramLength);
-//        LCD_WritetStr(print);
-//        LCD_GotoXY(5,0);
-//        sprintf(print,"%d",s);
-//        LCD_WritetStr(print);
-//        s=0;
-        
+        LCD_Clear();
+        LCD_GotoXY(0,0);
+        sprintf(print,"%d",strEsp8266_Fram_Record .InfBit .FramLength);
+        LCD_WritetStr(print);
+        LCD_GotoXY(5,0);
+#else
         ADtoPWM(temp); 
+        strEsp8266_Fram_Record .InfBit .FramLength=0;
+#endif
     }
 }

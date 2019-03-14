@@ -15,7 +15,8 @@ void transmit_finger(u16 HL_Value ,u8 finger ){
 }
 void ADtoPWM(u8* AD){
     u16 u0,u1,u2,u3,u4,w0,w1,w2,w3,w4;
-//    w0=finger_under_0[*(AD+1)];
+    if(*(AD+1)>=200)
+        w0=finger_under_0[*(AD+1)-200];
     if(*(AD+3)>=160)
         w1=finger_under_1[*(AD+3)-160];
     if(*(AD+5)>=143)
@@ -24,7 +25,8 @@ void ADtoPWM(u8* AD){
         w3=finger_under_3[*(AD+7)-177];
     if(*(AD+9)>=136)
         w4=finger_under_4[*(AD+9)-136];
-//    u0=finger_up_0[*AD];
+    if(*AD>=177)
+        u0=finger_up_0[*AD-177];
     if(*(AD+2)>=138)
         u1=finger_up_1[*(AD+2)-138];
     if(*(AD+4)>=127)
@@ -33,7 +35,7 @@ void ADtoPWM(u8* AD){
         u3=finger_up_3[*(AD+6)-110];
     if(*(AD+8)>=105)
         u4=finger_up_4[*(AD+8)-105];
-//    PWMt0PCA(u0,w0,thumb);
+    PWMt0PCA(u0,w0,thumb);
     PWMt0PCA(u1,w1,index);
     PWMt0PCA(u2,w2,middle);
     PWMt0PCA(u3,w3,ring);
@@ -43,7 +45,7 @@ void ADtoPWM(u8* AD){
 void PWMt0PCA(u16 up,u16 low,enum finger finger){
     switch (finger){
     case thumb:
-        if( up > 0 )
+        if( up <=1436 )
             transmit_finger(up ,LED0_ON_L );
         else
             transmit_finger( up+low , LED0_ON_L );

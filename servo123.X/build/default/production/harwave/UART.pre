@@ -4754,14 +4754,12 @@ void delay_us(int us);
 void delayFor18Tcy(void);
 
 # 7 "harwave/UART.c"
-extern char test[30];
-extern int test_index;
 struct STRUCT_USARTx_Fram
 {
-char Data_RX_BUF [50];
+char Data_RX_BUF [100];
 
 union {
-u16 InfAll;
+u8 InfAll;
 struct {
 u8 FramLength :7;
 u8 FramFinishFlag :1;
@@ -4771,18 +4769,6 @@ u8 FramFinishFlag :1;
 } strPc_Fram_Record, strEsp8266_Fram_Record;
 
 
-struct STRUCT_USART1_1_Fram
-{
-char Data_RX_BUF [50];
-
-union {
-u8 InfAll;
-struct {
-u8 FramLength :7 ;
-u8 FramFinishFlag :1 ;
-} InfBit;
-};
-} strPc1_1_Fram_Record, str1_1esp8266;
 void initial_UART(){
 TXSTAbits.SYNC=0;
 TXSTAbits.TX9=0;
@@ -4803,7 +4789,7 @@ SPBRGH=0;
 SPBRG=86;
 }
 
-# 73
+# 59
 void ESP8266_Uart(char* cmd){
 int index=-1;
 
@@ -4819,7 +4805,6 @@ while(!TRMT);
 
 u8 ESP8266_Cmd ( char* cmd , char* reply1 , char* reply2 ,u16 waittime )
 {
-test_index=0;
 strEsp8266_Fram_Record .InfBit .FramLength = 0;
 
 
@@ -4828,11 +4813,11 @@ ESP8266_Uart( cmd);
 
 
 if ( ( reply1 == 0 ) && ( reply2 == 0 ) )
-return 1;
+return (bool)1;
 
 delay_ms ( waittime );
 
-# 106
+# 91
 if ( ( reply1 != 0 ) && ( reply2 != 0 ) )
 return ( (u8) strstr ( strEsp8266_Fram_Record .Data_RX_BUF, reply1 ) || (u8) strstr ( strEsp8266_Fram_Record .Data_RX_BUF, reply2 ) );
 else if ( reply1 != 0 )
@@ -4846,7 +4831,7 @@ return ( (u8) strstr ( strEsp8266_Fram_Record .Data_RX_BUF, reply2 ) );
 u8 ESP8266_SendString ( u8 ucId ,char* pStr, u16 ulStrLength)
 {
 char cStr [20];
-int bRet = 0;
+int bRet = (bool)0;
 
 sprintf ( cStr, (void*)"AT+CIPSEND=%d,%d\r\n", ucId, ulStrLength + 2 );
 
@@ -4867,7 +4852,7 @@ void ESP8266_Rst ( void )
 
 ESP8266_Cmd ( (void*)"AT+RST\r\n", (void*)"OK", (void*)"ready", 2500 );
 
-# 147
+# 132
 }
 u8 ESP8266_Net_Mode_Choose ( enum MODE MODE )
 {
@@ -4884,7 +4869,7 @@ case STA_AP:
 return ESP8266_Cmd ( (void*)"AT+CWMODE=3\r\n", (void*)"OK", 0, 2500 );
 
 default:
-return 0;
+return (bool)0;
 }
 
 }
@@ -4981,7 +4966,11 @@ u8 * ESP8266_ReceiveString ( )
 {
 char * pRecStr = 0;
 strEsp8266_Fram_Record .InfBit .FramLength = 0;
-while( ! (u8)strstr ( strEsp8266_Fram_Record .Data_RX_BUF, "!" ));
+while( ! (u8)strstr ( strEsp8266_Fram_Record .Data_RX_BUF, "!" )){
+if(strEsp8266_Fram_Record .InfBit .FramLength >= 100){
+strEsp8266_Fram_Record .InfBit .FramLength=0;
+}
+}
 strEsp8266_Fram_Record .InfBit .FramLength = 0;
 strEsp8266_Fram_Record .InfBit .FramFinishFlag = 0;
 while ( ! strstr ( strEsp8266_Fram_Record .Data_RX_BUF, "\0" ) );

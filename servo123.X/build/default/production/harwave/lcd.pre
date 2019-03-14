@@ -4776,7 +4776,7 @@ PORTDbits.RD2 = 1;
 PORTDbits.RD2 = 0;
 PORTDbits.RD1 = 0;
 TRISD &=~(1<<7);
-return 1;
+return (bool)1;
 }
 else
 {
@@ -4785,7 +4785,7 @@ PORTDbits.RD2 = 1;
 PORTDbits.RD2 = 0;
 PORTDbits.RD1 = 0;
 TRISD &=~(1<<7);
-return 0;
+return (bool)0;
 }
 
 # 187
